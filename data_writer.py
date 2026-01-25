@@ -50,7 +50,7 @@ def save_summary_file(results_list):
     path = os.path.join("results", "Summary_Results.txt")
 
     with open(path,"w",encoding='utf-8') as f:
-        f.write(f"{'Instance:':<20} {'Makespan':<10} {'Tardiness':<10} {'Rule':<10} {'[OccuO(%)]':<10} {'[OccuW(%)]':<10}{'Time(s)':<10}\n")
+        f.write(f"{'Instance:':<20} {'Makespan':<10} {'Tardiness:':<10} {'Rule:':<10} {'[OccuO(%)]:':<10} {'[OccuW(%)]:':<10}{'Time(s):':<10}\n")
         f.write("-" * 88 + "\n")
 
         for res in results_list:

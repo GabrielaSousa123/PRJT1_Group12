@@ -82,7 +82,7 @@ class LineUp:
                     score = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id] - tempo_restante
                 elif rule == "LPT":
                     #Contrário de SPT, dá prioridade ao maior tempo
-                    score = self.instance.processing_times[vehicle_id][task_id]
+                    score = - self.instance.processing_times[vehicle_id][task_id]
                 elif rule == "MOPNR":
                     #Most Operations Remaining
                     #Quantas tarefas faltam deste índice para a frente
@@ -125,57 +125,57 @@ class LineUp:
                     'std_time': self.instance.processing_times[vehicle_id][task_id]
                 })
 
-                #Escolher o melhor candidato
-                best_candidate = None
-                best_score = float('inf') #Começar com infinito
+            #Escolher o melhor candidato
+            best_candidate = None
+            best_score = float('inf') #Começar com infinito
 
-                for candidato in candidates:
-                    if candidato['score'] < best_score:
-                        best_score = candidato['score']
+            for candidato in candidates:
+                if candidato['score'] < best_score:
+                    best_score = candidato['score']
+                    best_candidate = candidato
+                elif candidato['score'] == best_score:
+                    if best_candidate is None:
                         best_candidate = candidato
-                    elif candidato['score'] == best_score:
-                        if best_candidate is None:
+                    else:
+                        #Usar SPT como desempate
+                        temp_candidato = candidato['std_time']
+                        temp_best = best_candidate['std_time']
+                        if temp_candidato < temp_best:
                             best_candidate = candidato
-                        else:
-                            #Usar SPT como desempate
-                            temp_candidato = candidato['std_time']
-                            temp_best = best_candidate['std_time']
-                            if temp_candidato < temp_best:
+                        #Se continuarem empatados até no tempo, usa o ID
+                        elif temp_candidato == temp_best:
+                            if candidato['vehicle_id'] < best_candidate['vehicle_id']:
                                 best_candidate = candidato
-                            #Se continuarem empatados até no tempo, usa o ID
-                            elif temp_candidato == temp_best:
-                                if candidato['vehicle_id'] < best_candidate['vehicle_id']:
-                                    best_candidate = candidato
                 
-                #Recuperar dados do 'vencedor'
-                vehicle_id = best_candidate['vehicle_id']
-                task_type = best_candidate['task_type']
-                std_time = best_candidate['std_time']
+            #Recuperar dados do 'vencedor'
+            vehicle_id = best_candidate['vehicle_id']
+            task_type = best_candidate['task_type']
+            std_time = best_candidate['std_time']
 
-                #Encontrar o melhor recurso
-                best_end = float('inf')
-                best_start = -1
-                best_op = -1
-                best_ws = -1
+            #Encontrar o melhor recurso
+            best_end = float('inf')
+            best_start = -1
+            best_op = -1
+            best_ws = -1
 
-                #Fator de desempate (pequeno bónus para manter o mesmo recurso)
-                bonus_continuidade = 0.1
+            #Fator de desempate (pequeno bónus para manter o mesmo recurso)
+            bonus_continuidade = 0.1
 
-                ops = self.instance.task_operators[task_type]
-                wss = self.instance.task_workstations[task_type]
+            ops = self.instance.task_operators[task_type]
+            wss = self.instance.task_workstations[task_type]
 
-                #Verificar quem foram os últimos recursos usados por este veículo
-                prev_op = last_resources.get(vehicle_id, {}).get('op', -1)
-                prev_ws = last_resources.get(vehicle_id, {}).get('ws', -1)
+            #Verificar quem foram os últimos recursos usados por este veículo
+            prev_op = last_resources.get(vehicle_id, {}).get('op', -1)
+            prev_ws = last_resources.get(vehicle_id, {}).get('ws', -1)
 
-                for op in ops:
-                    eff = self.instance.efficiency[task_type][op]
-                    if eff is None: continue
+            for op in ops:
+                eff = self.instance.efficiency[task_type][op]
+                if eff is None: continue
 
-                    duracao_real = int(round(std_time * eff))
+                duracao_real = int(round(std_time * eff))
 
-                    #Quando o operador e o veículo estão livres
-                    start_op = max(vehicle_free_time[vehicle_id], operators_free_time[op])
+                #Quando o operador e o veículo estão livres
+                start_op = max(vehicle_free_time[vehicle_id], operators_free_time[op])
 
                 for ws in wss:
                     #Quando a workstation está livre
@@ -207,7 +207,7 @@ class LineUp:
                 task_data = {
                     'task_type': task_type,
                     'start': best_start,
-                    'end': best_end,
+                    'end': real_best_end,
                     'operator': best_op,
                     'workstation': best_ws
                 }

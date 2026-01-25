@@ -1,0 +1,40 @@
+[OccuO(%)]
+62.56
+[OccuW(%)]
+31.28
+[Makespan]
+435
+[vehicle_id]
+1
+[tasks	operator	workstation	processingTime	startTime	completeTime]
+7	3	5	111	0	111
+8	5	3	107	111	218
+9	4	1	121	218	339
+10	3	1	96	339	435
+[vehicle_id]
+2
+[tasks	operator	workstation	processingTime	startTime	completeTime]
+1	1	2	121	0	121
+2	4	2	94	121	215
+4	3	7	78	215	293
+9	4	7	95	339	434
+[vehicle_id]
+3
+[tasks	operator	workstation	processingTime	startTime	completeTime]
+1	7	3	85	0	85
+3	7	4	101	85	186
+9	1	4	102	186	288
+10	2	3	100	306	406
+[vehicle_id]
+4
+[tasks	operator	workstation	processingTime	startTime	completeTime]
+5	2	1	116	0	116
+6	2	5	107	116	223
+8	5	2	89	223	312
+9	1	2	109	312	421
+[vehicle_id]
+5
+[tasks	operator	workstation	processingTime	startTime	completeTime]
+3	3	6	98	111	209
+6	2	6	83	223	306
+8	5	6	92	312	404

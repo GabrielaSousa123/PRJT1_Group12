@@ -74,3 +74,28 @@ def main():
                             best_rule = r
                 
                 temp_exec = time.time() - start
+
+                save_file_for_solution(best_sol,filename)
+                viewdays(best_sol,filename)
+
+                print(f" -> Vencedora: {best_rule}")
+                print(f" -> Makespan: {best_sol.makespan} | Atraso: {best_sol.total_tardiness}")
+                print(f" -> A validar a melhor solução ({best_rule})...")
+                tester.verify_solution(best_sol)
+                print()
+
+                lista_resultados.append({
+                    'instance': filename,
+                    'makespan': best_sol.makespan,
+                    'tardiness': best_sol.total_tardiness,
+                    'time': temp_exec,
+                    'rule': best_rule,
+                    'OccuO(%)': best_sol.op_occu,
+                    "OccuW(%)": best_sol.ws_occu
+                })  
+
+    save_summary_file(lista_resultados)
+    print("Tudo concluído. Verifique a pasta results/.")
+
+if __name__ == "__main__":
+    main()

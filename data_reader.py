@@ -4,7 +4,7 @@ class Instance:
     def __init__(self,shop_params,inst_params):
 
         self.time_day = int(shop_params['timeDay'])
-        self.num_tasks = int(shop_params['numTypeTasks'])
+        self.num_tasks_types = int(shop_params['numTypeTasks'])
         self.num_operators = int(shop_params['numOperators'])
         self.num_workstations = int(shop_params['numWorkstations'])
 
