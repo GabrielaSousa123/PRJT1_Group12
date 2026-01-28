@@ -50,11 +50,35 @@ def save_summary_file(results_list):
     path = os.path.join("results", "Summary_Results.txt")
 
     with open(path,"w",encoding='utf-8') as f:
-        f.write(f"{'Instance:':<20} {'Makespan':<10} {'Tardiness:':<10} {'Rule:':<10} {'[OccuO(%)]:':<10} {'[OccuW(%)]:':<10}{'Time(s):':<10}\n")
-        f.write("-" * 88 + "\n")
+        f.write(f"{'Instance':<20}| "
+                f"{'Makes':<8}| "
+                f"{'Tard':<6}| " 
+                f"{'Rule':<8}| "
+                f"{'Op(%)':<8}{'Ref(%)':<8}{'Dif':<9}| "
+                f"{'Ws(%)':<8}{'Ref(%)':<8}{'Dif':<9}| "
+                f"{'Time':<8}\n")
+        f.write("-" * 110 + "\n")
 
         for res in results_list:
-            f.write(f"{res['instance']:<20} {res['makespan']:<10} {res['tardiness']:<10} {res['rule']:<10} {res['OccuO(%)']:<10.2f} {res['OccuW(%)']:<10.2f} {res['time']:<10.4f}\n")
+            def fmt(val):
+                if isinstance(val, (int,float)):
+                    return f"{val:.2f}"
+                return str(val)
+
+            line= (
+                f"{res['instance']:<20}| "
+                f"{res['makespan']:<8}| "
+                f"{res['tardiness']:<6}| "
+                f"{res['rule']:<8}| "
+                
+                f"{fmt(res.get('OccuO(%)',0)):<8}{fmt(res.get('RefOccuO','N/A')):<8}{fmt(res.get('DiffO','N/A')):<9}| " 
+
+                f"{fmt(res.get('OccuW(%)',0)):<8}{fmt(res.get('RefOccuW','N/A')):<8}{fmt(res.get('DiffW','N/A')):<9}| " 
+
+                f"{res['time']:<8.4f}"
+                )
+
+            f.write(line + "\n")
 
 def viewdays (solution, filename):
     path = os.path.join("results", "ViewDays.txt")

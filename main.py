@@ -57,9 +57,6 @@ def main():
                     #Avaliar
                     mk, tard = tester.evaluate(sol)
 
-                    if sol == best_sol:
-                        tester.verify_solution(sol)
-
                     #Decidir se é melhor
                     if tard < min_tardiness:
                         min_tardiness = tard
@@ -82,7 +79,9 @@ def main():
                 print(f" -> Makespan: {best_sol.makespan} | Atraso: {best_sol.total_tardiness}")
                 print(f" -> A validar a melhor solução ({best_rule})...")
                 tester.verify_solution(best_sol)
+                bench_data = tester.comparacao_benchmark(best_sol,filename)
                 print()
+                
 
                 lista_resultados.append({
                     'instance': filename,
@@ -91,7 +90,11 @@ def main():
                     'time': temp_exec,
                     'rule': best_rule,
                     'OccuO(%)': best_sol.op_occu,
-                    "OccuW(%)": best_sol.ws_occu
+                    'RefOccuO': bench_data['RefOccuO'],
+                    'DiffO': bench_data['DiffO'],
+                    "OccuW(%)": best_sol.ws_occu,
+                    'RefOccuW': bench_data['RefOccuW'],
+                    'DiffW': bench_data['DiffW'],
                 })  
 
     save_summary_file(lista_resultados)
