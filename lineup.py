@@ -25,7 +25,7 @@ class LineUp:
             if eff is not None:
                 soma_eficiencia += eff
                 conta_operadores += 1
-
+        #Retornar o tempo padrão se não houver operadores 
         if conta_operadores == 0:
             return tempo_padrao
 

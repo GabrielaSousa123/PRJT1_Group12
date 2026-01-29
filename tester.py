@@ -2,7 +2,7 @@ class Tester:
 
     def __init__(self, instance):
         self.instance = instance
-
+        #Definir um dicionário com os valores de referência (benchmark) para ocupação
         self.benchmark={
             "Inst_1D_5_1.txt": (65.70, 33.31),
             "Inst_1D_5_2.txt": (64.86, 32.51),
@@ -40,9 +40,11 @@ class Tester:
     
     def comparacao_benchmark(self, solution, filename):
         total_proc_time = 0 
+        #Calcular a soma total do tempo de processamento de todas as tarefas agendadas
         for tasks in solution.lineup.values():
             for t in tasks:
                 total_proc_time += (t['end']-t['start'])
+        #Calcular as taxas de ocupação baseadas na capacidade total disponível 
         if solution.makespan>0:
             cap_ops = solution.makespan * self.instance.num_operators
             cap_ws = solution.makespan * self.instance.num_workstations
@@ -51,13 +53,13 @@ class Tester:
         else:
             solution.op_occu = 0.0
             solution.ws_occu = 0.0
-
+        #Obter os valores de referência para a instância atual
         bench_vals = self.benchmark.get(filename)
         result = {
             'RefOccuO': "N/A", 'DiffO': "N/A",
             'RefOccuW': "N/A", 'DiffW': "N/A"
         }
-        if bench_vals:
+        if bench_vals: 
             bench_op, bench_ws = bench_vals
             diff_op = solution.op_occu - bench_op
             diff_ws = solution.ws_occu - bench_ws
@@ -72,7 +74,7 @@ class Tester:
         makespan = 0
         atraso_total = 0
 
-        #Iterar pelos veículos e tarefas agendadas
+        #Percorrer pelos veículos e tarefas agendadas
         for vehicle_id, tasks in solution.lineup.items():
             if len(tasks) == 0:
                 continue

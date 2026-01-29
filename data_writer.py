@@ -2,11 +2,11 @@ import os
 import math
 
 def save_file_for_solution(solution,filename):
-    if not os.path.exists("results"):
+    if not os.path.exists("results"): #Verificar se a pasta "results" existe e criá-la se necessário
         os.makedirs("results")
 
     file_path = os.path.join ("results", f"Result_{filename}")
-
+    #Calcular o tempo total de processamento somando a duração de todas as tarefas
     total_proc_time = 0
     for tasks in solution.lineup.values():
         for t in tasks:
@@ -14,14 +14,14 @@ def save_file_for_solution(solution,filename):
     
     solution.op_occu = 0.0
     solution.ws_occu = 0.0
-
+    #Calcular as percentagens de ocupação de operadores e estações com base no makespan
     if solution.makespan > 0.0:
         cap_ops = solution.makespan * solution.instance.num_operators
         cap_ws = solution.makespan * solution.instance.num_workstations
 
         solution.op_occu = (total_proc_time/cap_ops) * 100
         solution.ws_occu = (total_proc_time/cap_ws) * 100
-    
+    #Abrir o ficheiro e escrever os indicadores globais (Ocupação, Makespan, Tardiness)
     with open(file_path, "w", encoding='utf-8') as f:
         f.write("[OccuO(%)]\n")
         f.write(f"{solution.op_occu:.2f}\n")
@@ -34,7 +34,7 @@ def save_file_for_solution(solution,filename):
 
         f.write("[Total Tardiness]\n")
         f.write(f"{solution.total_tardiness}\n")
-
+        #Escrever a lista detalhada de tarefas por veículo
         for vehicle_id in sorted(solution.lineup.keys()):
             tasks = solution.lineup[vehicle_id]
             f.write("[vehicle_id]\n")
@@ -51,7 +51,7 @@ def save_summary_file(results_list):
         os.makedirs("results")
     
     path = os.path.join("results", "Summary_Results.txt")
-
+    #Criar o ficheiro e escrever o cabeçalho formatado em colunas
     with open(path,"w",encoding='utf-8') as f:
         f.write(f"{'Instance':<20}| "
                 f"{'Makes':<8}| "
@@ -61,9 +61,9 @@ def save_summary_file(results_list):
                 f"{'Ws(%)':<8}{'Ref(%)':<8}{'Dif':<9}| "
                 f"{'Time':<8}\n")
         f.write("-" * 110 + "\n")
-
+        #Percorrer a lista de resultados para preencher a tabela
         for res in results_list:
-            def fmt(val):
+            def fmt(val): #Função auxiliar interna para formatar números decimais ou retornar strings
                 if isinstance(val, (int,float)):
                     return f"{val:.2f}"
                 return str(val)
@@ -95,17 +95,18 @@ def viewdays (solution, filename):
             f.write(f"Veículo {vehicle_id+1}:\n")
             
             for t in solution.lineup[vehicle_id]:
-                day_start = (t['start']//day_mins)+1
+                day_start = (t['start']//day_mins)+1 #Converter o tempo absoluto em minutos para Dia e Minuto do dia
                 min_start = t['start']%day_mins
 
                 end_temp = t['end']
+                #Tratar o caso especial onde a tarefa termina exatamente no fim do turno
                 if end_temp > 0 and end_temp % day_mins == 0:
                     day_end = (end_temp-1) // day_mins + 1
                     min_end = day_mins
                 else:
                     day_end = (end_temp // day_mins) + 1
                     min_end = end_temp % day_mins
-
+                #Detetar se a tarefa foi interrompida e continuou no dia seguinte
                 aviso_quebra = ""
                 if day_end > day_start:
                     aviso_quebra = "[Interrompida pelo Fim do Turno]"

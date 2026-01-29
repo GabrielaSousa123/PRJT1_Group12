@@ -49,7 +49,7 @@ def main():
                 #Valores iniciais "piores" para garantir que o primeiro teste guarda
                 min_tardiness = float('inf')
                 min_makespan = float('inf')
-
+                #Percorrer todas as regras definidas na lista
                 for r in regras:
 
                     #Criar solução com a regra R
