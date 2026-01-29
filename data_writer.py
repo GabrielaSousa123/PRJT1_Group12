@@ -32,6 +32,9 @@ def save_file_for_solution(solution,filename):
         f.write("[Makespan]\n")
         f.write(f"{solution.makespan}\n")
 
+        f.write("[Total Tardiness]\n")
+        f.write(f"{solution.total_tardiness}\n")
+
         for vehicle_id in sorted(solution.lineup.keys()):
             tasks = solution.lineup[vehicle_id]
             f.write("[vehicle_id]\n")

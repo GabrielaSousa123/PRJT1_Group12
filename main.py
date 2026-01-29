@@ -4,6 +4,7 @@ from data_reader import load_txt, Instance
 from lineup import LineUp
 from tester import Tester
 from data_writer import save_file_for_solution, save_summary_file, viewdays
+from visualizer import generate_gantt_chart
 
 def main():
 
@@ -74,6 +75,8 @@ def main():
 
                 save_file_for_solution(best_sol,filename)
                 viewdays(best_sol,filename)
+                nome_da_pasta = "graficos"
+                generate_gantt_chart(best_sol, f"{filename}",nome_da_pasta)
 
                 print(f" -> Vencedora: {best_rule}")
                 print(f" -> Makespan: {best_sol.makespan} | Atraso: {best_sol.total_tardiness}")

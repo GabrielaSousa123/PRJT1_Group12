@@ -4,6 +4,8 @@
 37.30
 [Makespan]
 384
+[Total Tardiness]
+0
 [vehicle_id]
 1
 [tasks	operator	workstation	processingTime	startTime	completeTime]
