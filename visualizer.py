@@ -26,6 +26,7 @@ def generate_gantt_chart(solution, filename, pasta_destino="Gantt_Charts"):
 
             ax2.barh(y=ws, width=duracao, left=inicio, color=cor_atual, edgecolor='black', height=0.6)
             ax2.text(meio_x,ws,f"V{vehicle_id+1}",ha='center',va='center',color='black',fontsize=7)
+
     #Configurar o eixo Y dos operadores
     num_ops=solution.instance.num_operators
     ax1.set_yticks(range(num_ops))
@@ -42,7 +43,7 @@ def generate_gantt_chart(solution, filename, pasta_destino="Gantt_Charts"):
     for i in range(num_ws):
         nome_ws.append(f"Ws {i+1}")
     ax2.set_yticklabels(nome_ws)
-    ax2.set_title(f"Ocupação dos Postos de Trabalho - {filename}")
+    ax2.set_title(f"Ocupação das Estações de Trabalho - {filename}")
     ax2.grid(True, axis='x', linestyle='--',alpha=0.5)
     ax2.set_xlabel("Tempo (minutos)")
     

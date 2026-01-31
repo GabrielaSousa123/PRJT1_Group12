@@ -4,33 +4,6 @@ class LineUp:
 
     def __init__(self, instance):
         self.instance = instance
-
-    #Função auxiliar para calcular tempo real estimado
-    def calcular_duracao_media(self, vehicle_id, task_seq_id):
-
-        #Ir buscar o tipo de tarefa
-        task_type = self.instance.vehicle_tasks[vehicle_id][task_seq_id]
-        tempo_padrao = self.instance.processing_times[vehicle_id][task_seq_id]
-
-        #Ver quem pode fazer a tarefa
-        operadores_possiveis = self.instance.task_operators[task_type]
-
-        soma_eficiencia = 0
-        conta_operadores = 0
-
-        for operador in operadores_possiveis:
-
-            eff = self.instance.efficiency[task_type][operador]
-
-            if eff is not None:
-                soma_eficiencia += eff
-                conta_operadores += 1
-        #Retornar o tempo padrão se não houver operadores 
-        if conta_operadores == 0:
-            return tempo_padrao
-
-        media = soma_eficiencia / conta_operadores
-        return tempo_padrao * media
     
     def criar_solucao(self, rule = "SPT"):
 

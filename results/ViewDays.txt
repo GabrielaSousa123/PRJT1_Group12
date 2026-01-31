@@ -1121,15 +1121,3 @@ Veículo 5:
 Task  2: Dia 1 (  0m) -> Dia 1 (151m) | Op:4 Ws:1 
 Task  7: Dia 1 (151m) -> Dia 1 (293m) | Op:3 Ws:6 
 Task  9: Dia 1 (293m) -> Dia 1 (403m) | Op:1 Ws:6 
-
-Instance: Inst_1D_3_1.txt | Makespan Global: 73
-------------------------------------------------------------
-Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 16m) | Op:3 Ws:1 
-Task  2: Dia 1 ( 16m) -> Dia 1 ( 73m) | Op:7 Ws:1 
-Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 34m) | Op:1 Ws:2 
-Task  3: Dia 1 ( 34m) -> Dia 1 ( 70m) | Op:5 Ws:2 
-Veículo 3:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 45m) | Op:4 Ws:5 
-Task  3: Dia 1 ( 45m) -> Dia 1 ( 73m) | Op:3 Ws:4 
