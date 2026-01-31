@@ -2,40 +2,36 @@
 67.33
 [OccuW(%)]
 33.67
-[Makespan]
-499
-[Total Tardiness]
-0
 [vehicle_id]
 1
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-3	7	6	132	0	132
-8	4	2	149	151	300
-9	5	2	193	300	493
+[task	operator	workstation	startTime	completionTime]
+3	7	6	0	132
+8	4	2	151	300
+9	5	2	300	493
 [vehicle_id]
 2
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	1	3	122	0	122
-3	5	4	97	122	219
-4	7	1	111	219	330
-9	4	1	151	330	481
+[task	operator	workstation	startTime	completionTime]
+1	1	3	0	122
+3	5	4	122	219
+4	7	1	219	330
+9	4	1	330	481
 [vehicle_id]
 3
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	3	2	142	0	142
-4	6	3	117	142	259
-5	6	3	92	259	351
-9	2	4	148	351	499
+[task	operator	workstation	startTime	completionTime]
+1	3	2	0	142
+4	6	3	142	259
+5	6	3	259	351
+9	2	4	351	499
 [vehicle_id]
 4
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-3	5	4	112	0	112
-4	2	5	151	112	263
-5	2	7	85	263	348
-6	7	7	147	348	495
+[task	operator	workstation	startTime	completionTime]
+3	5	4	0	112
+4	2	5	112	263
+5	2	7	263	348
+6	7	7	348	495
 [vehicle_id]
 5
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-2	4	1	151	0	151
-7	3	6	142	151	293
-9	1	6	110	293	403
+[task	operator	workstation	startTime	completionTime]
+2	4	1	0	151
+7	3	6	151	293
+9	1	6	293	403

@@ -32,22 +32,21 @@ def save_file_for_solution(solution,filename):
         f.write("[OccuW(%)]\n")
         f.write(f"{solution.ws_occu:.2f}\n")
 
-        f.write("[Makespan]\n")
-        f.write(f"{solution.makespan}\n")
+        #f.write("[Makespan]\n")
+        #f.write(f"{solution.makespan}\n")
 
-        f.write("[Total Tardiness]\n")
-        f.write(f"{solution.total_tardiness}\n")
+        #f.write("[Total Tardiness]\n")
+        #f.write(f"{solution.total_tardiness}\n")
 
         #Escrever a lista detalhada de tarefas por veículo
         for vehicle_id in sorted(solution.lineup.keys()):
             tasks = solution.lineup[vehicle_id]
             f.write("[vehicle_id]\n")
             f.write(f"{vehicle_id+1}\n")
-            f.write("[tasks\toperator\tworkstation\tprocessingTime\tstartTime\tcompleteTime]\n")
+            f.write("[task\toperator\tworkstation\tstartTime\tcompletionTime]\n")
 
             for t in tasks:
-                line = f"{t['task_type']+1}\t{t['operator']+1}\t{t['workstation']+1}\t"\
-                    f"{t['end']-t['start']}\t{t['start']}\t{t['end']}\n"
+                line = f"{t['task_type']+1}\t{t['operator']+1}\t{t['workstation']+1}\t{t['start']}\t{t['end']}\n"
                 f.write(line)
 
 def save_summary_file(results_list):

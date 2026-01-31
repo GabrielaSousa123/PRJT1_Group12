@@ -2,60 +2,56 @@
 61.58
 [OccuW(%)]
 30.79
-[Makespan]
-448
-[Total Tardiness]
-0
 [vehicle_id]
 1
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-5	6	7	120	104	224
-7	3	7	27	261	288
+[task	operator	workstation	startTime	completionTime]
+5	6	7	104	224
+7	3	7	261	288
 [vehicle_id]
 2
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	1	4	73	0	73
-9	1	6	38	187	225
+[task	operator	workstation	startTime	completionTime]
+1	1	4	0	73
+9	1	6	187	225
 [vehicle_id]
 3
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	7	2	128	128	256
-8	5	2	50	256	306
+[task	operator	workstation	startTime	completionTime]
+1	7	2	128	256
+8	5	2	256	306
 [vehicle_id]
 4
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-7	4	5	124	188	312
-10	4	1	125	312	437
+[task	operator	workstation	startTime	completionTime]
+7	4	5	188	312
+10	4	1	312	437
 [vehicle_id]
 5
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-2	4	1	50	0	50
-5	3	7	54	50	104
-8	5	7	64	306	370
+[task	operator	workstation	startTime	completionTime]
+2	4	1	0	50
+5	3	7	50	104
+8	5	7	306	370
 [vehicle_id]
 6
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	1	5	114	73	187
-10	2	3	66	187	253
+[task	operator	workstation	startTime	completionTime]
+1	1	5	73	187
+10	2	3	187	253
 [vehicle_id]
 7
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-6	2	5	26	0	26
-8	3	4	160	288	448
+[task	operator	workstation	startTime	completionTime]
+6	2	5	0	26
+8	3	4	288	448
 [vehicle_id]
 8
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-8	5	4	95	120	215
-10	7	3	123	256	379
+[task	operator	workstation	startTime	completionTime]
+8	5	4	120	215
+10	7	3	256	379
 [vehicle_id]
 9
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-2	7	2	128	0	128
-4	2	3	59	128	187
-6	1	8	90	225	315
+[task	operator	workstation	startTime	completionTime]
+2	7	2	0	128
+4	2	3	128	187
+6	1	8	225	315
 [vehicle_id]
 10
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-2	4	1	68	120	188
-5	3	1	73	188	261
-6	2	6	76	261	337
+[task	operator	workstation	startTime	completionTime]
+2	4	1	120	188
+5	3	1	188	261
+6	2	6	261	337

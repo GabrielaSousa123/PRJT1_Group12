@@ -2,79 +2,75 @@
 74.59
 [OccuW(%)]
 37.30
-[Makespan]
-384
-[Total Tardiness]
-0
 [vehicle_id]
 1
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-4	3	6	31	115	146
+[task	operator	workstation	startTime	completionTime]
+4	3	6	115	146
 [vehicle_id]
 2
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	1	2	92	0	92
-5	3	1	23	92	115
-10	2	1	68	232	300
+[task	operator	workstation	startTime	completionTime]
+1	1	2	0	92
+5	3	1	92	115
+10	2	1	232	300
 [vehicle_id]
 3
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	7	6	103	0	103
-2	6	8	135	209	344
+[task	operator	workstation	startTime	completionTime]
+1	7	6	0	103
+2	6	8	209	344
 [vehicle_id]
 4
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-8	5	4	89	0	89
-10	2	1	57	175	232
+[task	operator	workstation	startTime	completionTime]
+8	5	4	0	89
+10	2	1	175	232
 [vehicle_id]
 5
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-1	3	1	62	0	62
-2	4	5	76	62	138
-10	3	6	40	146	186
+[task	operator	workstation	startTime	completionTime]
+1	3	1	0	62
+2	4	5	62	138
+10	3	6	146	186
 [vehicle_id]
 6
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-5	6	7	92	0	92
-10	7	12	134	250	384
+[task	operator	workstation	startTime	completionTime]
+5	6	7	0	92
+10	7	12	250	384
 [vehicle_id]
 7
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-7	4	5	36	138	174
+[task	operator	workstation	startTime	completionTime]
+7	4	5	138	174
 [vehicle_id]
 8
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-4	4	3	50	0	50
-9	5	4	74	132	206
+[task	operator	workstation	startTime	completionTime]
+4	4	3	0	50
+9	5	4	132	206
 [vehicle_id]
 9
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-7	4	5	58	174	232
+[task	operator	workstation	startTime	completionTime]
+7	4	5	174	232
 [vehicle_id]
 10
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-4	6	3	117	92	209
-7	3	6	65	209	274
+[task	operator	workstation	startTime	completionTime]
+4	6	3	92	209
+7	3	6	209	274
 [vehicle_id]
 11
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-4	2	1	55	120	175
-9	1	7	117	175	292
+[task	operator	workstation	startTime	completionTime]
+4	2	1	120	175
+9	1	7	175	292
 [vehicle_id]
 12
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-6	2	5	29	0	29
-8	5	4	43	89	132
+[task	operator	workstation	startTime	completionTime]
+6	2	5	0	29
+8	5	4	89	132
 [vehicle_id]
 13
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-2	7	2	130	120	250
-3	5	2	97	250	347
+[task	operator	workstation	startTime	completionTime]
+2	7	2	120	250
+3	5	2	250	347
 [vehicle_id]
 14
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-6	1	7	38	120	158
+[task	operator	workstation	startTime	completionTime]
+6	1	7	120	158
 [vehicle_id]
 15
-[tasks	operator	workstation	processingTime	startTime	completeTime]
-10	4	3	94	232	326
+[task	operator	workstation	startTime	completionTime]
+10	4	3	232	326
