@@ -84,7 +84,7 @@ class LineUp:
                     tempo_disponivel = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id]
                     score = tempo_disponivel/tempo_restante
                 elif rule == "LFJ":
-                    #Leats Flexible Job
+                    #Least Flexible Job
                     num_operators = len(self.instance.task_operators[task_type])
                     num_workstations = len(self.instance.task_workstations[task_type])
                     score = num_operators + num_workstations
@@ -198,7 +198,7 @@ class LineUp:
                 #Avançar para a próxima tarefa
                 next_task_id[vehicle_id] += 1
 
-                #Se acabarem as tarefas deste veículo, removê-lo da lista
+                #Se acabarem as tarefas deste veículo, é removido da lista
                 if next_task_id[vehicle_id] >= len(self.instance.vehicle_tasks[vehicle_id]):
                     vehicles_undone_tasks.remove(vehicle_id)
             else:
