@@ -1,14 +1,14 @@
 [OccuO(%)]
-58.29
+58.81
 [OccuW(%)]
-29.14
+29.41
 [vehicle_id]
 1
 [task	operator	workstation	startTime	completionTime]
 4	2	1	0	53
 6	2	2	53	185
 7	3	5	185	320
-10	2	1	334	390
+10	3	12	320	391
 [vehicle_id]
 2
 [task	operator	workstation	startTime	completionTime]

@@ -29,6 +29,9 @@ class LineUp:
 
         sequencia_log = []
 
+        penalidade_mudanca = 20.0
+        penalidade_espera = 0.1
+
         while len(vehicles_undone_tasks) > 0 :
             candidates = []
 
@@ -131,9 +134,6 @@ class LineUp:
             best_op = -1
             best_ws = -1
 
-            #Fator de desempate (pequeno bónus para manter o mesmo recurso)
-            bonus_continuidade = 0.1
-
             ops = self.instance.task_operators[task_type]
             wss = self.instance.task_workstations[task_type]
 
@@ -155,16 +155,18 @@ class LineUp:
                     start_final = max(start_op, workstation_free_time[ws])
                     end_final = start_final + duracao_real
 
+                    tempo_espera = start_final - vehicle_free_time[vehicle_id]
+
                     #Cálculo do custo ajustado (para desempate)
-                    custo_comparacao = end_final
+                    custo_comparacao = end_final + (tempo_espera*penalidade_espera)
 
                     #Se não for o mesmo operador, penalizamos
                     if op != prev_op and prev_op != -1:
-                        custo_comparacao += bonus_continuidade
+                        custo_comparacao += penalidade_mudanca
                         
                     #Se não for a mesma workstation, penalizamos
                     if ws != prev_ws and prev_ws != -1:
-                        custo_comparacao += bonus_continuidade 
+                        custo_comparacao += penalidade_mudanca
                         
                     #Se houver um tempo final menor, atualizamos
                     if custo_comparacao < best_end:
@@ -209,6 +211,7 @@ class LineUp:
         for v in sequencia_log:
             if v not in sequencia_unica:
                 sequencia_unica.append(v)
+        solution.sequencia_log=sequencia_unica
         print(f"[{rule}] Ordem de Entrada de Veículos: {'-'.join(map(str,sequencia_unica))}")
 
         return solution

@@ -47,9 +47,16 @@ def main():
                 best_rule = ""
 
                 #Valores iniciais "piores" para garantir que o primeiro teste guarda
-                min_tardiness = float('inf')
                 min_makespan = float('inf')
+                min_changes = float('inf')
+                min_espera = float('inf')
                 
+                #Variáveis para se não der mesmo para o atraso ser zero
+                fallback_sol = None
+                fallback_rule = ""
+                min_tard_fallback = float('inf')
+                min_mk_fallback = float('inf')
+
                 #Percorrer todas as regras definidas na lista
                 for r in regras:
 
@@ -57,52 +64,85 @@ def main():
                     sol = lineup.criar_solucao(rule = r)
 
                     #Avaliar
-                    mk, tard = tester.evaluate(sol)
+                    mk, tard, changes, espera = tester.evaluate(sol)
+                    
+                    #Variáveis para se o atraso não puder ser zero
+                    if tard < min_tard_fallback:
+                        min_tard_fallback=tard
+                        min_mk_fallback=mk
+                        fallback_sol=sol
+                        fallback_rule=r
+                    elif tard == min_tard_fallback and mk<min_mk_fallback:
+                        min_mk_fallback=mk
+                        fallback_sol=sol
+                        fallback_rule=r
+                    
+                    
+                    sol_valida = tester.verify_solution(sol)
+                    if not sol_valida:
+                        print(f" -> Regra {r} REJEITADA: Viola restrições")
+                        continue
 
                     #Decidir se é melhor
-                    if tard < min_tardiness:
-                        min_tardiness = tard
-                        min_makespan = mk
-                        best_sol = sol
-                        best_rule = r
-
-                    elif tard == min_tardiness:
-                        if mk < min_makespan:
-                            min_makespan = mk
-                            best_sol = sol
-                            best_rule = r
+                    is_better = False
+                    if best_sol is None:
+                        is_better = True
+                    elif mk<min_makespan:
+                        is_better=True
+                    elif mk == min_makespan:
+                        if changes < min_changes:
+                            is_better=True
+                        elif changes == min_changes:
+                            if espera < min_espera:
+                                is_better=True
+                    
+                    if is_better:
+                        min_makespan=mk
+                        min_changes=changes
+                        min_espera=espera
+                        best_sol=sol
+                        best_rule=r
                 
+                if best_sol is None:
+                    best_sol = fallback_sol
+                    best_rule = fallback_rule
+                    print(f"FALLBACK: Nenhuma regra evitou atrasos. Selecionada {best_rule} (Menor atraso: {best_sol.total_tardiness})")
+                else:
+                    print(f"SUCESSO: Regra {best_rule} cumpriu todos os prazos")
+                        
                 temp_exec = time.time() - start
 
-                save_file_for_solution(best_sol,filename)
-                viewdays(best_sol,filename)
-                nome_da_pasta = "graficos"
-                generate_gantt_chart(best_sol, f"{filename}",nome_da_pasta)
+                if best_sol is not None:
+                    save_file_for_solution(best_sol,filename)
+                    viewdays(best_sol,filename)
+                    generate_gantt_chart(best_sol, f"{filename}","graficos")
 
-                print(f" -> Vencedora: {best_rule}")
-                print(f" -> Makespan: {best_sol.makespan} | Atraso: {best_sol.total_tardiness}")
-                print(f" -> A validar a melhor solução ({best_rule})...")
-                tester.verify_solution(best_sol)
-                bench_data = tester.comparacao_benchmark(best_sol,filename)
-                print()
+                    print(f" -> Vencedora: {best_rule}")
+                    print(f" -> Makespan: {best_sol.makespan} | Trocas: {best_sol.total_changes} | Espera: {best_sol.total_tempo_espera}")
+                    print(f" -> A validar a melhor solução ({best_rule})...")
+                    tester.verify_solution(best_sol)
+                    bench_data = tester.comparacao_benchmark(best_sol,filename)
+                    print()
                 
 
-                lista_resultados.append({
-                    'instance': filename,
-                    'makespan': best_sol.makespan,
-                    'tardiness': best_sol.total_tardiness,
-                    'time': temp_exec,
-                    'rule': best_rule,
-                    'OccuO(%)': best_sol.op_occu,
-                    'RefOccuO': bench_data['RefOccuO'],
-                    'DiffO': bench_data['DiffO'],
-                    "OccuW(%)": best_sol.ws_occu,
-                    'RefOccuW': bench_data['RefOccuW'],
-                    'DiffW': bench_data['DiffW'],
-                })  
+                    lista_resultados.append({
+                        'instance': filename,
+                        'makespan': best_sol.makespan,
+                        'tardiness': best_sol.total_tardiness,
+                        'time': temp_exec,
+                        'rule': best_rule,
+                        'OccuO(%)': best_sol.op_occu,
+                        'RefOccuO': bench_data['RefOccuO'],
+                        'DiffO': bench_data['DiffO'],
+                        'OccuW(%)': best_sol.ws_occu,
+                        'RefOccuW': bench_data['RefOccuW'],
+                        'DiffW': bench_data['DiffW'],
+                    })
+                else:
+                    print(f"Aviso : Nenhuma regra conseguiu atraso zero para {filename}")  
 
-    save_summary_file(lista_resultados)
-    print("Tudo concluído. Verifique a pasta results/.")
+        save_summary_file(lista_resultados)
+        print("Tudo concluído. Verifique a pasta results/.")
 
 if __name__ == "__main__":
     main()

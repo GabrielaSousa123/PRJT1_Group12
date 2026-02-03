@@ -77,6 +77,8 @@ class Tester:
     def evaluate(self, solution):
         makespan = 0
         atraso_total = 0
+        total_changes = 0
+        total_tempo_espera = 0
 
         #Percorrer pelos veículos e tarefas agendadas
         for vehicle_id, tasks in solution.lineup.items():
@@ -94,12 +96,30 @@ class Tester:
             prazo = self.instance.due_dates[vehicle_id]
             atraso = max(0, ultimo_fim - prazo)
             atraso_total += atraso 
-        
+
+            prev_op=-1
+            prev_ws=-1
+            ultimo_tempo_livre=self.instance.release_dates[vehicle_id]
+
+            for t in tasks:
+                if prev_op != -1 and t['operator'] != prev_op:
+                    total_changes +=1
+                if prev_ws != -1 and t['workstation'] != prev_ws:
+                    total_changes +=1    
+                
+                total_tempo_espera += (t['start'] - ultimo_tempo_livre)
+
+                prev_op=t['operator']
+                prev_ws=t['workstation']
+                ultimo_tempo_livre=t['end']
+
         #Guardar na solução
         solution.makespan = makespan
         solution.total_tardiness = atraso_total
+        solution.total_changes = total_changes
+        solution.total_tempo_espera = total_tempo_espera
 
-        return makespan, atraso_total
+        return makespan, atraso_total, total_changes, total_tempo_espera
 
     def verify_solution(self, solution):
         is_valid = True
@@ -117,9 +137,15 @@ class Tester:
             #Verificar data de chegada
             if tasks:
                 if tasks[0]['start'] < self.instance.release_dates[vehicle_id]:
-                    print(f"[ERRO] Veículo {vehicle_id} começou ao minuto {tasks[0]['start']} mas só chega ao {self.instance.release_dates[vehicle_id]}")
+                    print(f"[ERRO] Veículo {vehicle_id+1} começou ao minuto {tasks[0]['start']} mas só chega ao {self.instance.release_dates[vehicle_id]}")
                     is_valid = False
                 
+                ultimo_fim = tasks[-1]['end']
+                prazo = self.instance.due_dates[vehicle_id]
+                if ultimo_fim>prazo:
+                    print(f"[ERRO] Veículo {vehicle_id+1} terminou em {ultimo_fim} mas o prazo era {prazo}")
+                    is_valid = False
+
             for t in tasks:
                 tt = t['task_type']
                 op = t['operator']

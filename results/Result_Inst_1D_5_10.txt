@@ -1,37 +1,37 @@
 [OccuO(%)]
-64.49
+62.81
 [OccuW(%)]
-32.25
+31.41
 [vehicle_id]
 1
 [task	operator	workstation	startTime	completionTime]
 1	3	1	0	110
-4	3	1	110	202
-6	2	2	207	316
-7	4	6	316	412
+4	2	7	110	202
+6	2	7	202	311
+7	4	7	330	426
 [vehicle_id]
 2
 [task	operator	workstation	startTime	completionTime]
 3	5	2	0	106
-8	5	2	106	195
-9	1	6	195	306
-10	2	1	316	395
+8	5	3	106	195
+9	5	4	195	324
+10	2	1	324	403
 [vehicle_id]
 3
 [task	operator	workstation	startTime	completionTime]
-1	1	4	0	93
-3	7	4	93	228
-7	3	5	228	342
+1	1	6	0	93
+3	7	6	93	228
+7	3	6	228	342
 [vehicle_id]
 4
 [task	operator	workstation	startTime	completionTime]
-4	4	5	0	108
-7	4	5	108	209
-8	5	3	209	323
+4	2	3	0	97
+7	4	5	107	208
+8	4	2	208	330
 [vehicle_id]
 5
 [task	operator	workstation	startTime	completionTime]
-4	2	3	0	96
-5	2	3	96	207
-9	4	1	209	304
-10	7	12	304	405
+4	4	5	0	107
+5	3	1	110	202
+9	1	1	202	303
+10	7	3	303	404
