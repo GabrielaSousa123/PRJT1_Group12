@@ -28,7 +28,7 @@ class LineUp:
         vehicles_undone_tasks = list(range(self.instance.num_vehicles))
 
         sequencia_log = []
-
+        #Definir penalidades para critérios de continuidade
         penalidade_mudanca = 20.0
         penalidade_espera = 0.1
 
@@ -189,12 +189,12 @@ class LineUp:
                 solution.lineup[vehicle_id].append(task_data)
                 sequencia_log.append(vehicle_id+1)
 
-                #Atualiza tempos livres
+                #Atualizar tempos livres
                 operators_free_time[best_op] = real_best_end
                 workstation_free_time[best_ws] = real_best_end
                 vehicle_free_time[vehicle_id] = real_best_end
 
-                #Atualiza o rastreio de recursos
+                #Atualizar o rastreio de recursos
                 last_resources[vehicle_id] = {'op': best_op, 'ws': best_ws}
 
                 #Avançar para a próxima tarefa
@@ -206,7 +206,7 @@ class LineUp:
             else:
                 print(f"Erro: Não foi possível agendar a tarefa {task_type} do veículo {vehicle_id}")
                 vehicles_undone_tasks.remove(vehicle_id)
-
+        #Lista de veículos únicos
         sequencia_unica = []                        
         for v in sequencia_log:
             if v not in sequencia_unica:

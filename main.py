@@ -77,7 +77,7 @@ def main():
                         fallback_sol=sol
                         fallback_rule=r
                     
-                    
+                    #Verificar a validade das restrições
                     sol_valida = tester.verify_solution(sol)
                     if not sol_valida:
                         print(f" -> Regra {r} REJEITADA: Viola restrições")
@@ -95,14 +95,14 @@ def main():
                         elif changes == min_changes:
                             if espera < min_espera:
                                 is_better=True
-                    
+                    #Atualizar a melhor solução se os critérios forem cumpridos
                     if is_better:
                         min_makespan=mk
                         min_changes=changes
                         min_espera=espera
                         best_sol=sol
                         best_rule=r
-                
+                #Selecionar a solução de recurso se nenhuma regra cumpriu o prazo
                 if best_sol is None:
                     best_sol = fallback_sol
                     best_rule = fallback_rule
@@ -113,13 +113,14 @@ def main():
                 temp_exec = time.time() - start
 
                 if best_sol is not None:
-                    save_file_for_solution(best_sol,filename)
+                    save_file_for_solution(best_sol,filename) #Guardar os ficheiros de resultados e gerar o gráfico
                     viewdays(best_sol,filename)
                     generate_gantt_chart(best_sol, f"{filename}","graficos")
 
                     print(f" -> Vencedora: {best_rule}")
                     print(f" -> Makespan: {best_sol.makespan} | Trocas: {best_sol.total_changes} | Espera: {best_sol.total_tempo_espera}")
                     print(f" -> A validar a melhor solução ({best_rule})...")
+                    #Validar a solução vencedora e comparar com os bechmarks
                     tester.verify_solution(best_sol)
                     bench_data = tester.comparacao_benchmark(best_sol,filename)
                     print()

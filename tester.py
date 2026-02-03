@@ -96,11 +96,11 @@ class Tester:
             prazo = self.instance.due_dates[vehicle_id]
             atraso = max(0, ultimo_fim - prazo)
             atraso_total += atraso 
-
+            #Inicializar recursos anteriores
             prev_op=-1
             prev_ws=-1
             ultimo_tempo_livre=self.instance.release_dates[vehicle_id]
-
+            #Contar trocas de recursos e tempo de espera
             for t in tasks:
                 if prev_op != -1 and t['operator'] != prev_op:
                     total_changes +=1
@@ -139,7 +139,7 @@ class Tester:
                 if tasks[0]['start'] < self.instance.release_dates[vehicle_id]:
                     print(f"[ERRO] Veículo {vehicle_id+1} começou ao minuto {tasks[0]['start']} mas só chega ao {self.instance.release_dates[vehicle_id]}")
                     is_valid = False
-                
+                #Verificar o prazo
                 ultimo_fim = tasks[-1]['end']
                 prazo = self.instance.due_dates[vehicle_id]
                 if ultimo_fim>prazo:
@@ -158,7 +158,7 @@ class Tester:
                 if op not in self.instance.task_operators[tt]:
                     print(f"[ERRO] Operador {op+1} não qualificado para a Tarefa Tipo {tt+1} no Veículo {vehicle_id+1}")
                     is_valid = False
-                
+                #Verificar validade das workstations
                 if ws not in self.instance.task_workstations[tt]:
                     print(f"[ERRO] Workstation {ws+1} inválida para a Tarefa Tipo {tt+1} no Veículo {vehicle_id+1}")
                     is_valid = False
