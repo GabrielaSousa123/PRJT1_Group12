@@ -5,7 +5,7 @@ class LineUp:
     def __init__(self, instance):
         self.instance = instance
     
-    def criar_solucao(self, rule = "SPT"):
+    def criar_solucao(self, rule = "SPT", sequence = None):
 
         solution = Solution(self.instance)
 
@@ -40,57 +40,60 @@ class LineUp:
                 task_id = next_task_id[vehicle_id]
                 task_type = self.instance.vehicle_tasks[vehicle_id][task_id]
 
-                score = 0
+                if sequence is not None:
+                    tempo_pronto = vehicle_free_time[vehicle_id]
 
-                #Lógica das regras
-                if rule == "SPT":
-                    #Menor tempo = melhor
-                    score = self.instance.processing_times[vehicle_id][task_id]
-                elif rule == "EDD":
-                    #Menor data de entrega = melhor
-                    score = self.instance.due_dates[vehicle_id]
-                elif rule == "FOLGA":
-                    #Calcular quanto trabalho falta
-                    tempo_restante = 0
-                    for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
-                        tempo_restante += self.instance.processing_times[vehicle_id][k]
-                    #Folga = Prazo - (Tempo Atual - Trabalho Restante)
-                    score = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id] - tempo_restante
-                elif rule == "LPT":
-                    #Contrário de SPT, dá prioridade ao maior tempo
-                    score = - self.instance.processing_times[vehicle_id][task_id]
-                elif rule == "MOPNR":
-                    #Most Operations Remaining
-                    #Quantas tarefas faltam deste índice para a frente
-                    tarefas_restantes = len(self.instance.vehicle_tasks[vehicle_id]) - task_id
-                    #Queremos dar "prioridade" a quem tem mais tarefas
-                    score = - tarefas_restantes
-                elif rule == "MWKR":
-                    #Most Work Remaining (soma do tempo dos trabalhos restante)
-                    trabalho_total = 0
-                    for k in range (task_id, len(self.instance.vehicle_tasks[vehicle_id])):
-                        trabalho_total += self.instance.processing_times[vehicle_id][k]
-                    #Queremos o maior trabalho
-                    score = - trabalho_total
-                elif rule == "SRPT":
-                    #Shortest Remaining Work Time
-                    #Queremos o MENOR tempo total restante
-                    tempo_restante = 0
-                    for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
-                        tempo_restante += self.instance.processing_times[vehicle_id][k]
-                    score = tempo_restante
-                elif rule == "CR":
-                    #Critical Racio
-                    tempo_restante = 0.001
-                    for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
-                        tempo_restante += self.instance.processing_times[vehicle_id][k]
-                    tempo_disponivel = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id]
-                    score = tempo_disponivel/tempo_restante
-                elif rule == "LFJ":
-                    #Least Flexible Job
-                    num_operators = len(self.instance.task_operators[task_type])
-                    num_workstations = len(self.instance.task_workstations[task_type])
-                    score = num_operators + num_workstations
+                    score = tempo_pronto + (sequence.index(vehicle_id)*15.0)
+                else:
+                    #Lógica das regras
+                    if rule == "SPT":
+                        #Menor tempo = melhor
+                        score = self.instance.processing_times[vehicle_id][task_id]
+                    elif rule == "EDD":
+                        #Menor data de entrega = melhor
+                        score = self.instance.due_dates[vehicle_id]
+                    elif rule == "FOLGA":
+                        #Calcular quanto trabalho falta
+                        tempo_restante = 0
+                        for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
+                            tempo_restante += self.instance.processing_times[vehicle_id][k]
+                        #Folga = Prazo - (Tempo Atual - Trabalho Restante)
+                        score = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id] - tempo_restante
+                    elif rule == "LPT":
+                        #Contrário de SPT, dá prioridade ao maior tempo
+                        score = - self.instance.processing_times[vehicle_id][task_id]
+                    elif rule == "MOPNR":
+                        #Most Operations Remaining
+                        #Quantas tarefas faltam deste índice para a frente
+                        tarefas_restantes = len(self.instance.vehicle_tasks[vehicle_id]) - task_id
+                        #Queremos dar "prioridade" a quem tem mais tarefas
+                        score = - tarefas_restantes
+                    elif rule == "MWKR":
+                        #Most Work Remaining (soma do tempo dos trabalhos restante)
+                        trabalho_total = 0
+                        for k in range (task_id, len(self.instance.vehicle_tasks[vehicle_id])):
+                            trabalho_total += self.instance.processing_times[vehicle_id][k]
+                        #Queremos o maior trabalho
+                        score = - trabalho_total
+                    elif rule == "SRPT":
+                        #Shortest Remaining Work Time
+                        #Queremos o MENOR tempo total restante
+                        tempo_restante = 0
+                        for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
+                            tempo_restante += self.instance.processing_times[vehicle_id][k]
+                        score = tempo_restante
+                    elif rule == "CR":
+                        #Critical Racio
+                        tempo_restante = 0.001
+                        for k in range(task_id, len(self.instance.vehicle_tasks[vehicle_id])):
+                            tempo_restante += self.instance.processing_times[vehicle_id][k]
+                        tempo_disponivel = self.instance.due_dates[vehicle_id] - vehicle_free_time[vehicle_id]
+                        score = tempo_disponivel/tempo_restante
+                    elif rule == "LFJ":
+                        #Least Flexible Job
+                        num_operators = len(self.instance.task_operators[task_type])
+                        num_workstations = len(self.instance.task_workstations[task_type])
+                        score = num_operators + num_workstations
                 
                 #Guardar candidato
                 candidates.append({
@@ -171,7 +174,7 @@ class LineUp:
                     #Se houver um tempo final menor, atualizamos
                     if custo_comparacao < best_end:
                         best_end = custo_comparacao
-                        real_best_end =  end_final
+                        real_best_end = end_final
                         best_start = start_final
                         best_op = op
                         best_ws = ws
@@ -212,6 +215,6 @@ class LineUp:
             if v not in sequencia_unica:
                 sequencia_unica.append(v)
         solution.sequencia_log=sequencia_unica
-        print(f"[{rule}] Ordem de Entrada de Veículos: {'-'.join(map(str,sequencia_unica))}")
+        #print(f"[{rule}] Ordem de Entrada de Veículos: {'-'.join(map(str,sequencia_unica))}")
 
         return solution
