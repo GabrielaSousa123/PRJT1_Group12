@@ -113,26 +113,24 @@ def main():
                 if best_sol is not None:
                     from tabu_search_logic import run_tabu_search
 
-                    #1. Avaliamos a solução da Fase 1 para ter uma base de comparação
+                    #Base de comparação (Fase 1)
                     mk_f1, tard_f1, ch_f1, esp_f1 = tester.evaluate(best_sol)
                     print(f"\n[Fase 2] A otimizar com Tabu Search (Base: {best_rule} - MK: {mk_f1:.2f}...")
 
                     initial_seq = [v-1 for v in best_sol.sequencia_log]
 
-                    #2. Chamada à TS com o novo parâmetro de tempo (max_seconds)
-                    #Definimos 120s (2 min) por ficheiro para não demorar "meia hora" no total
+                    #Executar a Tabu Search com limite de 20s 
                     ts_seq, ts_sol, ts_history = run_tabu_search(
                         instance, tester, lineup, initial_seq,
-                        iterations = 100000, #Aumentamos para explorar mais
+                        iterations = 100000, #Aumentar para explorar mais
                         tabu_size = 30,
                         max_seconds = 20 #Para automaticamente após 2 minutos
                     )
 
-                    #3. Avaliamos o resultado da Tabu Search
+                    #Avaliar o resultado da TS
                     mk_ts, tard_ts, ch_ts, esp_ts = tester.evaluate(ts_sol)
 
-                    # 4. CRITÉRIO DE ACEITAÇÃO: Seguimos a prioridade do enunciado [cite: 63, 67]
-                    # Só aceitamos se: não piorar o atraso E (melhorar o Makespan OU diminuir trocas)
+                    #Critério de aceitação - Prioridade do enunciado. Só aceita se não piorar atraso e (melhor makespan ou trocas)
                     is_ts_better = False
                     if tard_ts < tard_f1:
                         is_ts_better = True
@@ -148,7 +146,7 @@ def main():
                         print(f" -> [SUCESSO] TS melhorou a solução: MK {mk_f1:.2f} -> {mk_ts:.2f}")
 
                     else:
-                        #Se a TS não melhorou nada, mantemos o best_sol que já tínhamos da Fase 1
+                        #Se a TS não melhorou, manter a solução da Fase 1
                         print(f" -> [MANTER] TS não superou a Fase 1. Mantida regra {best_rule} (MK{mk_f1:.2f})")
 
                 temp_exec = time.time() - start
