@@ -148,7 +148,7 @@ class LineUp:
                 eff = self.instance.efficiency[task_type][op]
                 if eff is None: continue
 
-                duracao_real = int(round(std_time * eff))
+                duracao_real = std_time * eff
 
                 #Quando o operador e o veículo estão livres
                 start_op = max(vehicle_free_time[vehicle_id], operators_free_time[op])

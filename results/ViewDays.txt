@@ -1,1123 +1,1123 @@
 
-Instance: Inst_1D_15_1.txt | Makespan Global: 438
+Instance: Inst_1D_15_1.txt | Makespan Global: 343.60
 ------------------------------------------------------------
 Veículo 1:
-Task  7: Dia 1 (  0m) -> Dia 1 ( 81m) | Op:4 Ws:5 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 (  76.5m) | Op:3 Ws:5 
 Veículo 2:
-Task  2: Dia 1 ( 81m) -> Dia 1 (141m) | Op:4 Ws:2 
-Task  5: Dia 1 (195m) -> Dia 1 (285m) | Op:3 Ws:1 
+Task  2: Dia 1.0 (  94.0m) -> Dia 1.0 ( 157.7m) | Op:7 Ws:8 
+Task  5: Dia 1.0 ( 218.7m) -> Dia 1.0 ( 334.8m) | Op:4 Ws:1 
 Veículo 3:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 94m) | Op:7 Ws:4 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  94.0m) | Op:7 Ws:4 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 66m) | Op:3 Ws:1 
-Task 10: Dia 1 ( 66m) -> Dia 1 (125m) | Op:3 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  69.7m) | Op:1 Ws:3 
+Task 10: Dia 1.0 (  69.7m) -> Dia 1.0 ( 116.2m) | Op:2 Ws:3 
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 53m) | Op:1 Ws:3 
-Task  3: Dia 1 (174m) -> Dia 1 (286m) | Op:5 Ws:10 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  62.0m) | Op:2 Ws:6 
+Task  3: Dia 1.0 (  76.5m) -> Dia 1.0 ( 194.3m) | Op:3 Ws:6 
 Veículo 6:
-Task  2: Dia 1 (196m) -> Dia 1 (342m) | Op:6 Ws:5 
-Task  5: Dia 1 (342m) -> Dia 1 (419m) | Op:6 Ws:1 
+Task  2: Dia 1.0 (  93.6m) -> Dia 1.0 ( 218.7m) | Op:4 Ws:5 
+Task  5: Dia 1.0 ( 263.2m) -> Dia 1.0 ( 340.6m) | Op:6 Ws:3 
 Veículo 7:
-Task  2: Dia 1 (109m) -> Dia 1 (196m) | Op:6 Ws:6 
-Task  6: Dia 1 (222m) -> Dia 1 (345m) | Op:1 Ws:6 
-Task  9: Dia 1 (345m) -> Dia 1 (373m) | Op:1 Ws:6 
+Task  2: Dia 1.0 (  73.5m) -> Dia 1.0 ( 160.7m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 192.9m) -> Dia 1.0 ( 302.5m) | Op:2 Ws:7 
+Task  9: Dia 1.0 ( 302.5m) -> Dia 1.0 ( 331.0m) | Op:2 Ws:7 
 Veículo 8:
-Task  2: Dia 1 (  0m) -> Dia 1 (109m) | Op:6 Ws:6 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  93.6m) | Op:4 Ws:1 
 Veículo 9:
-Task  2: Dia 1 ( 94m) -> Dia 1 (160m) | Op:7 Ws:5 
-Task  3: Dia 1 (160m) -> Dia 1 (276m) | Op:7 Ws:4 
-Task  9: Dia 1 (276m) -> Dia 1 (391m) | Op:4 Ws:4 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  73.5m) | Op:6 Ws:7 
+Task  3: Dia 1.0 ( 108.9m) -> Dia 1.0 ( 213.3m) | Op:5 Ws:4 
+Task  9: Dia 1.0 ( 222.0m) -> Dia 1.0 ( 343.6m) | Op:1 Ws:4 
 Veículo 10:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 31m) | Op:5 Ws:2 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  30.6m) | Op:5 Ws:2 
 Veículo 11:
-Task  1: Dia 1 (120m) -> Dia 1 (222m) | Op:1 Ws:7 
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 222.0m) | Op:1 Ws:3 
 Veículo 12:
-Task  7: Dia 1 (285m) -> Dia 1 (406m) | Op:3 Ws:7 
+Task  7: Dia 1.0 ( 194.3m) -> Dia 1.0 ( 315.0m) | Op:3 Ws:6 
 Veículo 13:
-Task  3: Dia 1 ( 31m) -> Dia 1 (109m) | Op:5 Ws:8 
-Task  6: Dia 1 (109m) -> Dia 1 (174m) | Op:5 Ws:8 
-Task  7: Dia 1 (174m) -> Dia 1 (195m) | Op:3 Ws:8 
+Task  3: Dia 1.0 (  30.6m) -> Dia 1.0 ( 108.9m) | Op:5 Ws:2 
+Task  6: Dia 1.0 ( 157.7m) -> Dia 1.0 ( 225.7m) | Op:7 Ws:8 
+Task  7: Dia 1.0 ( 315.0m) -> Dia 1.0 ( 336.2m) | Op:3 Ws:8 
 Veículo 14:
-Task  5: Dia 1 (275m) -> Dia 1 (317m) | Op:2 Ws:3 
-Task  6: Dia 1 (317m) -> Dia 1 (348m) | Op:2 Ws:2 
-Task  8: Dia 1 (348m) -> Dia 1 (438m) | Op:5 Ws:2 
+Task  5: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 161.7m) | Op:2 Ws:1 
+Task  6: Dia 1.0 ( 161.7m) -> Dia 1.0 ( 192.9m) | Op:2 Ws:2 
+Task  8: Dia 1.0 ( 213.3m) -> Dia 1.0 ( 303.7m) | Op:5 Ws:2 
 Veículo 15:
-Task  4: Dia 1 (120m) -> Dia 1 (212m) | Op:2 Ws:3 
-Task  6: Dia 1 (212m) -> Dia 1 (275m) | Op:2 Ws:2 
+Task  4: Dia 1.0 ( 160.7m) -> Dia 1.0 ( 263.2m) | Op:6 Ws:10 
+Task  6: Dia 1.0 ( 263.2m) -> Dia 1.0 ( 342.2m) | Op:7 Ws:10 
 
-Instance: Inst_1D_15_10.txt | Makespan Global: 414
+Instance: Inst_1D_15_10.txt | Makespan Global: 352.00
 ------------------------------------------------------------
 Veículo 1:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 48m) | Op:4 Ws:6 
-Task  7: Dia 1 ( 48m) -> Dia 1 (104m) | Op:4 Ws:6 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  47.7m) | Op:4 Ws:8 
+Task  7: Dia 1.0 (  83.5m) -> Dia 1.0 ( 139.3m) | Op:4 Ws:8 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 45m) | Op:3 Ws:4 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  42.3m) | Op:5 Ws:2 
 Veículo 3:
-Task  1: Dia 1 ( 26m) -> Dia 1 ( 75m) | Op:5 Ws:2 
-Task  9: Dia 1 (245m) -> Dia 1 (369m) | Op:2 Ws:1 
+Task  1: Dia 1.0 ( 129.7m) -> Dia 1.0 ( 173.8m) | Op:1 Ws:1 
+Task  9: Dia 1.0 ( 173.8m) -> Dia 1.0 ( 297.4m) | Op:1 Ws:1 
 Veículo 4:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 28m) | Op:2 Ws:1 
-Task  5: Dia 1 ( 28m) -> Dia 1 ( 65m) | Op:2 Ws:1 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  28.1m) | Op:2 Ws:1 
+Task  5: Dia 1.0 (  28.1m) -> Dia 1.0 (  64.6m) | Op:2 Ws:1 
 Veículo 5:
-Task  1: Dia 1 ( 47m) -> Dia 1 (107m) | Op:1 Ws:4 
-Task  7: Dia 1 (236m) -> Dia 1 (341m) | Op:3 Ws:5 
+Task  1: Dia 1.0 (  69.3m) -> Dia 1.0 ( 129.7m) | Op:1 Ws:1 
+Task  7: Dia 1.0 ( 226.9m) -> Dia 1.0 ( 331.5m) | Op:3 Ws:5 
 Veículo 6:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 47m) | Op:1 Ws:5 
-Task  7: Dia 1 ( 47m) -> Dia 1 ( 77m) | Op:3 Ws:5 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  52.0m) | Op:7 Ws:7 
+Task  7: Dia 1.0 (  52.0m) -> Dia 1.0 (  83.5m) | Op:4 Ws:7 
 Veículo 7:
-Task  7: Dia 1 ( 77m) -> Dia 1 (166m) | Op:3 Ws:5 
+Task  7: Dia 1.0 ( 137.7m) -> Dia 1.0 ( 226.9m) | Op:3 Ws:5 
 Veículo 8:
-Task  6: Dia 1 ( 65m) -> Dia 1 (127m) | Op:2 Ws:7 
-Task  7: Dia 1 (127m) -> Dia 1 (199m) | Op:4 Ws:7 
-Task  9: Dia 1 (199m) -> Dia 1 (300m) | Op:1 Ws:7 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  69.3m) | Op:1 Ws:6 
+Task  7: Dia 1.0 (  69.7m) -> Dia 1.0 ( 137.7m) | Op:3 Ws:6 
+Task  9: Dia 1.0 ( 139.3m) -> Dia 1.0 ( 234.7m) | Op:4 Ws:6 
 Veículo 9:
-Task  1: Dia 1 ( 75m) -> Dia 1 (152m) | Op:5 Ws:2 
-Task  6: Dia 1 (152m) -> Dia 1 (245m) | Op:2 Ws:8 
+Task  1: Dia 1.0 (  64.6m) -> Dia 1.0 ( 145.6m) | Op:2 Ws:9 
+Task  6: Dia 1.0 ( 145.6m) -> Dia 1.0 ( 238.4m) | Op:2 Ws:8 
 Veículo 10:
-Task  2: Dia 1 ( 79m) -> Dia 1 (150m) | Op:6 Ws:1 
-Task  7: Dia 1 (199m) -> Dia 1 (292m) | Op:4 Ws:6 
+Task  2: Dia 1.0 ( 166.2m) -> Dia 1.0 ( 237.7m) | Op:6 Ws:7 
+Task  7: Dia 1.0 ( 237.7m) -> Dia 1.0 ( 330.4m) | Op:4 Ws:7 
 Veículo 11:
-Task  4: Dia 1 ( 96m) -> Dia 1 (190m) | Op:7 Ws:3 
-Task  5: Dia 1 (190m) -> Dia 1 (271m) | Op:6 Ws:3 
-Task  8: Dia 1 (292m) -> Dia 1 (414m) | Op:4 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  85.5m) | Op:6 Ws:3 
+Task  5: Dia 1.0 (  85.5m) -> Dia 1.0 ( 166.2m) | Op:6 Ws:3 
+Task  8: Dia 1.0 ( 230.5m) -> Dia 1.0 ( 345.7m) | Op:5 Ws:3 
 Veículo 12:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 96m) | Op:7 Ws:8 
+Task  3: Dia 1.0 ( 139.8m) -> Dia 1.0 ( 235.8m) | Op:7 Ws:4 
 Veículo 13:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 26m) | Op:5 Ws:2 
-Task  4: Dia 1 ( 26m) -> Dia 1 ( 79m) | Op:6 Ws:3 
+Task  3: Dia 1.0 (  52.0m) -> Dia 1.0 (  81.0m) | Op:7 Ws:4 
+Task  4: Dia 1.0 (  81.0m) -> Dia 1.0 ( 139.8m) | Op:7 Ws:10 
 Veículo 14:
-Task  3: Dia 1 (240m) -> Dia 1 (352m) | Op:7 Ws:4 
+Task  3: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 352.0m) | Op:7 Ws:2 
 Veículo 15:
-Task  7: Dia 1 (166m) -> Dia 1 (236m) | Op:3 Ws:5 
-Task  8: Dia 1 (236m) -> Dia 1 (300m) | Op:5 Ws:2 
-Task  9: Dia 1 (300m) -> Dia 1 (397m) | Op:5 Ws:2 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 (  69.7m) | Op:3 Ws:5 
+Task  8: Dia 1.0 (  69.7m) -> Dia 1.0 ( 133.7m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 133.7m) -> Dia 1.0 ( 230.5m) | Op:5 Ws:2 
 
-Instance: Inst_1D_15_2.txt | Makespan Global: 662
+Instance: Inst_1D_15_2.txt | Makespan Global: 403.80
 ------------------------------------------------------------
 Veículo 1:
-Task  6: Dia 1 ( 50m) -> Dia 1 (155m) | Op:1 Ws:8 
-Task  7: Dia 1 (155m) -> Dia 1 (231m) | Op:4 Ws:8 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 ( 111.1m) | Op:5 Ws:7 
+Task  7: Dia 1.0 ( 185.4m) -> Dia 1.0 ( 261.0m) | Op:4 Ws:7 
 Veículo 2:
-Task  9: Dia 1 (  0m) -> Dia 1 ( 36m) | Op:4 Ws:1 
+Task  9: Dia 1.0 (  93.6m) -> Dia 1.0 ( 131.6m) | Op:1 Ws:2 
 Veículo 3:
-Task  4: Dia 1 ( 27m) -> Dia 1 (137m) | Op:7 Ws:7 
-Task  8: Dia 1 (137m) -> Dia 1 (211m) | Op:5 Ws:7 
+Task  4: Dia 1.0 ( 180.2m) -> Dia 1.0 ( 279.9m) | Op:6 Ws:3 
+Task  8: Dia 1.0 ( 289.7m) -> Dia 1.0 ( 364.1m) | Op:5 Ws:3 
 Veículo 4:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 99m) | Op:5 Ws:6 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  93.6m) | Op:1 Ws:5 
 Veículo 5:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:1 Ws:5 
-Task  7: Dia 1 ( 50m) -> Dia 1 (110m) | Op:3 Ws:5 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  55.0m) | Op:7 Ws:8 
+Task  7: Dia 1.0 ( 121.5m) -> Dia 1.0 ( 185.4m) | Op:4 Ws:8 
 Veículo 6:
-Task  7: Dia 1 (170m) -> Dia 1 (285m) | Op:3 Ws:5 
-Task  8: Dia 1 (285m) -> Dia 1 (355m) | Op:3 Ws:2 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 ( 121.5m) | Op:4 Ws:11 
+Task  8: Dia 1.0 ( 121.5m) -> Dia 1.0 ( 172.7m) | Op:5 Ws:11 
 Veículo 7:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 40m) | Op:2 Ws:2 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  40.0m) | Op:2 Ws:2 
 Veículo 8:
-Task  7: Dia 1 (231m) -> Dia 1 (356m) | Op:4 Ws:6 
-Task 10: Dia 1 (356m) -> Dia 1 (472m) | Op:4 Ws:6 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 ( 118.1m) | Op:3 Ws:6 
+Task 10: Dia 1.0 ( 118.1m) -> Dia 1.0 ( 214.9m) | Op:2 Ws:6 
 Veículo 9:
-Task  5: Dia 1 (  0m) -> Dia 1 ( 75m) | Op:6 Ws:3 
-Task 10: Dia 1 ( 75m) -> Dia 1 (111m) | Op:2 Ws:3 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  74.8m) | Op:6 Ws:1 
+Task 10: Dia 1.0 (  74.8m) -> Dia 1.0 ( 110.8m) | Op:2 Ws:1 
 Veículo 10:
-Task  5: Dia 1 ( 36m) -> Dia 1 (148m) | Op:4 Ws:1 
+Task  5: Dia 1.0 (  74.8m) -> Dia 1.0 ( 180.2m) | Op:6 Ws:3 
 Veículo 11:
-Task  5: Dia 1 (120m) -> Dia 1 (238m) | Op:2 Ws:3 
-Task  7: Dia 1 (475m) -> Dia 2 (122m) | Op:3 Ws:5 [Interrompida pelo Fim do Turno]
-Task 10: Dia 2 (122m) -> Dia 2 (182m) | Op:3 Ws:1 
+Task  5: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 217.3m) | Op:3 Ws:1 
+Task  7: Dia 1.0 ( 217.3m) -> Dia 1.0 ( 343.9m) | Op:3 Ws:5 
+Task 10: Dia 1.0 ( 343.9m) -> Dia 1.0 ( 403.8m) | Op:3 Ws:1 
 Veículo 12:
-Task  1: Dia 1 (120m) -> Dia 1 (170m) | Op:3 Ws:2 
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 175.8m) | Op:7 Ws:4 
 Veículo 13:
-Task  3: Dia 1 (137m) -> Dia 1 (267m) | Op:7 Ws:4 
+Task  3: Dia 1.0 ( 172.7m) -> Dia 1.0 ( 289.7m) | Op:5 Ws:10 
 Veículo 14:
-Task  7: Dia 1 (355m) -> Dia 1 (475m) | Op:3 Ws:5 
+Task  7: Dia 1.0 ( 261.0m) -> Dia 1.0 ( 387.9m) | Op:4 Ws:6 
 Veículo 15:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 27m) | Op:7 Ws:4 
-Task  2: Dia 1 ( 75m) -> Dia 1 (229m) | Op:6 Ws:9 
+Task  1: Dia 1.0 (  55.0m) -> Dia 1.0 (  82.0m) | Op:7 Ws:2 
+Task  2: Dia 1.0 ( 175.8m) -> Dia 1.0 ( 315.5m) | Op:7 Ws:2 
 
-Instance: Inst_1D_15_3.txt | Makespan Global: 395
+Instance: Inst_1D_15_3.txt | Makespan Global: 340.50
 ------------------------------------------------------------
 Veículo 1:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 31m) | Op:2 Ws:1 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  34.2m) | Op:6 Ws:7 
 Veículo 2:
-Task  1: Dia 1 ( 32m) -> Dia 1 (124m) | Op:1 Ws:8 
-Task  5: Dia 1 (149m) -> Dia 1 (180m) | Op:1 Ws:7 
-Task 10: Dia 1 (180m) -> Dia 1 (248m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  86.4m) | Op:3 Ws:1 
+Task  5: Dia 1.0 (  86.4m) -> Dia 1.0 ( 109.5m) | Op:3 Ws:1 
+Task 10: Dia 1.0 ( 109.5m) -> Dia 1.0 ( 195.0m) | Op:3 Ws:1 
 Veículo 3:
-Task  1: Dia 1 (164m) -> Dia 1 (272m) | Op:5 Ws:2 
-Task  2: Dia 1 (272m) -> Dia 1 (395m) | Op:7 Ws:2 
+Task  1: Dia 1.0 (  32.4m) -> Dia 1.0 ( 129.3m) | Op:1 Ws:9 
+Task  2: Dia 1.0 ( 181.8m) -> Dia 1.0 ( 317.2m) | Op:6 Ws:9 
 Veículo 4:
-Task  8: Dia 1 ( 75m) -> Dia 1 (164m) | Op:5 Ws:4 
-Task 10: Dia 1 (191m) -> Dia 1 (267m) | Op:7 Ws:3 
+Task  8: Dia 1.0 (   0.0m) -> Dia 1.0 (  88.8m) | Op:5 Ws:2 
+Task 10: Dia 1.0 (  91.8m) -> Dia 1.0 ( 148.8m) | Op:2 Ws:3 
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 69m) | Op:7 Ws:7 
-Task  2: Dia 1 ( 69m) -> Dia 1 (149m) | Op:7 Ws:7 
-Task 10: Dia 1 (149m) -> Dia 1 (191m) | Op:7 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  69.3m) | Op:7 Ws:4 
+Task  2: Dia 1.0 ( 198.4m) -> Dia 1.0 ( 278.2m) | Op:7 Ws:1 
+Task 10: Dia 1.0 ( 278.2m) -> Dia 1.0 ( 320.2m) | Op:7 Ws:1 
 Veículo 6:
-Task  5: Dia 1 (180m) -> Dia 1 (256m) | Op:3 Ws:7 
-Task 10: Dia 1 (256m) -> Dia 1 (356m) | Op:2 Ws:1 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  91.8m) | Op:2 Ws:3 
+Task 10: Dia 1.0 ( 148.8m) -> Dia 1.0 ( 249.3m) | Op:2 Ws:3 
 Veículo 7:
-Task  7: Dia 1 (  0m) -> Dia 1 ( 34m) | Op:3 Ws:5 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 (  36.0m) | Op:4 Ws:5 
 Veículo 8:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:4 Ws:3 
-Task  9: Dia 1 ( 50m) -> Dia 1 (110m) | Op:4 Ws:6 
+Task  4: Dia 1.0 (  34.2m) -> Dia 1.0 (  84.5m) | Op:6 Ws:7 
+Task  9: Dia 1.0 ( 132.0m) -> Dia 1.0 ( 205.7m) | Op:5 Ws:7 
 Veículo 9:
-Task  7: Dia 1 ( 34m) -> Dia 1 ( 89m) | Op:3 Ws:5 
+Task  7: Dia 1.0 (  36.0m) -> Dia 1.0 (  94.5m) | Op:4 Ws:5 
 Veículo 10:
-Task  4: Dia 1 (  0m) -> Dia 1 (117m) | Op:6 Ws:10 
-Task  7: Dia 1 (214m) -> Dia 1 (282m) | Op:4 Ws:5 
+Task  4: Dia 1.0 (  69.3m) -> Dia 1.0 ( 198.4m) | Op:7 Ws:8 
+Task  7: Dia 1.0 ( 243.3m) -> Dia 1.0 ( 311.7m) | Op:4 Ws:8 
 Veículo 11:
-Task  4: Dia 1 (120m) -> Dia 1 (175m) | Op:3 Ws:1 
-Task  9: Dia 1 (180m) -> Dia 1 (297m) | Op:1 Ws:4 
+Task  4: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 181.8m) | Op:6 Ws:5 
+Task  9: Dia 1.0 ( 181.8m) -> Dia 1.0 ( 298.6m) | Op:1 Ws:5 
 Veículo 12:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 32m) | Op:1 Ws:2 
-Task  8: Dia 1 ( 32m) -> Dia 1 ( 75m) | Op:5 Ws:4 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  32.4m) | Op:1 Ws:6 
+Task  8: Dia 1.0 (  88.8m) -> Dia 1.0 ( 132.0m) | Op:5 Ws:6 
 Veículo 13:
-Task  2: Dia 1 (120m) -> Dia 1 (264m) | Op:6 Ws:9 
-Task  3: Dia 1 (264m) -> Dia 1 (367m) | Op:3 Ws:6 
+Task  2: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 243.3m) | Op:4 Ws:2 
+Task  3: Dia 1.0 ( 243.3m) -> Dia 1.0 ( 340.5m) | Op:5 Ws:2 
 Veículo 14:
-Task  6: Dia 1 (120m) -> Dia 1 (154m) | Op:2 Ws:2 
+Task  6: Dia 1.0 ( 249.3m) -> Dia 1.0 ( 282.9m) | Op:2 Ws:7 
 Veículo 15:
-Task 10: Dia 1 (120m) -> Dia 1 (214m) | Op:4 Ws:6 
+Task 10: Dia 1.0 ( 195.0m) -> Dia 1.0 ( 293.8m) | Op:3 Ws:6 
 
-Instance: Inst_1D_15_4.txt | Makespan Global: 603
+Instance: Inst_1D_15_4.txt | Makespan Global: 444.55
 ------------------------------------------------------------
 Veículo 1:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 65m) | Op:2 Ws:3 
-Task  7: Dia 1 ( 65m) -> Dia 1 (130m) | Op:3 Ws:5 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  65.5m) | Op:2 Ws:3 
+Task  7: Dia 1.0 ( 114.0m) -> Dia 1.0 ( 179.5m) | Op:3 Ws:5 
 Veículo 2:
-Task  2: Dia 1 (288m) -> Dia 1 (396m) | Op:7 Ws:1 
-Task  6: Dia 1 (396m) -> Dia 2 ( 60m) | Op:7 Ws:2 [Interrompida pelo Fim do Turno]
-Task  9: Dia 2 ( 60m) -> Dia 2 (123m) | Op:1 Ws:2 
+Task  2: Dia 1.0 (  87.2m) -> Dia 1.0 ( 206.9m) | Op:6 Ws:2 
+Task  6: Dia 1.0 ( 206.9m) -> Dia 1.0 ( 336.5m) | Op:1 Ws:2 
+Task  9: Dia 1.0 ( 336.5m) -> Dia 1.0 ( 399.2m) | Op:1 Ws:2 
 Veículo 3:
-Task  3: Dia 1 (126m) -> Dia 1 (176m) | Op:5 Ws:6 
-Task  7: Dia 1 (176m) -> Dia 1 (283m) | Op:3 Ws:6 
-Task  8: Dia 1 (283m) -> Dia 1 (361m) | Op:3 Ws:6 
+Task  3: Dia 1.0 (  79.2m) -> Dia 1.0 ( 128.7m) | Op:5 Ws:4 
+Task  7: Dia 1.0 ( 280.6m) -> Dia 1.0 ( 387.8m) | Op:3 Ws:5 
+Task  8: Dia 1.0 ( 387.8m) -> Dia 1.0 ( 444.6m) | Op:5 Ws:3 
 Veículo 4:
-Task  8: Dia 1 ( 90m) -> Dia 1 (174m) | Op:4 Ws:4 
+Task  8: Dia 1.0 (   0.0m) -> Dia 1.0 (  79.2m) | Op:5 Ws:4 
 Veículo 5:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:4 Ws:1 
-Task 10: Dia 1 ( 50m) -> Dia 1 ( 90m) | Op:4 Ws:1 
+Task  2: Dia 1.0 (  67.5m) -> Dia 1.0 ( 117.9m) | Op:4 Ws:1 
+Task 10: Dia 1.0 ( 141.3m) -> Dia 1.0 ( 181.8m) | Op:4 Ws:1 
 Veículo 6:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 85m) | Op:6 Ws:6 
-Task  5: Dia 1 ( 85m) -> Dia 1 (130m) | Op:6 Ws:3 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  77.0m) | Op:7 Ws:2 
+Task  5: Dia 1.0 (  77.0m) -> Dia 1.0 ( 114.0m) | Op:3 Ws:3 
 Veículo 7:
-Task  2: Dia 1 (130m) -> Dia 1 (221m) | Op:6 Ws:7 
-Task  3: Dia 1 (221m) -> Dia 1 (296m) | Op:5 Ws:2 
-Task  6: Dia 1 (296m) -> Dia 1 (335m) | Op:5 Ws:2 
+Task  2: Dia 1.0 ( 145.2m) -> Dia 1.0 ( 227.8m) | Op:7 Ws:6 
+Task  3: Dia 1.0 ( 227.8m) -> Dia 1.0 ( 310.8m) | Op:7 Ws:6 
+Task  6: Dia 1.0 ( 310.8m) -> Dia 1.0 ( 351.8m) | Op:7 Ws:6 
 Veículo 8:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 71m) | Op:1 Ws:4 
-Task  5: Dia 1 ( 71m) -> Dia 1 ( 95m) | Op:1 Ws:7 
-Task  8: Dia 1 ( 95m) -> Dia 1 (126m) | Op:5 Ws:7 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  70.5m) | Op:1 Ws:9 
+Task  5: Dia 1.0 ( 114.0m) -> Dia 1.0 ( 137.8m) | Op:1 Ws:3 
+Task  8: Dia 1.0 ( 181.8m) -> Dia 1.0 ( 215.0m) | Op:4 Ws:3 
 Veículo 9:
-Task  2: Dia 1 ( 71m) -> Dia 1 (150m) | Op:7 Ws:2 
-Task  7: Dia 1 (150m) -> Dia 1 (172m) | Op:3 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  87.2m) | Op:6 Ws:5 
+Task  7: Dia 1.0 ( 117.9m) -> Dia 1.0 ( 141.3m) | Op:4 Ws:6 
 Veículo 10:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 71m) | Op:7 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  67.5m) | Op:4 Ws:1 
 Veículo 11:
-Task  5: Dia 1 (130m) -> Dia 1 (224m) | Op:2 Ws:3 
-Task  6: Dia 1 (224m) -> Dia 1 (302m) | Op:2 Ws:5 
+Task  5: Dia 1.0 (  74.9m) -> Dia 1.0 ( 168.4m) | Op:2 Ws:7 
+Task  6: Dia 1.0 ( 168.4m) -> Dia 1.0 ( 246.0m) | Op:2 Ws:10 
 Veículo 12:
-Task  4: Dia 1 ( 65m) -> Dia 1 (120m) | Op:2 Ws:8 
-Task  8: Dia 1 (286m) -> Dia 1 (397m) | Op:4 Ws:8 
+Task  4: Dia 1.0 (  77.0m) -> Dia 1.0 ( 145.2m) | Op:7 Ws:8 
+Task  8: Dia 1.0 ( 145.2m) -> Dia 1.0 ( 250.0m) | Op:5 Ws:8 
 Veículo 13:
-Task  5: Dia 1 (224m) -> Dia 1 (315m) | Op:6 Ws:3 
-Task  7: Dia 1 (361m) -> Dia 1 (462m) | Op:3 Ws:5 
-Task  9: Dia 1 (462m) -> Dia 2 ( 92m) | Op:4 Ws:5 [Interrompida pelo Fim do Turno]
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  74.9m) | Op:3 Ws:7 
+Task  7: Dia 1.0 ( 179.5m) -> Dia 1.0 ( 280.6m) | Op:3 Ws:7 
+Task  9: Dia 1.0 ( 285.9m) -> Dia 1.0 ( 395.7m) | Op:4 Ws:7 
 Veículo 14:
-Task  9: Dia 1 (240m) -> Dia 1 (286m) | Op:4 Ws:1 
+Task  9: Dia 1.0 ( 250.0m) -> Dia 1.0 ( 306.1m) | Op:5 Ws:4 
 Veículo 15:
-Task  2: Dia 1 (240m) -> Dia 1 (288m) | Op:7 Ws:7 
-Task  4: Dia 1 (302m) -> Dia 1 (407m) | Op:2 Ws:7 
-Task  7: Dia 1 (462m) -> Dia 2 ( 36m) | Op:3 Ws:7 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 285.9m) | Op:4 Ws:1 
+Task  4: Dia 1.0 ( 285.9m) -> Dia 1.0 ( 390.4m) | Op:2 Ws:1 
+Task  7: Dia 1.0 ( 390.4m) -> Dia 1.0 ( 444.0m) | Op:3 Ws:5 
 
-Instance: Inst_1D_15_5.txt | Makespan Global: 595
+Instance: Inst_1D_15_5.txt | Makespan Global: 340.80
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 25m) | Op:1 Ws:7 
-Task  7: Dia 1 ( 44m) -> Dia 1 ( 81m) | Op:4 Ws:7 
-Task  8: Dia 1 ( 81m) -> Dia 1 (110m) | Op:4 Ws:7 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  24.6m) | Op:1 Ws:4 
+Task  7: Dia 1.0 ( 122.9m) -> Dia 1.0 ( 157.8m) | Op:3 Ws:6 
+Task  8: Dia 1.0 ( 157.8m) -> Dia 1.0 ( 195.2m) | Op:3 Ws:6 
 Veículo 2:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 44m) | Op:4 Ws:1 
-Task  3: Dia 1 ( 44m) -> Dia 1 (136m) | Op:5 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  44.1m) | Op:4 Ws:1 
+Task  3: Dia 1.0 (  45.9m) -> Dia 1.0 ( 137.7m) | Op:5 Ws:2 
 Veículo 3:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 99m) | Op:6 Ws:11 
-Task 10: Dia 1 (120m) -> Dia 1 (256m) | Op:7 Ws:6 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  98.8m) | Op:6 Ws:3 
+Task 10: Dia 1.0 ( 131.0m) -> Dia 1.0 ( 267.0m) | Op:7 Ws:3 
 Veículo 4:
-Task  7: Dia 1 (295m) -> Dia 1 (411m) | Op:3 Ws:5 
-Task  9: Dia 1 (411m) -> Dia 1 (474m) | Op:4 Ws:5 
+Task  7: Dia 1.0 (  44.1m) -> Dia 1.0 ( 166.5m) | Op:4 Ws:5 
+Task  9: Dia 1.0 ( 166.5m) -> Dia 1.0 ( 229.5m) | Op:4 Ws:5 
 Veículo 5:
-Task  6: Dia 1 ( 25m) -> Dia 1 ( 55m) | Op:1 Ws:10 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  26.4m) | Op:2 Ws:5 
 Veículo 6:
-Task  1: Dia 1 ( 55m) -> Dia 1 (129m) | Op:1 Ws:4 
-Task  8: Dia 1 (227m) -> Dia 1 (295m) | Op:3 Ws:4 
-Task  9: Dia 1 (295m) -> Dia 1 (355m) | Op:4 Ws:4 
+Task  1: Dia 1.0 (  24.6m) -> Dia 1.0 (  98.6m) | Op:1 Ws:4 
+Task  8: Dia 1.0 ( 195.2m) -> Dia 1.0 ( 263.4m) | Op:3 Ws:4 
+Task  9: Dia 1.0 ( 276.3m) -> Dia 1.0 ( 339.9m) | Op:1 Ws:4 
 Veículo 7:
-Task  3: Dia 1 (256m) -> Dia 1 (387m) | Op:7 Ws:6 
-Task  6: Dia 1 (387m) -> Dia 2 (  3m) | Op:7 Ws:6 [Interrompida pelo Fim do Turno]
-Task  9: Dia 2 (  3m) -> Dia 2 (115m) | Op:4 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 131.0m) | Op:7 Ws:8 
+Task  6: Dia 1.0 ( 131.0m) -> Dia 1.0 ( 217.4m) | Op:1 Ws:8 
+Task  9: Dia 1.0 ( 217.9m) -> Dia 1.0 ( 336.6m) | Op:2 Ws:8 
 Veículo 8:
-Task  7: Dia 1 (  0m) -> Dia 1 ( 57m) | Op:3 Ws:5 
-Task  8: Dia 1 ( 57m) -> Dia 1 (123m) | Op:3 Ws:3 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 (  56.9m) | Op:3 Ws:6 
+Task  8: Dia 1.0 (  56.9m) -> Dia 1.0 ( 122.9m) | Op:3 Ws:6 
 Veículo 9:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 51m) | Op:7 Ws:4 
-Task  6: Dia 1 ( 51m) -> Dia 1 (120m) | Op:7 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  45.9m) | Op:5 Ws:2 
+Task  6: Dia 1.0 (  45.9m) -> Dia 1.0 ( 101.1m) | Op:2 Ws:7 
 Veículo 10:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 77m) | Op:2 Ws:8 
+Task  6: Dia 1.0 ( 101.1m) -> Dia 1.0 ( 177.9m) | Op:2 Ws:7 
 Veículo 11:
-Task  3: Dia 1 (136m) -> Dia 1 (256m) | Op:5 Ws:2 
-Task  8: Dia 1 (256m) -> Dia 1 (337m) | Op:5 Ws:2 
+Task  3: Dia 1.0 ( 137.7m) -> Dia 1.0 ( 257.4m) | Op:5 Ws:2 
+Task  8: Dia 1.0 ( 257.4m) -> Dia 1.0 ( 338.2m) | Op:5 Ws:2 
 Veículo 12:
-Task  9: Dia 1 (240m) -> Dia 1 (346m) | Op:1 Ws:7 
+Task  9: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 340.8m) | Op:4 Ws:5 
 Veículo 13:
-Task  6: Dia 1 (120m) -> Dia 1 (160m) | Op:2 Ws:5 
-Task  7: Dia 1 (160m) -> Dia 1 (227m) | Op:3 Ws:5 
+Task  6: Dia 1.0 ( 177.9m) -> Dia 1.0 ( 217.9m) | Op:2 Ws:7 
+Task  7: Dia 1.0 ( 263.4m) -> Dia 1.0 ( 330.5m) | Op:3 Ws:7 
 Veículo 14:
-Task  2: Dia 1 (120m) -> Dia 1 (152m) | Op:4 Ws:1 
-Task  4: Dia 1 (152m) -> Dia 1 (253m) | Op:4 Ws:1 
+Task  2: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 157.8m) | Op:6 Ws:1 
+Task  4: Dia 1.0 ( 157.8m) -> Dia 1.0 ( 258.5m) | Op:6 Ws:1 
 Veículo 15:
-Task  9: Dia 1 (129m) -> Dia 1 (188m) | Op:1 Ws:7 
+Task  9: Dia 1.0 ( 217.4m) -> Dia 1.0 ( 276.3m) | Op:1 Ws:6 
 
-Instance: Inst_1D_15_6.txt | Makespan Global: 550
+Instance: Inst_1D_15_6.txt | Makespan Global: 383.40
 ------------------------------------------------------------
 Veículo 1:
-Task  3: Dia 1 ( 76m) -> Dia 1 (144m) | Op:5 Ws:8 
-Task  6: Dia 1 (144m) -> Dia 1 (234m) | Op:5 Ws:8 
+Task  3: Dia 1.0 (  76.0m) -> Dia 1.0 ( 144.4m) | Op:5 Ws:2 
+Task  6: Dia 1.0 ( 144.4m) -> Dia 1.0 ( 234.7m) | Op:5 Ws:2 
 Veículo 2:
-Task  4: Dia 1 (  0m) -> Dia 1 (121m) | Op:2 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 ( 120.7m) | Op:3 Ws:5 
 Veículo 3:
-Task  5: Dia 1 (230m) -> Dia 1 (335m) | Op:6 Ws:7 
-Task  7: Dia 1 (335m) -> Dia 1 (381m) | Op:3 Ws:7 
+Task  5: Dia 1.0 ( 120.7m) -> Dia 1.0 ( 207.5m) | Op:3 Ws:7 
+Task  7: Dia 1.0 ( 278.1m) -> Dia 1.0 ( 323.9m) | Op:3 Ws:7 
 Veículo 4:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:5 Ws:2 
-Task  8: Dia 1 ( 50m) -> Dia 1 ( 76m) | Op:5 Ws:2 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  50.4m) | Op:5 Ws:2 
+Task  8: Dia 1.0 (  50.4m) -> Dia 1.0 (  76.0m) | Op:5 Ws:2 
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 96m) | Op:1 Ws:4 
-Task  4: Dia 1 (311m) -> Dia 1 (364m) | Op:2 Ws:1 
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 221.7m) | Op:7 Ws:6 
+Task  4: Dia 1.0 ( 221.7m) -> Dia 1.0 ( 286.8m) | Op:7 Ws:6 
 Veículo 6:
-Task 10: Dia 1 (  0m) -> Dia 1 (101m) | Op:7 Ws:12 
+Task 10: Dia 1.0 (   0.0m) -> Dia 1.0 (  75.8m) | Op:2 Ws:3 
 Veículo 7:
-Task  4: Dia 1 (116m) -> Dia 1 (238m) | Op:3 Ws:1 
-Task  5: Dia 1 (238m) -> Dia 1 (309m) | Op:3 Ws:1 
+Task  4: Dia 1.0 (  75.8m) -> Dia 1.0 ( 198.1m) | Op:2 Ws:3 
+Task  5: Dia 1.0 ( 231.9m) -> Dia 1.0 ( 327.8m) | Op:1 Ws:3 
 Veículo 8:
-Task 10: Dia 1 (  0m) -> Dia 1 (108m) | Op:4 Ws:6 
+Task 10: Dia 1.0 (   0.0m) -> Dia 1.0 ( 120.0m) | Op:7 Ws:6 
 Veículo 9:
-Task  2: Dia 1 (  0m) -> Dia 1 (112m) | Op:6 Ws:5 
-Task  7: Dia 1 (112m) -> Dia 1 (187m) | Op:4 Ws:5 
-Task  8: Dia 1 (187m) -> Dia 1 (271m) | Op:4 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 112.4m) | Op:6 Ws:7 
+Task  7: Dia 1.0 ( 207.5m) -> Dia 1.0 ( 278.1m) | Op:3 Ws:7 
+Task  8: Dia 1.0 ( 278.1m) -> Dia 1.0 ( 362.2m) | Op:4 Ws:2 
 Veículo 10:
-Task  1: Dia 1 (  0m) -> Dia 1 (116m) | Op:3 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 123.2m) | Op:1 Ws:4 
 Veículo 11:
-Task 10: Dia 1 (271m) -> Dia 1 (311m) | Op:4 Ws:12 
+Task 10: Dia 1.0 ( 198.1m) -> Dia 1.0 ( 231.9m) | Op:2 Ws:3 
 Veículo 12:
-Task  9: Dia 1 (120m) -> Dia 1 (160m) | Op:1 Ws:4 
+Task  9: Dia 1.0 ( 123.2m) -> Dia 1.0 ( 163.2m) | Op:1 Ws:4 
 Veículo 13:
-Task  2: Dia 1 (311m) -> Dia 1 (424m) | Op:4 Ws:2 
-Task  8: Dia 1 (424m) -> Dia 2 ( 70m) | Op:4 Ws:2 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 252.3m) | Op:6 Ws:8 
+Task  8: Dia 1.0 ( 252.3m) -> Dia 1.0 ( 370.7m) | Op:5 Ws:8 
 Veículo 14:
-Task  2: Dia 1 (240m) -> Dia 1 (279m) | Op:7 Ws:5 
-Task 10: Dia 1 (279m) -> Dia 1 (421m) | Op:7 Ws:6 
+Task  2: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 276.9m) | Op:4 Ws:1 
+Task 10: Dia 1.0 ( 276.9m) -> Dia 1.0 ( 383.4m) | Op:2 Ws:1 
 Veículo 15:
-Task  2: Dia 1 (101m) -> Dia 1 (230m) | Op:7 Ws:7 
-Task 10: Dia 1 (230m) -> Dia 1 (311m) | Op:2 Ws:3 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 122.4m) | Op:4 Ws:1 
+Task 10: Dia 1.0 ( 122.4m) -> Dia 1.0 ( 219.6m) | Op:4 Ws:1 
 
-Instance: Inst_1D_15_7.txt | Makespan Global: 503
+Instance: Inst_1D_15_7.txt | Makespan Global: 360.00
 ------------------------------------------------------------
 Veículo 1:
-Task  2: Dia 1 (123m) -> Dia 1 (189m) | Op:6 Ws:9 
-Task  5: Dia 1 (193m) -> Dia 1 (309m) | Op:6 Ws:7 
-Task  8: Dia 1 (309m) -> Dia 1 (363m) | Op:4 Ws:7 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  66.2m) | Op:6 Ws:8 
+Task  5: Dia 1.0 ( 102.8m) -> Dia 1.0 ( 219.3m) | Op:6 Ws:3 
+Task  8: Dia 1.0 ( 278.7m) -> Dia 1.0 ( 329.9m) | Op:5 Ws:3 
 Veículo 2:
-Task  6: Dia 1 ( 79m) -> Dia 1 (148m) | Op:2 Ws:6 
-Task  8: Dia 1 (193m) -> Dia 1 (312m) | Op:5 Ws:6 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  68.8m) | Op:2 Ws:2 
+Task  8: Dia 1.0 (  77.9m) -> Dia 1.0 ( 197.1m) | Op:5 Ws:2 
 Veículo 3:
-Task  6: Dia 1 (103m) -> Dia 1 (177m) | Op:1 Ws:8 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  77.9m) | Op:5 Ws:6 
 Veículo 4:
-Task  2: Dia 1 (309m) -> Dia 1 (344m) | Op:6 Ws:5 
-Task  7: Dia 1 (363m) -> Dia 1 (387m) | Op:4 Ws:5 
-Task  9: Dia 1 (387m) -> Dia 2 ( 23m) | Op:4 Ws:5 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (  66.2m) -> Dia 1.0 ( 100.8m) | Op:6 Ws:8 
+Task  7: Dia 1.0 ( 162.9m) -> Dia 1.0 ( 187.2m) | Op:4 Ws:5 
+Task  9: Dia 1.0 ( 219.3m) -> Dia 1.0 ( 341.9m) | Op:2 Ws:5 
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 (114m) | Op:3 Ws:2 
-Task  2: Dia 1 (114m) -> Dia 1 (232m) | Op:7 Ws:2 
+Task  1: Dia 1.0 ( 102.8m) -> Dia 1.0 ( 223.6m) | Op:1 Ws:8 
+Task  2: Dia 1.0 ( 223.6m) -> Dia 1.0 ( 353.8m) | Op:6 Ws:8 
 Veículo 6:
-Task  1: Dia 1 (  0m) -> Dia 1 (111m) | Op:5 Ws:4 
-Task  6: Dia 1 (232m) -> Dia 1 (282m) | Op:7 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  93.6m) | Op:3 Ws:1 
+Task  6: Dia 1.0 (  93.6m) -> Dia 1.0 ( 143.6m) | Op:7 Ws:6 
 Veículo 7:
-Task  1: Dia 1 (  0m) -> Dia 1 (103m) | Op:1 Ws:3 
-Task  3: Dia 1 (282m) -> Dia 1 (325m) | Op:7 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 102.8m) | Op:1 Ws:3 
+Task  3: Dia 1.0 ( 143.6m) -> Dia 1.0 ( 186.6m) | Op:7 Ws:4 
 Veículo 8:
-Task  2: Dia 1 (  0m) -> Dia 1 (123m) | Op:6 Ws:5 
-Task  7: Dia 1 (250m) -> Dia 1 (308m) | Op:4 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 105.3m) | Op:4 Ws:5 
+Task  7: Dia 1.0 ( 105.3m) -> Dia 1.0 ( 162.9m) | Op:4 Ws:5 
 Veículo 9:
-Task  1: Dia 1 (177m) -> Dia 1 (228m) | Op:1 Ws:8 
-Task  9: Dia 1 (228m) -> Dia 1 (336m) | Op:1 Ws:8 
+Task  1: Dia 1.0 ( 133.8m) -> Dia 1.0 ( 193.8m) | Op:2 Ws:7 
+Task  9: Dia 1.0 ( 223.6m) -> Dia 1.0 ( 331.9m) | Op:1 Ws:7 
 Veículo 10:
-Task  1: Dia 1 (148m) -> Dia 1 (213m) | Op:2 Ws:3 
-Task  3: Dia 1 (213m) -> Dia 1 (279m) | Op:3 Ws:4 
-Task  4: Dia 1 (279m) -> Dia 1 (371m) | Op:3 Ws:1 
+Task  1: Dia 1.0 (  68.8m) -> Dia 1.0 ( 133.8m) | Op:2 Ws:7 
+Task  3: Dia 1.0 ( 158.7m) -> Dia 1.0 ( 225.2m) | Op:3 Ws:6 
+Task  4: Dia 1.0 ( 225.2m) -> Dia 1.0 ( 317.0m) | Op:3 Ws:6 
 Veículo 11:
-Task  2: Dia 1 (120m) -> Dia 1 (250m) | Op:4 Ws:1 
-Task  3: Dia 1 (312m) -> Dia 1 (344m) | Op:5 Ws:4 
+Task  2: Dia 1.0 ( 187.2m) -> Dia 1.0 ( 317.7m) | Op:4 Ws:1 
+Task  3: Dia 1.0 ( 317.7m) -> Dia 1.0 ( 351.9m) | Op:3 Ws:2 
 Veículo 12:
-Task  5: Dia 1 (304m) -> Dia 1 (330m) | Op:2 Ws:3 
-Task 10: Dia 1 (330m) -> Dia 1 (413m) | Op:2 Ws:3 
+Task  5: Dia 1.0 ( 193.8m) -> Dia 1.0 ( 219.3m) | Op:2 Ws:7 
+Task 10: Dia 1.0 ( 244.6m) -> Dia 1.0 ( 355.6m) | Op:7 Ws:12 
 Veículo 13:
-Task  3: Dia 1 (114m) -> Dia 1 (200m) | Op:3 Ws:4 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  91.0m) | Op:7 Ws:4 
 Veículo 14:
-Task  5: Dia 1 (  0m) -> Dia 1 ( 79m) | Op:2 Ws:7 
-Task  8: Dia 1 (111m) -> Dia 1 (193m) | Op:5 Ws:7 
+Task  5: Dia 1.0 (  93.6m) -> Dia 1.0 ( 158.7m) | Op:3 Ws:1 
+Task  8: Dia 1.0 ( 197.1m) -> Dia 1.0 ( 278.7m) | Op:5 Ws:2 
 Veículo 15:
-Task  6: Dia 1 (213m) -> Dia 1 (259m) | Op:2 Ws:10 
-Task  9: Dia 1 (259m) -> Dia 1 (304m) | Op:2 Ws:10 
+Task  6: Dia 1.0 ( 186.6m) -> Dia 1.0 ( 244.6m) | Op:7 Ws:10 
+Task  9: Dia 1.0 ( 317.7m) -> Dia 1.0 ( 360.0m) | Op:4 Ws:10 
 
-Instance: Inst_1D_15_8.txt | Makespan Global: 370
+Instance: Inst_1D_15_8.txt | Makespan Global: 350.90
 ------------------------------------------------------------
 Veículo 1:
-Task  3: Dia 1 (131m) -> Dia 1 (216m) | Op:5 Ws:2 
-Task  7: Dia 1 (216m) -> Dia 1 (297m) | Op:3 Ws:5 
+Task  3: Dia 1.0 (  74.4m) -> Dia 1.0 ( 163.7m) | Op:3 Ws:8 
+Task  7: Dia 1.0 ( 258.9m) -> Dia 1.0 ( 339.6m) | Op:3 Ws:8 
 Veículo 2:
-Task  4: Dia 1 ( 66m) -> Dia 1 (119m) | Op:6 Ws:5 
-Task  7: Dia 1 (157m) -> Dia 1 (239m) | Op:4 Ws:6 
-Task  8: Dia 1 (239m) -> Dia 1 (283m) | Op:4 Ws:6 
+Task  4: Dia 1.0 (  31.3m) -> Dia 1.0 (  84.5m) | Op:6 Ws:7 
+Task  7: Dia 1.0 ( 215.4m) -> Dia 1.0 ( 297.3m) | Op:4 Ws:7 
+Task  8: Dia 1.0 ( 297.3m) -> Dia 1.0 ( 341.5m) | Op:4 Ws:7 
 Veículo 3:
-Task  3: Dia 1 (216m) -> Dia 1 (334m) | Op:5 Ws:4 
-Task 10: Dia 1 (334m) -> Dia 1 (360m) | Op:2 Ws:1 
+Task  3: Dia 1.0 ( 141.0m) -> Dia 1.0 ( 272.0m) | Op:7 Ws:4 
+Task 10: Dia 1.0 ( 272.0m) -> Dia 1.0 ( 306.0m) | Op:7 Ws:1 
 Veículo 4:
-Task 10: Dia 1 ( 89m) -> Dia 1 (171m) | Op:2 Ws:1 
+Task 10: Dia 1.0 (  84.0m) -> Dia 1.0 ( 166.4m) | Op:2 Ws:1 
 Veículo 5:
-Task  2: Dia 1 (119m) -> Dia 1 (252m) | Op:6 Ws:9 
-Task  6: Dia 1 (252m) -> Dia 1 (293m) | Op:2 Ws:2 
+Task  2: Dia 1.0 (  84.5m) -> Dia 1.0 ( 217.9m) | Op:6 Ws:5 
+Task  6: Dia 1.0 ( 217.9m) -> Dia 1.0 ( 266.3m) | Op:5 Ws:5 
 Veículo 6:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 48m) | Op:4 Ws:3 
-Task  8: Dia 1 ( 48m) -> Dia 1 ( 73m) | Op:4 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  42.5m) | Op:3 Ws:3 
+Task  8: Dia 1.0 (  42.5m) -> Dia 1.0 (  74.4m) | Op:3 Ws:3 
 Veículo 7:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 66m) | Op:6 Ws:5 
-Task  8: Dia 1 ( 66m) -> Dia 1 (131m) | Op:5 Ws:2 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  65.5m) | Op:4 Ws:5 
+Task  8: Dia 1.0 (  65.5m) -> Dia 1.0 ( 134.4m) | Op:4 Ws:6 
 Veículo 8:
-Task  8: Dia 1 (  0m) -> Dia 1 ( 23m) | Op:5 Ws:2 
-Task 10: Dia 1 ( 28m) -> Dia 1 ( 89m) | Op:2 Ws:1 
+Task  8: Dia 1.0 (   0.0m) -> Dia 1.0 (  23.2m) | Op:5 Ws:2 
+Task 10: Dia 1.0 (  23.2m) -> Dia 1.0 (  84.0m) | Op:2 Ws:1 
 Veículo 9:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 28m) | Op:2 Ws:1 
-Task  5: Dia 1 ( 28m) -> Dia 1 (120m) | Op:1 Ws:7 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  31.3m) | Op:6 Ws:7 
+Task  5: Dia 1.0 (  84.5m) -> Dia 1.0 ( 176.7m) | Op:1 Ws:7 
 Veículo 10:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 85m) | Op:7 Ws:6 
-Task  7: Dia 1 ( 85m) -> Dia 1 (109m) | Op:3 Ws:6 
+Task  3: Dia 1.0 (  60.1m) -> Dia 1.0 ( 136.6m) | Op:5 Ws:2 
+Task  7: Dia 1.0 ( 163.7m) -> Dia 1.0 ( 187.5m) | Op:3 Ws:8 
 Veículo 11:
-Task  7: Dia 1 (120m) -> Dia 1 (196m) | Op:3 Ws:5 
+Task  7: Dia 1.0 ( 134.4m) -> Dia 1.0 ( 215.4m) | Op:4 Ws:6 
 Veículo 12:
-Task  3: Dia 1 ( 85m) -> Dia 1 (226m) | Op:7 Ws:8 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 141.0m) | Op:7 Ws:4 
 Veículo 13:
-Task  5: Dia 1 (240m) -> Dia 1 (266m) | Op:1 Ws:7 
-Task  6: Dia 1 (266m) -> Dia 1 (370m) | Op:1 Ws:7 
+Task  5: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 258.9m) | Op:3 Ws:1 
+Task  6: Dia 1.0 ( 258.9m) -> Dia 1.0 ( 350.9m) | Op:2 Ws:2 
 Veículo 14:
-Task  1: Dia 1 (120m) -> Dia 1 (222m) | Op:1 Ws:3 
-Task 10: Dia 1 (222m) -> Dia 1 (244m) | Op:2 Ws:3 
+Task  1: Dia 1.0 ( 176.7m) -> Dia 1.0 ( 278.7m) | Op:1 Ws:3 
+Task 10: Dia 1.0 ( 306.0m) -> Dia 1.0 ( 335.0m) | Op:7 Ws:3 
 Veículo 15:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 39m) | Op:3 Ws:4 
-Task  8: Dia 1 ( 73m) -> Dia 1 (157m) | Op:4 Ws:4 
+Task  3: Dia 1.0 (  23.2m) -> Dia 1.0 (  60.1m) | Op:5 Ws:2 
+Task  8: Dia 1.0 ( 136.6m) -> Dia 1.0 ( 215.8m) | Op:5 Ws:2 
 
-Instance: Inst_1D_15_9.txt | Makespan Global: 542
+Instance: Inst_1D_15_9.txt | Makespan Global: 389.90
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 51m) | Op:1 Ws:2 
-Task  7: Dia 1 ( 51m) -> Dia 1 (136m) | Op:4 Ws:5 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  48.0m) | Op:3 Ws:1 
+Task  7: Dia 1.0 (  48.0m) -> Dia 1.0 ( 127.9m) | Op:3 Ws:6 
 Veículo 2:
-Task  5: Dia 1 (275m) -> Dia 1 (384m) | Op:2 Ws:7 
-Task  9: Dia 1 (384m) -> Dia 1 (447m) | Op:2 Ws:7 
+Task  5: Dia 1.0 (  64.0m) -> Dia 1.0 ( 172.8m) | Op:6 Ws:1 
+Task  9: Dia 1.0 ( 243.4m) -> Dia 1.0 ( 306.1m) | Op:2 Ws:2 
 Veículo 3:
-Task  2: Dia 1 (249m) -> Dia 1 (307m) | Op:7 Ws:2 
-Task  4: Dia 1 (307m) -> Dia 1 (336m) | Op:7 Ws:3 
-Task 10: Dia 1 (336m) -> Dia 1 (425m) | Op:7 Ws:3 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  64.0m) | Op:6 Ws:8 
+Task  4: Dia 1.0 ( 101.6m) -> Dia 1.0 ( 125.4m) | Op:2 Ws:8 
+Task 10: Dia 1.0 ( 176.6m) -> Dia 1.0 ( 243.4m) | Op:2 Ws:12 
 Veículo 4:
-Task  2: Dia 1 (149m) -> Dia 1 (262m) | Op:6 Ws:5 
-Task  4: Dia 1 (262m) -> Dia 1 (362m) | Op:6 Ws:5 
+Task  2: Dia 1.0 ( 151.8m) -> Dia 1.0 ( 249.1m) | Op:4 Ws:8 
+Task  4: Dia 1.0 ( 290.1m) -> Dia 1.0 ( 389.9m) | Op:6 Ws:8 
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 (122m) | Op:7 Ws:6 
-Task  8: Dia 1 (122m) -> Dia 1 (236m) | Op:5 Ws:6 
+Task  3: Dia 1.0 (  83.7m) -> Dia 1.0 ( 205.7m) | Op:7 Ws:4 
+Task  8: Dia 1.0 ( 249.1m) -> Dia 1.0 ( 370.6m) | Op:4 Ws:4 
 Veículo 6:
-Task  6: Dia 1 (122m) -> Dia 1 (249m) | Op:7 Ws:8 
-Task  8: Dia 1 (249m) -> Dia 1 (339m) | Op:5 Ws:8 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 ( 101.6m) | Op:2 Ws:2 
+Task  8: Dia 1.0 ( 101.6m) -> Dia 1.0 ( 192.0m) | Op:5 Ws:2 
 Veículo 7:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 74m) | Op:3 Ws:1 
-Task  6: Dia 1 ( 74m) -> Dia 1 (125m) | Op:2 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  83.7m) | Op:7 Ws:7 
+Task  6: Dia 1.0 ( 125.4m) -> Dia 1.0 ( 176.6m) | Op:2 Ws:7 
 Veículo 8:
-Task  3: Dia 1 (172m) -> Dia 1 (242m) | Op:3 Ws:4 
-Task  4: Dia 1 (242m) -> Dia 1 (362m) | Op:3 Ws:1 
+Task  3: Dia 1.0 ( 127.9m) -> Dia 1.0 ( 198.2m) | Op:3 Ws:6 
+Task  4: Dia 1.0 ( 238.9m) -> Dia 1.0 ( 387.0m) | Op:7 Ws:6 
 Veículo 9:
-Task  6: Dia 1 ( 51m) -> Dia 1 (133m) | Op:1 Ws:7 
-Task  9: Dia 1 (133m) -> Dia 1 (275m) | Op:1 Ws:7 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  81.9m) | Op:1 Ws:5 
+Task  9: Dia 1.0 (  81.9m) -> Dia 1.0 ( 223.4m) | Op:1 Ws:5 
 Veículo 10:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 98m) | Op:6 Ws:3 
-Task  5: Dia 1 ( 98m) -> Dia 1 (149m) | Op:6 Ws:3 
-Task  8: Dia 1 (149m) -> Dia 1 (224m) | Op:4 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  97.8m) | Op:4 Ws:3 
+Task  5: Dia 1.0 (  97.8m) -> Dia 1.0 ( 151.8m) | Op:4 Ws:3 
+Task  8: Dia 1.0 ( 192.0m) -> Dia 1.0 ( 262.4m) | Op:5 Ws:3 
 Veículo 11:
-Task  5: Dia 1 (362m) -> Dia 1 (459m) | Op:3 Ws:1 
-Task 10: Dia 1 (459m) -> Dia 2 ( 62m) | Op:3 Ws:1 [Interrompida pelo Fim do Turno]
+Task  5: Dia 1.0 ( 172.8m) -> Dia 1.0 ( 290.1m) | Op:6 Ws:1 
+Task 10: Dia 1.0 ( 304.6m) -> Dia 1.0 ( 387.2m) | Op:3 Ws:3 
 Veículo 12:
-Task  5: Dia 1 (120m) -> Dia 1 (172m) | Op:3 Ws:1 
-Task  6: Dia 1 (172m) -> Dia 1 (246m) | Op:2 Ws:2 
+Task  5: Dia 1.0 ( 223.4m) -> Dia 1.0 ( 294.7m) | Op:1 Ws:7 
+Task  6: Dia 1.0 ( 294.7m) -> Dia 1.0 ( 383.0m) | Op:5 Ws:10 
 Veículo 13:
-Task  7: Dia 1 (297m) -> Dia 1 (365m) | Op:4 Ws:6 
-Task  9: Dia 1 (365m) -> Dia 1 (391m) | Op:4 Ws:6 
-Task 10: Dia 1 (391m) -> Dia 1 (454m) | Op:4 Ws:6 
+Task  7: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 304.6m) | Op:3 Ws:5 
+Task  9: Dia 1.0 ( 304.6m) -> Dia 1.0 ( 332.2m) | Op:1 Ws:5 
+Task 10: Dia 1.0 ( 332.2m) -> Dia 1.0 ( 384.7m) | Op:2 Ws:1 
 Veículo 14:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 81m) | Op:5 Ws:4 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  81.0m) | Op:5 Ws:4 
 Veículo 15:
-Task  2: Dia 1 (224m) -> Dia 1 (256m) | Op:4 Ws:9 
-Task  5: Dia 1 (256m) -> Dia 1 (297m) | Op:4 Ws:3 
+Task  2: Dia 1.0 ( 205.7m) -> Dia 1.0 ( 238.9m) | Op:7 Ws:6 
+Task  5: Dia 1.0 ( 332.2m) -> Dia 1.0 ( 375.9m) | Op:1 Ws:7 
 
-Instance: Inst_1D_10_1.txt | Makespan Global: 437
+Instance: Inst_1D_10_1.txt | Makespan Global: 322.05
 ------------------------------------------------------------
 Veículo 1:
-Task  2: Dia 1 (  0m) -> Dia 1 (109m) | Op:7 Ws:6 
-Task 10: Dia 1 (176m) -> Dia 1 (289m) | Op:7 Ws:12 
+Task  2: Dia 1.0 (  40.5m) -> Dia 1.0 ( 149.8m) | Op:7 Ws:9 
+Task 10: Dia 1.0 ( 149.8m) -> Dia 1.0 ( 262.8m) | Op:7 Ws:12 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 38m) | Op:1 Ws:4 
-Task  7: Dia 1 (199m) -> Dia 1 (330m) | Op:4 Ws:5 
-Task 10: Dia 1 (330m) -> Dia 1 (437m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  40.5m) | Op:7 Ws:3 
+Task  7: Dia 1.0 (  55.9m) -> Dia 1.0 ( 187.3m) | Op:4 Ws:8 
+Task 10: Dia 1.0 ( 187.3m) -> Dia 1.0 ( 316.0m) | Op:4 Ws:6 
 Veículo 3:
-Task  5: Dia 1 (  0m) -> Dia 1 (121m) | Op:6 Ws:3 
-Task  6: Dia 1 (121m) -> Dia 1 (155m) | Op:1 Ws:7 
-Task  7: Dia 1 (330m) -> Dia 1 (370m) | Op:4 Ws:7 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 ( 120.7m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 120.7m) -> Dia 1.0 ( 154.9m) | Op:1 Ws:7 
+Task  7: Dia 1.0 ( 184.0m) -> Dia 1.0 ( 221.4m) | Op:3 Ws:7 
 Veículo 4:
-Task  6: Dia 1 ( 38m) -> Dia 1 ( 65m) | Op:1 Ws:5 
-Task  7: Dia 1 ( 65m) -> Dia 1 (199m) | Op:4 Ws:5 
-Task 10: Dia 1 (289m) -> Dia 1 (321m) | Op:7 Ws:3 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  27.0m) | Op:1 Ws:6 
+Task  7: Dia 1.0 (  27.0m) -> Dia 1.0 ( 153.6m) | Op:3 Ws:6 
+Task 10: Dia 1.0 ( 153.6m) -> Dia 1.0 ( 184.0m) | Op:3 Ws:6 
 Veículo 5:
-Task  8: Dia 1 (144m) -> Dia 1 (171m) | Op:5 Ws:2 
-Task  9: Dia 1 (171m) -> Dia 1 (236m) | Op:5 Ws:2 
+Task  8: Dia 1.0 (  27.0m) -> Dia 1.0 (  55.9m) | Op:4 Ws:4 
+Task  9: Dia 1.0 (  55.9m) -> Dia 1.0 ( 111.9m) | Op:1 Ws:4 
 Veículo 6:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 57m) | Op:2 Ws:2 
-Task 10: Dia 1 (109m) -> Dia 1 (176m) | Op:7 Ws:12 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  56.8m) | Op:2 Ws:5 
+Task 10: Dia 1.0 (  56.8m) -> Dia 1.0 ( 107.1m) | Op:2 Ws:1 
 Veículo 7:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 27m) | Op:4 Ws:5 
-Task  3: Dia 1 ( 27m) -> Dia 1 (144m) | Op:5 Ws:8 
-Task  9: Dia 1 (155m) -> Dia 1 (222m) | Op:1 Ws:8 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  27.0m) | Op:4 Ws:1 
+Task  3: Dia 1.0 (  27.0m) -> Dia 1.0 ( 144.0m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 144.0m) -> Dia 1.0 ( 222.1m) | Op:5 Ws:2 
 Veículo 8:
-Task  4: Dia 1 (120m) -> Dia 1 (236m) | Op:2 Ws:6 
-Task  7: Dia 1 (292m) -> Dia 1 (374m) | Op:3 Ws:6 
+Task  4: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 235.6m) | Op:2 Ws:1 
+Task  7: Dia 1.0 ( 235.6m) -> Dia 1.0 ( 318.1m) | Op:3 Ws:5 
 Veículo 9:
-Task  1: Dia 1 (120m) -> Dia 1 (226m) | Op:3 Ws:1 
-Task  8: Dia 1 (226m) -> Dia 1 (292m) | Op:3 Ws:4 
+Task  1: Dia 1.0 ( 154.9m) -> Dia 1.0 ( 267.1m) | Op:1 Ws:4 
+Task  8: Dia 1.0 ( 274.1m) -> Dia 1.0 ( 322.1m) | Op:5 Ws:4 
 Veículo 10:
-Task  5: Dia 1 (121m) -> Dia 1 (239m) | Op:6 Ws:3 
-Task  8: Dia 1 (239m) -> Dia 1 (274m) | Op:5 Ws:3 
-Task 10: Dia 1 (321m) -> Dia 1 (368m) | Op:7 Ws:3 
+Task  5: Dia 1.0 ( 120.7m) -> Dia 1.0 ( 238.8m) | Op:6 Ws:3 
+Task  8: Dia 1.0 ( 238.8m) -> Dia 1.0 ( 274.1m) | Op:5 Ws:3 
+Task 10: Dia 1.0 ( 274.1m) -> Dia 1.0 ( 309.3m) | Op:2 Ws:3 
 
-Instance: Inst_1D_10_10.txt | Makespan Global: 625
+Instance: Inst_1D_10_10.txt | Makespan Global: 469.65
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 ( 38m) -> Dia 1 (177m) | Op:7 Ws:2 
-Task  9: Dia 1 (177m) -> Dia 1 (297m) | Op:2 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 130.9m) | Op:1 Ws:4 
+Task  9: Dia 1.0 ( 130.9m) -> Dia 1.0 ( 250.6m) | Op:1 Ws:4 
 Veículo 2:
-Task  4: Dia 1 (  0m) -> Dia 1 (131m) | Op:6 Ws:7 
-Task  5: Dia 1 (281m) -> Dia 2 (  2m) | Op:6 Ws:3 [Interrompida pelo Fim do Turno]
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 ( 131.1m) | Op:6 Ws:7 
+Task  5: Dia 1.0 ( 246.7m) -> Dia 1.0 ( 447.3m) | Op:6 Ws:7 
 Veículo 3:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 38m) | Op:7 Ws:2 
-Task  7: Dia 1 ( 38m) -> Dia 1 ( 87m) | Op:3 Ws:5 
-Task  9: Dia 1 ( 87m) -> Dia 1 (137m) | Op:1 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  36.0m) | Op:4 Ws:5 
+Task  7: Dia 1.0 (  36.0m) -> Dia 1.0 (  88.2m) | Op:4 Ws:5 
+Task  9: Dia 1.0 (  88.2m) -> Dia 1.0 ( 135.9m) | Op:4 Ws:5 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 (133m) | Op:5 Ws:4 
-Task  6: Dia 1 (177m) -> Dia 1 (368m) | Op:7 Ws:7 
-Task  8: Dia 1 (368m) -> Dia 2 ( 24m) | Op:4 Ws:7 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 126.0m) | Op:7 Ws:6 
+Task  6: Dia 1.0 ( 126.0m) -> Dia 1.0 ( 317.0m) | Op:7 Ws:8 
+Task  8: Dia 1.0 ( 317.0m) -> Dia 1.0 ( 445.0m) | Op:5 Ws:8 
 Veículo 5:
-Task  3: Dia 1 (133m) -> Dia 1 (303m) | Op:5 Ws:8 
-Task  4: Dia 1 (303m) -> Dia 1 (378m) | Op:3 Ws:8 
-Task  8: Dia 1 (378m) -> Dia 1 (443m) | Op:5 Ws:8 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 170.1m) | Op:5 Ws:2 
+Task  4: Dia 1.0 ( 170.1m) -> Dia 1.0 ( 244.9m) | Op:2 Ws:1 
+Task  8: Dia 1.0 ( 244.9m) -> Dia 1.0 ( 309.7m) | Op:5 Ws:2 
 Veículo 6:
-Task  5: Dia 1 (  0m) -> Dia 1 (116m) | Op:2 Ws:3 
-Task  7: Dia 1 (155m) -> Dia 1 (264m) | Op:3 Ws:5 
+Task  5: Dia 1.0 ( 131.1m) -> Dia 1.0 ( 246.7m) | Op:6 Ws:7 
+Task  7: Dia 1.0 ( 330.9m) -> Dia 1.0 ( 439.7m) | Op:3 Ws:6 
 Veículo 7:
-Task  7: Dia 1 ( 87m) -> Dia 1 (155m) | Op:3 Ws:6 
-Task  9: Dia 1 (155m) -> Dia 1 (289m) | Op:1 Ws:6 
+Task  7: Dia 1.0 ( 135.9m) -> Dia 1.0 ( 207.9m) | Op:4 Ws:5 
+Task  9: Dia 1.0 ( 274.2m) -> Dia 1.0 ( 401.1m) | Op:4 Ws:5 
 Veículo 8:
-Task  1: Dia 1 (350m) -> Dia 2 ( 44m) | Op:1 Ws:2 [Interrompida pelo Fim do Turno]
-Task  4: Dia 2 ( 44m) -> Dia 2 ( 71m) | Op:2 Ws:1 
-Task  7: Dia 2 ( 71m) -> Dia 2 (145m) | Op:3 Ws:5 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 164.0m) | Op:3 Ws:1 
+Task  4: Dia 1.0 ( 164.0m) -> Dia 1.0 ( 191.2m) | Op:3 Ws:3 
+Task  7: Dia 1.0 ( 191.2m) -> Dia 1.0 ( 265.1m) | Op:3 Ws:6 
 Veículo 9:
-Task  5: Dia 1 (131m) -> Dia 1 (281m) | Op:6 Ws:3 
-Task  9: Dia 1 (289m) -> Dia 1 (350m) | Op:1 Ws:4 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 ( 150.4m) | Op:2 Ws:3 
+Task  9: Dia 1.0 ( 170.1m) -> Dia 1.0 ( 240.5m) | Op:5 Ws:2 
 Veículo 10:
-Task  2: Dia 1 (240m) -> Dia 1 (274m) | Op:4 Ws:1 
-Task  5: Dia 1 (274m) -> Dia 1 (347m) | Op:4 Ws:1 
-Task 10: Dia 1 (347m) -> Dia 2 (  6m) | Op:2 Ws:1 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 274.2m) | Op:4 Ws:5 
+Task  5: Dia 1.0 ( 274.2m) -> Dia 1.0 ( 330.9m) | Op:3 Ws:1 
+Task 10: Dia 1.0 ( 330.9m) -> Dia 1.0 ( 469.6m) | Op:2 Ws:1 
 
-Instance: Inst_1D_10_2.txt | Makespan Global: 939
+Instance: Inst_1D_10_2.txt | Makespan Global: 624.10
 ------------------------------------------------------------
 Veículo 1:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 98m) | Op:1 Ws:5 
-Task  8: Dia 1 ( 98m) -> Dia 1 (185m) | Op:5 Ws:3 
-Task  9: Dia 1 (185m) -> Dia 1 (254m) | Op:5 Ws:1 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  98.1m) | Op:1 Ws:5 
+Task  8: Dia 1.0 ( 183.6m) -> Dia 1.0 ( 270.8m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 271.2m) -> Dia 1.0 ( 327.9m) | Op:4 Ws:1 
 Veículo 2:
-Task  2: Dia 1 (154m) -> Dia 1 (319m) | Op:6 Ws:6 
-Task  3: Dia 1 (319m) -> Dia 1 (473m) | Op:3 Ws:6 
-Task  5: Dia 1 (473m) -> Dia 2 ( 45m) | Op:3 Ws:1 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 164.8m) | Op:6 Ws:7 
+Task  3: Dia 1.0 ( 232.0m) -> Dia 1.0 ( 394.0m) | Op:7 Ws:4 
+Task  5: Dia 1.0 ( 394.0m) -> Dia 1.0 ( 456.9m) | Op:6 Ws:3 
 Veículo 3:
-Task  5: Dia 1 (  0m) -> Dia 1 (154m) | Op:6 Ws:7 
-Task  6: Dia 1 (154m) -> Dia 1 (188m) | Op:1 Ws:7 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 ( 153.8m) | Op:2 Ws:3 
+Task  6: Dia 1.0 ( 213.2m) -> Dia 1.0 ( 243.6m) | Op:2 Ws:7 
 Veículo 4:
-Task  3: Dia 1 (280m) -> Dia 1 (378m) | Op:7 Ws:4 
-Task  5: Dia 1 (378m) -> Dia 2 (106m) | Op:1 Ws:7 [Interrompida pelo Fim do Turno]
-Task  8: Dia 2 (106m) -> Dia 2 (275m) | Op:5 Ws:7 
-Task  9: Dia 2 (275m) -> Dia 2 (459m) | Op:4 Ws:7 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  88.2m) | Op:5 Ws:2 
+Task  5: Dia 1.0 (  88.2m) -> Dia 1.0 ( 241.5m) | Op:3 Ws:1 
+Task  8: Dia 1.0 ( 270.8m) -> Dia 1.0 ( 439.6m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 439.6m) -> Dia 2.0 ( 144.1m) | Op:4 Ws:2 [Interrompida pelo Fim do Turno]
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 (199m) | Op:7 Ws:4 
-Task  4: Dia 1 (199m) -> Dia 1 (280m) | Op:7 Ws:3 
-Task  5: Dia 1 (280m) -> Dia 1 (298m) | Op:3 Ws:3 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 199.0m) | Op:7 Ws:4 
+Task  4: Dia 1.0 ( 214.2m) -> Dia 1.0 ( 287.3m) | Op:6 Ws:3 
+Task  5: Dia 1.0 ( 287.3m) -> Dia 1.0 ( 308.6m) | Op:6 Ws:3 
 Veículo 6:
-Task  2: Dia 1 (162m) -> Dia 1 (230m) | Op:4 Ws:5 
-Task  3: Dia 1 (254m) -> Dia 1 (284m) | Op:5 Ws:2 
-Task  8: Dia 1 (284m) -> Dia 1 (350m) | Op:5 Ws:2 
-Task  9: Dia 1 (350m) -> Dia 2 ( 53m) | Op:4 Ws:2 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  68.4m) | Op:4 Ws:6 
+Task  3: Dia 1.0 ( 199.0m) -> Dia 1.0 ( 232.0m) | Op:7 Ws:6 
+Task  8: Dia 1.0 ( 241.5m) -> Dia 1.0 ( 332.8m) | Op:3 Ws:11 
+Task  9: Dia 1.0 ( 417.9m) -> Dia 2.0 ( 130.7m) | Op:1 Ws:11 [Interrompida pelo Fim do Turno]
 Veículo 7:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 84m) | Op:3 Ws:1 
-Task  3: Dia 1 ( 84m) -> Dia 1 (185m) | Op:3 Ws:2 
-Task  6: Dia 1 (185m) -> Dia 1 (215m) | Op:2 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  84.0m) | Op:3 Ws:1 
+Task  3: Dia 1.0 (  88.2m) -> Dia 1.0 ( 183.6m) | Op:5 Ws:2 
+Task  6: Dia 1.0 ( 183.6m) -> Dia 1.0 ( 213.2m) | Op:2 Ws:7 
 Veículo 8:
-Task  2: Dia 1 (120m) -> Dia 1 (162m) | Op:4 Ws:5 
-Task  6: Dia 1 (188m) -> Dia 1 (342m) | Op:1 Ws:7 
+Task  2: Dia 1.0 ( 164.8m) -> Dia 1.0 ( 214.2m) | Op:6 Ws:9 
+Task  6: Dia 1.0 ( 394.0m) -> Dia 2.0 (  85.0m) | Op:7 Ws:6 [Interrompida pelo Fim do Turno]
 Veículo 9:
-Task  2: Dia 1 (319m) -> Dia 2 ( 15m) | Op:6 Ws:5 [Interrompida pelo Fim do Turno]
-Task  6: Dia 2 ( 15m) -> Dia 2 (246m) | Op:7 Ws:5 
-Task  7: Dia 2 (246m) -> Dia 2 (274m) | Op:3 Ws:5 
-Task  9: Dia 2 (274m) -> Dia 2 (386m) | Op:1 Ws:5 
+Task  2: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 271.2m) | Op:4 Ws:5 
+Task  6: Dia 1.0 ( 271.2m) -> Dia 1.0 ( 456.0m) | Op:2 Ws:5 
+Task  7: Dia 1.0 ( 456.0m) -> Dia 2.0 (   4.1m) | Op:3 Ws:5 [Interrompida pelo Fim do Turno]
+Task  9: Dia 2.0 (   4.1m) -> Dia 2.0 ( 133.9m) | Op:5 Ws:5 
 Veículo 10:
-Task  6: Dia 1 (215m) -> Dia 1 (298m) | Op:2 Ws:8 
-Task  9: Dia 1 (298m) -> Dia 2 ( 22m) | Op:2 Ws:8 [Interrompida pelo Fim do Turno]
-Task 10: Dia 2 ( 22m) -> Dia 2 (161m) | Op:2 Ws:3 
+Task  6: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 213.6m) | Op:1 Ws:8 
+Task  9: Dia 1.0 ( 213.6m) -> Dia 1.0 ( 417.9m) | Op:1 Ws:8 
+Task 10: Dia 1.0 ( 456.0m) -> Dia 2.0 ( 114.8m) | Op:2 Ws:1 [Interrompida pelo Fim do Turno]
 
-Instance: Inst_1D_10_3.txt | Makespan Global: 445
+Instance: Inst_1D_10_3.txt | Makespan Global: 340.05
 ------------------------------------------------------------
 Veículo 1:
-Task  5: Dia 1 (104m) -> Dia 1 (224m) | Op:6 Ws:7 
-Task  7: Dia 1 (261m) -> Dia 1 (288m) | Op:3 Ws:7 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  98.7m) | Op:3 Ws:1 
+Task  7: Dia 1.0 (  98.7m) -> Dia 1.0 ( 125.9m) | Op:3 Ws:6 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 73m) | Op:1 Ws:4 
-Task  9: Dia 1 (160m) -> Dia 1 (198m) | Op:2 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  81.7m) | Op:5 Ws:3 
+Task  9: Dia 1.0 ( 113.9m) -> Dia 1.0 ( 151.9m) | Op:1 Ws:8 
 Veículo 3:
-Task  1: Dia 1 ( 73m) -> Dia 1 (194m) | Op:1 Ws:6 
-Task  8: Dia 1 (215m) -> Dia 1 (265m) | Op:5 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 142.0m) | Op:2 Ws:4 
+Task  8: Dia 1.0 ( 203.4m) -> Dia 1.0 ( 256.1m) | Op:4 Ws:4 
 Veículo 4:
-Task  7: Dia 1 (188m) -> Dia 1 (312m) | Op:4 Ws:5 
-Task 10: Dia 1 (312m) -> Dia 1 (437m) | Op:4 Ws:3 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 ( 124.2m) | Op:4 Ws:5 
+Task 10: Dia 1.0 ( 142.0m) -> Dia 1.0 ( 246.2m) | Op:2 Ws:6 
 Veículo 5:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:4 Ws:1 
-Task  5: Dia 1 ( 50m) -> Dia 1 (104m) | Op:3 Ws:7 
-Task  8: Dia 1 (265m) -> Dia 1 (329m) | Op:5 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  53.2m) | Op:7 Ws:6 
+Task  5: Dia 1.0 ( 125.9m) -> Dia 1.0 ( 179.8m) | Op:3 Ws:3 
+Task  8: Dia 1.0 ( 256.1m) -> Dia 1.0 ( 324.1m) | Op:4 Ws:3 
 Veículo 6:
-Task  1: Dia 1 ( 26m) -> Dia 1 (160m) | Op:2 Ws:5 
-Task 10: Dia 1 (198m) -> Dia 1 (264m) | Op:2 Ws:12 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 113.9m) | Op:1 Ws:2 
+Task 10: Dia 1.0 ( 124.2m) -> Dia 1.0 ( 203.4m) | Op:4 Ws:12 
 Veículo 7:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 26m) | Op:2 Ws:5 
-Task  8: Dia 1 (329m) -> Dia 1 (445m) | Op:5 Ws:2 
+Task  6: Dia 1.0 (  81.7m) -> Dia 1.0 ( 112.1m) | Op:5 Ws:8 
+Task  8: Dia 1.0 ( 215.2m) -> Dia 1.0 ( 331.2m) | Op:5 Ws:8 
 Veículo 8:
-Task  8: Dia 1 (120m) -> Dia 1 (215m) | Op:5 Ws:4 
-Task 10: Dia 1 (288m) -> Dia 1 (405m) | Op:3 Ws:1 
+Task  8: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 215.2m) | Op:5 Ws:2 
+Task 10: Dia 1.0 ( 215.2m) -> Dia 1.0 ( 338.2m) | Op:7 Ws:12 
 Veículo 9:
-Task  2: Dia 1 (  0m) -> Dia 1 (128m) | Op:7 Ws:2 
-Task  4: Dia 1 (128m) -> Dia 1 (200m) | Op:7 Ws:3 
-Task  6: Dia 1 (200m) -> Dia 1 (300m) | Op:7 Ws:10 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 141.8m) | Op:6 Ws:7 
+Task  4: Dia 1.0 ( 141.8m) -> Dia 1.0 ( 207.3m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 207.3m) -> Dia 1.0 ( 297.3m) | Op:1 Ws:7 
 Veículo 10:
-Task  2: Dia 1 (120m) -> Dia 1 (188m) | Op:4 Ws:1 
-Task  5: Dia 1 (188m) -> Dia 1 (261m) | Op:3 Ws:1 
-Task  6: Dia 1 (264m) -> Dia 1 (340m) | Op:2 Ws:8 
+Task  2: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 191.2m) | Op:7 Ws:1 
+Task  5: Dia 1.0 ( 191.2m) -> Dia 1.0 ( 264.1m) | Op:3 Ws:1 
+Task  6: Dia 1.0 ( 264.1m) -> Dia 1.0 ( 340.1m) | Op:2 Ws:2 
 
-Instance: Inst_1D_10_4.txt | Makespan Global: 353
+Instance: Inst_1D_10_4.txt | Makespan Global: 338.70
 ------------------------------------------------------------
 Veículo 1:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 48m) | Op:2 Ws:1 
-Task  7: Dia 1 ( 48m) -> Dia 1 (166m) | Op:3 Ws:5 
-Task 10: Dia 1 (223m) -> Dia 1 (282m) | Op:2 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  53.2m) | Op:4 Ws:5 
+Task  7: Dia 1.0 (  53.2m) -> Dia 1.0 ( 178.3m) | Op:4 Ws:5 
+Task 10: Dia 1.0 ( 178.3m) -> Dia 1.0 ( 249.4m) | Op:4 Ws:1 
 Veículo 2:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 62m) | Op:7 Ws:6 
-Task  4: Dia 1 ( 62m) -> Dia 1 (215m) | Op:7 Ws:6 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  68.2m) | Op:6 Ws:8 
+Task  4: Dia 1.0 (  68.2m) -> Dia 1.0 ( 206.9m) | Op:6 Ws:8 
 Veículo 3:
-Task  5: Dia 1 (  0m) -> Dia 1 ( 73m) | Op:6 Ws:3 
-Task  6: Dia 1 (209m) -> Dia 1 (265m) | Op:1 Ws:5 
-Task 10: Dia 1 (265m) -> Dia 1 (330m) | Op:7 Ws:6 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  73.1m) | Op:2 Ws:3 
+Task  6: Dia 1.0 (  73.1m) -> Dia 1.0 ( 122.7m) | Op:2 Ws:7 
+Task 10: Dia 1.0 ( 122.7m) -> Dia 1.0 ( 171.4m) | Op:2 Ws:1 
 Veículo 4:
-Task  2: Dia 1 (  0m) -> Dia 1 (120m) | Op:4 Ws:2 
-Task 10: Dia 1 (120m) -> Dia 1 (223m) | Op:2 Ws:3 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 126.3m) | Op:7 Ws:2 
+Task 10: Dia 1.0 ( 126.3m) -> Dia 1.0 ( 263.4m) | Op:7 Ws:3 
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 87m) | Op:5 Ws:4 
-Task  6: Dia 1 (157m) -> Dia 1 (209m) | Op:1 Ws:8 
-Task  9: Dia 1 (273m) -> Dia 1 (339m) | Op:1 Ws:8 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  87.3m) | Op:5 Ws:10 
+Task  6: Dia 1.0 ( 102.0m) -> Dia 1.0 ( 154.2m) | Op:1 Ws:10 
+Task  9: Dia 1.0 ( 183.9m) -> Dia 1.0 ( 250.4m) | Op:1 Ws:10 
 Veículo 6:
-Task  1: Dia 1 ( 43m) -> Dia 1 (102m) | Op:1 Ws:7 
-Task  6: Dia 1 (215m) -> Dia 1 (248m) | Op:7 Ws:7 
-Task  7: Dia 1 (273m) -> Dia 1 (353m) | Op:4 Ws:7 
+Task  1: Dia 1.0 (  43.4m) -> Dia 1.0 ( 102.0m) | Op:1 Ws:1 
+Task  6: Dia 1.0 ( 154.2m) -> Dia 1.0 ( 183.9m) | Op:1 Ws:2 
+Task  7: Dia 1.0 ( 249.4m) -> Dia 1.0 ( 329.5m) | Op:4 Ws:5 
 Veículo 7:
-Task  1: Dia 1 ( 48m) -> Dia 1 ( 99m) | Op:2 Ws:8 
-Task  8: Dia 1 (209m) -> Dia 1 (273m) | Op:4 Ws:8 
-Task  9: Dia 1 (280m) -> Dia 1 (335m) | Op:5 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  43.4m) | Op:1 Ws:4 
+Task  8: Dia 1.0 (  87.3m) -> Dia 1.0 ( 147.3m) | Op:5 Ws:4 
+Task  9: Dia 1.0 ( 147.3m) -> Dia 1.0 ( 202.3m) | Op:5 Ws:4 
 Veículo 8:
-Task  1: Dia 1 (120m) -> Dia 1 (157m) | Op:1 Ws:1 
-Task  3: Dia 1 (157m) -> Dia 1 (280m) | Op:5 Ws:2 
+Task  1: Dia 1.0 ( 168.1m) -> Dia 1.0 ( 203.2m) | Op:3 Ws:6 
+Task  3: Dia 1.0 ( 203.2m) -> Dia 1.0 ( 326.6m) | Op:5 Ws:6 
 Veículo 9:
-Task  5: Dia 1 (240m) -> Dia 1 (303m) | Op:3 Ws:1 
-Task  7: Dia 1 (303m) -> Dia 1 (339m) | Op:3 Ws:5 
+Task  5: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 303.0m) | Op:3 Ws:7 
+Task  7: Dia 1.0 ( 303.0m) -> Dia 1.0 ( 338.7m) | Op:3 Ws:7 
 Veículo 10:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 43m) | Op:1 Ws:7 
-Task  7: Dia 1 (120m) -> Dia 1 (197m) | Op:4 Ws:7 
-Task 10: Dia 1 (282m) -> Dia 1 (325m) | Op:2 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  40.8m) | Op:3 Ws:1 
+Task  7: Dia 1.0 (  40.8m) -> Dia 1.0 ( 113.9m) | Op:3 Ws:6 
+Task 10: Dia 1.0 ( 113.9m) -> Dia 1.0 ( 168.1m) | Op:3 Ws:6 
 
-Instance: Inst_1D_10_5.txt | Makespan Global: 554
+Instance: Inst_1D_10_5.txt | Makespan Global: 457.90
 ------------------------------------------------------------
 Veículo 1:
-Task  5: Dia 1 (  0m) -> Dia 1 ( 29m) | Op:3 Ws:1 
-Task  7: Dia 1 ( 29m) -> Dia 1 ( 67m) | Op:3 Ws:5 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 (  34.9m) | Op:6 Ws:7 
+Task  7: Dia 1.0 ( 176.9m) -> Dia 1.0 ( 215.1m) | Op:3 Ws:7 
 Veículo 2:
-Task  6: Dia 1 (  0m) -> Dia 1 (127m) | Op:2 Ws:7 
-Task  8: Dia 1 (127m) -> Dia 1 (229m) | Op:4 Ws:7 
-Task  9: Dia 1 (229m) -> Dia 1 (381m) | Op:4 Ws:7 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 ( 151.0m) | Op:5 Ws:6 
+Task  8: Dia 1.0 ( 151.0m) -> Dia 1.0 ( 247.0m) | Op:5 Ws:11 
+Task  9: Dia 1.0 ( 247.0m) -> Dia 1.0 ( 432.9m) | Op:5 Ws:11 
 Veículo 3:
-Task  6: Dia 1 ( 85m) -> Dia 1 (159m) | Op:1 Ws:5 
-Task  7: Dia 1 (159m) -> Dia 1 (256m) | Op:3 Ws:5 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  65.6m) | Op:2 Ws:2 
+Task  7: Dia 1.0 (  80.0m) -> Dia 1.0 ( 176.9m) | Op:3 Ws:5 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 85m) | Op:1 Ws:2 
-Task  2: Dia 1 ( 85m) -> Dia 1 (163m) | Op:7 Ws:2 
-Task  6: Dia 1 (163m) -> Dia 1 (203m) | Op:7 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  80.0m) | Op:3 Ws:3 
+Task  2: Dia 1.0 (  80.0m) -> Dia 1.0 ( 166.1m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 166.1m) -> Dia 1.0 ( 202.1m) | Op:1 Ws:6 
 Veículo 5:
-Task  6: Dia 1 (193m) -> Dia 1 (234m) | Op:1 Ws:8 
-Task  8: Dia 1 (234m) -> Dia 1 (281m) | Op:5 Ws:8 
-Task  9: Dia 1 (281m) -> Dia 2 ( 11m) | Op:1 Ws:8 [Interrompida pelo Fim do Turno]
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  41.4m) | Op:1 Ws:5 
+Task  8: Dia 1.0 ( 126.9m) -> Dia 1.0 ( 177.1m) | Op:4 Ws:2 
+Task  9: Dia 1.0 ( 202.1m) -> Dia 1.0 ( 412.1m) | Op:1 Ws:2 
 Veículo 6:
-Task  2: Dia 1 (  0m) -> Dia 1 (148m) | Op:6 Ws:9 
-Task  3: Dia 1 (203m) -> Dia 1 (320m) | Op:7 Ws:4 
-Task  6: Dia 1 (320m) -> Dia 1 (421m) | Op:7 Ws:6 
-Task  9: Dia 1 (421m) -> Dia 2 ( 74m) | Op:4 Ws:6 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 126.9m) | Op:4 Ws:1 
+Task  3: Dia 1.0 ( 126.9m) -> Dia 1.0 ( 243.9m) | Op:7 Ws:4 
+Task  6: Dia 1.0 ( 243.9m) -> Dia 1.0 ( 324.7m) | Op:2 Ws:6 
+Task  9: Dia 1.0 ( 324.7m) -> Dia 1.0 ( 457.9m) | Op:4 Ws:6 
 Veículo 7:
-Task  2: Dia 1 (  0m) -> Dia 1 (112m) | Op:4 Ws:6 
-Task  3: Dia 1 (112m) -> Dia 1 (194m) | Op:5 Ws:6 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 117.8m) | Op:7 Ws:8 
+Task  3: Dia 1.0 ( 243.9m) -> Dia 1.0 ( 334.9m) | Op:7 Ws:8 
 Veículo 8:
-Task  4: Dia 1 (127m) -> Dia 1 (240m) | Op:2 Ws:1 
-Task  6: Dia 1 (240m) -> Dia 1 (331m) | Op:2 Ws:2 
+Task  4: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 233.1m) | Op:2 Ws:8 
+Task  6: Dia 1.0 ( 334.9m) -> Dia 1.0 ( 426.1m) | Op:2 Ws:8 
 Veículo 9:
-Task  1: Dia 1 (159m) -> Dia 1 (193m) | Op:1 Ws:3 
-Task  7: Dia 1 (256m) -> Dia 1 (382m) | Op:3 Ws:5 
-Task 10: Dia 1 (382m) -> Dia 1 (410m) | Op:3 Ws:1 
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 154.0m) | Op:1 Ws:3 
+Task  7: Dia 1.0 ( 177.1m) -> Dia 1.0 ( 310.2m) | Op:4 Ws:5 
+Task 10: Dia 1.0 ( 334.9m) -> Dia 1.0 ( 363.9m) | Op:7 Ws:3 
 Veículo 10:
-Task  1: Dia 1 (281m) -> Dia 1 (405m) | Op:5 Ws:3 
-Task  4: Dia 1 (405m) -> Dia 2 ( 29m) | Op:2 Ws:3 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 344.8m) | Op:3 Ws:1 
+Task  4: Dia 1.0 ( 344.8m) -> Dia 1.0 ( 448.5m) | Op:3 Ws:1 
 
-Instance: Inst_1D_10_6.txt | Makespan Global: 910
+Instance: Inst_1D_10_6.txt | Makespan Global: 650.30
 ------------------------------------------------------------
 Veículo 1:
-Task  4: Dia 1 (203m) -> Dia 1 (397m) | Op:7 Ws:8 
-Task  5: Dia 1 (398m) -> Dia 2 ( 29m) | Op:3 Ws:7 [Interrompida pelo Fim do Turno]
-Task  9: Dia 2 ( 29m) -> Dia 2 (230m) | Op:4 Ws:7 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 ( 175.8m) | Op:6 Ws:3 
+Task  5: Dia 1.0 ( 175.8m) -> Dia 1.0 ( 310.9m) | Op:6 Ws:3 
+Task  9: Dia 1.0 ( 359.4m) -> Dia 2.0 (  91.2m) | Op:1 Ws:4 [Interrompida pelo Fim do Turno]
 Veículo 2:
-Task  6: Dia 1 (  0m) -> Dia 1 ( 52m) | Op:1 Ws:2 
-Task  7: Dia 1 ( 52m) -> Dia 1 ( 78m) | Op:3 Ws:5 
-Task  8: Dia 1 ( 78m) -> Dia 1 (169m) | Op:5 Ws:2 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  55.1m) | Op:5 Ws:6 
+Task  7: Dia 1.0 ( 225.1m) -> Dia 1.0 ( 250.6m) | Op:3 Ws:6 
+Task  8: Dia 1.0 ( 260.1m) -> Dia 1.0 ( 357.0m) | Op:4 Ws:6 
 Veículo 3:
-Task  1: Dia 1 (360m) -> Dia 2 ( 85m) | Op:5 Ws:4 [Interrompida pelo Fim do Turno]
-Task  7: Dia 2 (175m) -> Dia 2 (206m) | Op:3 Ws:5 
-Task  8: Dia 2 (206m) -> Dia 2 (296m) | Op:5 Ws:2 
-Task  9: Dia 2 (296m) -> Dia 2 (430m) | Op:4 Ws:2 
+Task  1: Dia 1.0 (  58.5m) -> Dia 1.0 ( 242.1m) | Op:1 Ws:4 
+Task  7: Dia 1.0 ( 357.0m) -> Dia 1.0 ( 390.3m) | Op:4 Ws:6 
+Task  8: Dia 1.0 ( 390.3m) -> Dia 2.0 (   6.4m) | Op:4 Ws:6 [Interrompida pelo Fim do Turno]
+Task  9: Dia 2.0 (   6.4m) -> Dia 2.0 ( 140.5m) | Op:4 Ws:6 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 35m) | Op:7 Ws:3 
-Task  6: Dia 1 ( 35m) -> Dia 1 (203m) | Op:7 Ws:6 
-Task  7: Dia 1 (203m) -> Dia 1 (398m) | Op:3 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  31.2m) | Op:3 Ws:2 
+Task  6: Dia 1.0 (  31.2m) -> Dia 1.0 ( 165.6m) | Op:2 Ws:2 
+Task  7: Dia 1.0 ( 250.6m) -> Dia 1.0 ( 445.2m) | Op:3 Ws:5 
 Veículo 5:
-Task  9: Dia 1 (  0m) -> Dia 1 ( 66m) | Op:4 Ws:1 
-Task 10: Dia 1 ( 66m) -> Dia 1 (228m) | Op:2 Ws:1 
+Task  9: Dia 1.0 (   0.0m) -> Dia 1.0 (  65.7m) | Op:4 Ws:1 
+Task 10: Dia 1.0 (  65.7m) -> Dia 1.0 ( 260.1m) | Op:4 Ws:1 
 Veículo 6:
-Task  6: Dia 1 ( 52m) -> Dia 1 (110m) | Op:1 Ws:7 
-Task  7: Dia 1 (110m) -> Dia 1 (286m) | Op:4 Ws:7 
-Task 10: Dia 1 (286m) -> Dia 1 (426m) | Op:4 Ws:3 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  58.5m) | Op:1 Ws:5 
+Task  7: Dia 1.0 (  58.5m) -> Dia 1.0 ( 225.1m) | Op:3 Ws:5 
+Task 10: Dia 1.0 ( 276.5m) -> Dia 1.0 ( 392.8m) | Op:2 Ws:1 
 Veículo 7:
-Task  2: Dia 1 (397m) -> Dia 2 ( 89m) | Op:7 Ws:2 [Interrompida pelo Fim do Turno]
-Task  5: Dia 2 ( 89m) -> Dia 2 (175m) | Op:3 Ws:1 
-Task  9: Dia 2 (175m) -> Dia 2 (400m) | Op:1 Ws:1 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 171.9m) | Op:7 Ws:7 
+Task  5: Dia 1.0 ( 171.9m) -> Dia 1.0 ( 276.5m) | Op:2 Ws:7 
+Task  9: Dia 1.0 ( 310.8m) -> Dia 2.0 (  91.5m) | Op:5 Ws:7 [Interrompida pelo Fim do Turno]
 Veículo 8:
-Task  2: Dia 1 (467m) -> Dia 2 (214m) | Op:6 Ws:6 [Interrompida pelo Fim do Turno]
-Task  6: Dia 2 (214m) -> Dia 2 (311m) | Op:2 Ws:6 
-Task  9: Dia 2 (311m) -> Dia 2 (419m) | Op:2 Ws:6 
+Task  2: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 445.2m) | Op:7 Ws:2 
+Task  6: Dia 1.0 ( 445.2m) -> Dia 2.0 (  62.0m) | Op:2 Ws:2 [Interrompida pelo Fim do Turno]
+Task  9: Dia 2.0 (  62.0m) -> Dia 2.0 ( 170.3m) | Op:2 Ws:2 
 Veículo 9:
-Task  3: Dia 1 (169m) -> Dia 1 (360m) | Op:5 Ws:2 
-Task  5: Dia 1 (360m) -> Dia 1 (406m) | Op:2 Ws:1 
-Task 10: Dia 1 (406m) -> Dia 1 (437m) | Op:2 Ws:1 
+Task  3: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 310.8m) | Op:5 Ws:8 
+Task  5: Dia 1.0 ( 310.9m) -> Dia 1.0 ( 356.8m) | Op:6 Ws:3 
+Task 10: Dia 1.0 ( 392.8m) -> Dia 1.0 ( 423.5m) | Op:2 Ws:3 
 Veículo 10:
-Task  1: Dia 1 (240m) -> Dia 1 (357m) | Op:1 Ws:4 
-Task  4: Dia 1 (357m) -> Dia 1 (467m) | Op:6 Ws:5 
-Task  6: Dia 1 (467m) -> Dia 2 ( 77m) | Op:2 Ws:5 [Interrompida pelo Fim do Turno]
-Task  9: Dia 2 ( 77m) -> Dia 2 (108m) | Op:2 Ws:5 
+Task  1: Dia 1.0 ( 242.1m) -> Dia 1.0 ( 359.4m) | Op:1 Ws:4 
+Task  4: Dia 1.0 ( 359.4m) -> Dia 1.0 ( 469.6m) | Op:6 Ws:8 
+Task  6: Dia 1.0 ( 469.6m) -> Dia 2.0 ( 101.6m) | Op:7 Ws:8 [Interrompida pelo Fim do Turno]
+Task  9: Dia 2.0 ( 101.6m) -> Dia 2.0 ( 132.9m) | Op:1 Ws:8 
 
-Instance: Inst_1D_10_7.txt | Makespan Global: 528
+Instance: Inst_1D_10_7.txt | Makespan Global: 372.15
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 87m) | Op:5 Ws:3 
-Task  5: Dia 1 ( 87m) -> Dia 1 (182m) | Op:6 Ws:3 
-Task  7: Dia 1 (182m) -> Dia 1 (232m) | Op:4 Ws:5 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  73.6m) | Op:3 Ws:3 
+Task  5: Dia 1.0 (  73.6m) -> Dia 1.0 ( 152.0m) | Op:3 Ws:3 
+Task  7: Dia 1.0 ( 152.0m) -> Dia 1.0 ( 199.6m) | Op:3 Ws:8 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 26m) | Op:3 Ws:1 
-Task  5: Dia 1 ( 26m) -> Dia 1 ( 58m) | Op:3 Ws:1 
-Task  7: Dia 1 ( 58m) -> Dia 1 (114m) | Op:3 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  27.2m) | Op:1 Ws:5 
+Task  5: Dia 1.0 (  27.2m) -> Dia 1.0 (  70.9m) | Op:1 Ws:7 
+Task  7: Dia 1.0 (  93.6m) -> Dia 1.0 ( 153.0m) | Op:4 Ws:7 
 Veículo 3:
-Task  3: Dia 1 ( 87m) -> Dia 1 (189m) | Op:5 Ws:4 
-Task  8: Dia 1 (189m) -> Dia 1 (307m) | Op:5 Ws:4 
-Task 10: Dia 1 (307m) -> Dia 1 (423m) | Op:4 Ws:1 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 113.0m) | Op:7 Ws:6 
+Task  8: Dia 1.0 ( 127.8m) -> Dia 1.0 ( 245.4m) | Op:5 Ws:4 
+Task 10: Dia 1.0 ( 245.4m) -> Dia 1.0 ( 361.5m) | Op:4 Ws:1 
 Veículo 4:
-Task  2: Dia 1 (  0m) -> Dia 1 (103m) | Op:7 Ws:5 
-Task  6: Dia 1 (103m) -> Dia 1 (139m) | Op:7 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 113.4m) | Op:6 Ws:8 
+Task  6: Dia 1.0 ( 153.0m) -> Dia 1.0 ( 189.0m) | Op:7 Ws:2 
 Veículo 5:
-Task  4: Dia 1 (126m) -> Dia 1 (213m) | Op:2 Ws:6 
-Task  9: Dia 1 (213m) -> Dia 1 (328m) | Op:2 Ws:6 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  86.7m) | Op:2 Ws:1 
+Task  9: Dia 1.0 (  86.7m) -> Dia 1.0 ( 201.6m) | Op:2 Ws:1 
 Veículo 6:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 94m) | Op:4 Ws:2 
-Task  6: Dia 1 ( 94m) -> Dia 1 (126m) | Op:2 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  93.6m) | Op:4 Ws:2 
+Task  6: Dia 1.0 ( 113.0m) -> Dia 1.0 ( 153.0m) | Op:7 Ws:2 
 Veículo 7:
-Task  6: Dia 1 (  0m) -> Dia 1 (115m) | Op:1 Ws:7 
-Task  7: Dia 1 (115m) -> Dia 1 (223m) | Op:3 Ws:7 
-Task 10: Dia 1 (223m) -> Dia 1 (278m) | Op:3 Ws:1 
+Task  6: Dia 1.0 (  70.9m) -> Dia 1.0 ( 186.1m) | Op:1 Ws:5 
+Task  7: Dia 1.0 ( 199.6m) -> Dia 1.0 ( 307.6m) | Op:3 Ws:5 
+Task 10: Dia 1.0 ( 307.6m) -> Dia 1.0 ( 362.6m) | Op:3 Ws:3 
 Veículo 8:
-Task  6: Dia 1 (240m) -> Dia 1 (327m) | Op:1 Ws:2 
-Task  9: Dia 1 (327m) -> Dia 1 (377m) | Op:1 Ws:2 
+Task  6: Dia 1.0 ( 240.0m) -> Dia 1.0 ( 317.6m) | Op:2 Ws:2 
+Task  9: Dia 1.0 ( 317.6m) -> Dia 1.0 ( 368.0m) | Op:2 Ws:2 
 Veículo 9:
-Task  2: Dia 1 (139m) -> Dia 1 (215m) | Op:7 Ws:8 
-Task  5: Dia 1 (215m) -> Dia 1 (278m) | Op:6 Ws:3 
-Task  8: Dia 1 (278m) -> Dia 1 (359m) | Op:3 Ws:3 
+Task  2: Dia 1.0 ( 153.0m) -> Dia 1.0 ( 225.0m) | Op:4 Ws:7 
+Task  5: Dia 1.0 ( 225.0m) -> Dia 1.0 ( 295.3m) | Op:1 Ws:7 
+Task  8: Dia 1.0 ( 312.9m) -> Dia 1.0 ( 372.1m) | Op:5 Ws:7 
 Veículo 10:
-Task  3: Dia 1 (215m) -> Dia 1 (357m) | Op:7 Ws:8 
-Task  4: Dia 1 (357m) -> Dia 1 (477m) | Op:2 Ws:8 
-Task  8: Dia 1 (477m) -> Dia 2 ( 48m) | Op:5 Ws:8 [Interrompida pelo Fim do Turno]
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 127.8m) | Op:5 Ws:4 
+Task  4: Dia 1.0 ( 127.8m) -> Dia 1.0 ( 261.8m) | Op:6 Ws:6 
+Task  8: Dia 1.0 ( 261.8m) -> Dia 1.0 ( 312.9m) | Op:5 Ws:6 
 
-Instance: Inst_1D_10_8.txt | Makespan Global: 650
+Instance: Inst_1D_10_8.txt | Makespan Global: 471.05
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (106m) | Op:5 Ws:7 
-Task  9: Dia 1 (106m) -> Dia 1 (213m) | Op:4 Ws:7 
-Task 10: Dia 1 (213m) -> Dia 1 (345m) | Op:2 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  95.2m) | Op:1 Ws:4 
+Task  9: Dia 1.0 ( 183.8m) -> Dia 1.0 ( 296.9m) | Op:2 Ws:4 
+Task 10: Dia 1.0 ( 296.9m) -> Dia 1.0 ( 428.9m) | Op:2 Ws:6 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 53m) | Op:3 Ws:2 
-Task  3: Dia 1 ( 53m) -> Dia 1 (140m) | Op:3 Ws:2 
+Task  1: Dia 1.0 (  30.6m) -> Dia 1.0 (  96.6m) | Op:2 Ws:8 
+Task  3: Dia 1.0 (  96.6m) -> Dia 1.0 ( 188.6m) | Op:7 Ws:8 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 67m) | Op:1 Ws:4 
-Task  3: Dia 1 (264m) -> Dia 1 (457m) | Op:5 Ws:6 
-Task  5: Dia 2 ( 13m) -> Dia 2 (170m) | Op:3 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  63.2m) | Op:3 Ws:1 
+Task  3: Dia 1.0 (  63.2m) -> Dia 1.0 ( 266.5m) | Op:3 Ws:6 
+Task  5: Dia 1.0 ( 267.6m) -> Dia 1.0 ( 458.0m) | Op:6 Ws:7 
 Veículo 4:
-Task  5: Dia 1 (213m) -> Dia 1 (400m) | Op:6 Ws:7 
-Task  6: Dia 1 (400m) -> Dia 2 ( 75m) | Op:1 Ws:7 [Interrompida pelo Fim do Turno]
+Task  5: Dia 1.0 (  80.6m) -> Dia 1.0 ( 267.6m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 277.2m) -> Dia 1.0 ( 432.1m) | Op:1 Ws:8 
 Veículo 5:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 98m) | Op:6 Ws:6 
-Task  6: Dia 1 ( 98m) -> Dia 1 (185m) | Op:2 Ws:6 
-Task 10: Dia 1 (345m) -> Dia 2 ( 25m) | Op:2 Ws:3 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  83.7m) | Op:4 Ws:2 
+Task  6: Dia 1.0 (  96.6m) -> Dia 1.0 ( 183.8m) | Op:2 Ws:2 
+Task 10: Dia 1.0 ( 188.6m) -> Dia 1.0 ( 402.6m) | Op:7 Ws:12 
 Veículo 6:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 32m) | Op:4 Ws:1 
-Task  4: Dia 1 ( 32m) -> Dia 1 ( 75m) | Op:4 Ws:1 
-Task  9: Dia 1 ( 75m) -> Dia 1 (240m) | Op:1 Ws:1 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  37.8m) | Op:6 Ws:7 
+Task  4: Dia 1.0 (  37.8m) -> Dia 1.0 (  80.6m) | Op:6 Ws:7 
+Task  9: Dia 1.0 ( 202.5m) -> Dia 1.0 ( 359.1m) | Op:4 Ws:2 
 Veículo 7:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 71m) | Op:7 Ws:5 
-Task  7: Dia 1 (140m) -> Dia 1 (252m) | Op:3 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  71.2m) | Op:7 Ws:5 
+Task  7: Dia 1.0 (  83.7m) -> Dia 1.0 ( 202.5m) | Op:4 Ws:5 
 Veículo 8:
-Task  8: Dia 1 (213m) -> Dia 1 (394m) | Op:4 Ws:2 
-Task 10: Dia 1 (394m) -> Dia 2 ( 13m) | Op:4 Ws:1 [Interrompida pelo Fim do Turno]
+Task  8: Dia 1.0 ( 188.2m) -> Dia 1.0 ( 358.6m) | Op:5 Ws:3 
+Task 10: Dia 1.0 ( 359.1m) -> Dia 1.0 ( 458.1m) | Op:4 Ws:3 
 Veículo 9:
-Task  1: Dia 1 (120m) -> Dia 1 (286m) | Op:7 Ws:4 
-Task  4: Dia 1 (286m) -> Dia 1 (342m) | Op:7 Ws:1 
-Task  7: Dia 1 (342m) -> Dia 2 ( 11m) | Op:3 Ws:5 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 277.2m) | Op:1 Ws:1 
+Task  4: Dia 1.0 ( 277.2m) -> Dia 1.0 ( 322.3m) | Op:3 Ws:1 
+Task  7: Dia 1.0 ( 322.3m) -> Dia 1.0 ( 471.1m) | Op:3 Ws:5 
 Veículo 10:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 31m) | Op:2 Ws:3 
-Task  8: Dia 1 (106m) -> Dia 1 (264m) | Op:5 Ws:8 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  30.6m) | Op:2 Ws:3 
+Task  8: Dia 1.0 (  30.6m) -> Dia 1.0 ( 188.2m) | Op:5 Ws:3 
 
-Instance: Inst_1D_10_9.txt | Makespan Global: 709
+Instance: Inst_1D_10_9.txt | Makespan Global: 479.35
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (154m) | Op:3 Ws:3 
-Task  9: Dia 1 (154m) -> Dia 1 (246m) | Op:1 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 173.7m) | Op:7 Ws:5 
+Task  9: Dia 1.0 ( 200.9m) -> Dia 1.0 ( 307.6m) | Op:5 Ws:7 
 Veículo 2:
-Task  3: Dia 1 ( 52m) -> Dia 1 (102m) | Op:7 Ws:4 
-Task  5: Dia 1 (102m) -> Dia 1 (175m) | Op:2 Ws:7 
-Task  7: Dia 1 (249m) -> Dia 1 (315m) | Op:4 Ws:7 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  45.0m) | Op:5 Ws:10 
+Task  5: Dia 1.0 ( 149.6m) -> Dia 1.0 ( 222.7m) | Op:6 Ws:3 
+Task  7: Dia 1.0 ( 402.6m) -> Dia 1.0 ( 468.3m) | Op:4 Ws:6 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 52m) | Op:7 Ws:6 
-Task  7: Dia 1 (154m) -> Dia 1 (317m) | Op:3 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  49.3m) | Op:1 Ws:4 
+Task  7: Dia 1.0 ( 120.8m) -> Dia 1.0 ( 284.0m) | Op:3 Ws:8 
 Veículo 4:
-Task  6: Dia 1 (102m) -> Dia 1 (212m) | Op:7 Ws:8 
-Task  7: Dia 1 (317m) -> Dia 1 (406m) | Op:3 Ws:8 
-Task 10: Dia 1 (406m) -> Dia 2 ( 35m) | Op:2 Ws:1 [Interrompida pelo Fim do Turno]
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  88.0m) | Op:2 Ws:2 
+Task  7: Dia 1.0 (  91.2m) -> Dia 1.0 ( 185.7m) | Op:4 Ws:6 
+Task 10: Dia 1.0 ( 185.7m) -> Dia 1.0 ( 316.2m) | Op:4 Ws:6 
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 46m) | Op:1 Ws:4 
-Task  7: Dia 1 ( 46m) -> Dia 1 (249m) | Op:4 Ws:5 
+Task  1: Dia 1.0 (  45.0m) -> Dia 1.0 (  96.3m) | Op:5 Ws:9 
+Task  7: Dia 1.0 ( 284.0m) -> Dia 1.0 ( 476.1m) | Op:3 Ws:5 
 Veículo 6:
-Task  5: Dia 1 (315m) -> Dia 1 (465m) | Op:6 Ws:7 
-Task  6: Dia 1 (465m) -> Dia 2 ( 34m) | Op:1 Ws:7 [Interrompida pelo Fim do Turno]
-Task  7: Dia 2 ( 34m) -> Dia 2 (116m) | Op:3 Ws:7 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 ( 149.6m) | Op:6 Ws:7 
+Task  6: Dia 1.0 ( 149.6m) -> Dia 1.0 ( 200.9m) | Op:5 Ws:7 
+Task  7: Dia 1.0 ( 316.2m) -> Dia 1.0 ( 402.6m) | Op:4 Ws:7 
 Veículo 7:
-Task  1: Dia 1 (212m) -> Dia 1 (348m) | Op:7 Ws:3 
-Task  9: Dia 1 (348m) -> Dia 2 ( 61m) | Op:4 Ws:4 [Interrompida pelo Fim do Turno]
-Task 10: Dia 2 ( 61m) -> Dia 2 (216m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 120.8m) | Op:3 Ws:1 
+Task  9: Dia 1.0 ( 120.8m) -> Dia 1.0 ( 324.1m) | Op:2 Ws:1 
+Task 10: Dia 1.0 ( 324.1m) -> Dia 1.0 ( 479.4m) | Op:2 Ws:1 
 Veículo 8:
-Task  3: Dia 1 (120m) -> Dia 1 (242m) | Op:5 Ws:2 
-Task  9: Dia 1 (242m) -> Dia 1 (359m) | Op:5 Ws:2 
+Task  3: Dia 1.0 ( 173.7m) -> Dia 1.0 ( 309.7m) | Op:7 Ws:4 
+Task  9: Dia 1.0 ( 309.7m) -> Dia 1.0 ( 410.4m) | Op:1 Ws:4 
 Veículo 9:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 82m) | Op:2 Ws:1 
-Task  8: Dia 1 ( 82m) -> Dia 1 (113m) | Op:5 Ws:2 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  91.2m) | Op:4 Ws:3 
+Task  8: Dia 1.0 (  96.3m) -> Dia 1.0 ( 127.5m) | Op:5 Ws:3 
 Veículo 10:
-Task  1: Dia 1 (348m) -> Dia 2 ( 61m) | Op:7 Ws:3 [Interrompida pelo Fim do Turno]
-Task  2: Dia 2 ( 61m) -> Dia 2 (229m) | Op:7 Ws:2 
+Task  1: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 301.9m) | Op:1 Ws:2 
+Task  2: Dia 1.0 ( 309.7m) -> Dia 1.0 ( 477.9m) | Op:7 Ws:2 
 
-Instance: Inst_1D_5_1.txt | Makespan Global: 439
+Instance: Inst_1D_5_1.txt | Makespan Global: 434.85
 ------------------------------------------------------------
 Veículo 1:
-Task  7: Dia 1 (  0m) -> Dia 1 (111m) | Op:3 Ws:5 
-Task  8: Dia 1 (111m) -> Dia 1 (218m) | Op:5 Ws:3 
-Task  9: Dia 1 (218m) -> Dia 1 (339m) | Op:4 Ws:1 
-Task 10: Dia 1 (339m) -> Dia 1 (430m) | Op:4 Ws:1 
+Task  7: Dia 1.0 (   0.0m) -> Dia 1.0 ( 117.9m) | Op:4 Ws:5 
+Task  8: Dia 1.0 ( 117.9m) -> Dia 1.0 ( 231.8m) | Op:4 Ws:3 
+Task  9: Dia 1.0 ( 231.8m) -> Dia 1.0 ( 359.1m) | Op:2 Ws:1 
+Task 10: Dia 1.0 ( 359.1m) -> Dia 1.0 ( 434.9m) | Op:2 Ws:1 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 (121m) | Op:1 Ws:2 
-Task  2: Dia 1 (121m) -> Dia 1 (215m) | Op:4 Ws:2 
-Task  4: Dia 1 (215m) -> Dia 1 (293m) | Op:3 Ws:7 
-Task  9: Dia 1 (293m) -> Dia 1 (394m) | Op:1 Ws:7 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 120.7m) | Op:1 Ws:4 
+Task  2: Dia 1.0 ( 120.7m) -> Dia 1.0 ( 220.4m) | Op:7 Ws:1 
+Task  4: Dia 1.0 ( 220.4m) -> Dia 1.0 ( 317.1m) | Op:7 Ws:5 
+Task  9: Dia 1.0 ( 317.1m) -> Dia 1.0 ( 417.8m) | Op:1 Ws:5 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 85m) | Op:7 Ws:3 
-Task  3: Dia 1 ( 85m) -> Dia 1 (186m) | Op:7 Ws:4 
-Task  9: Dia 1 (186m) -> Dia 1 (288m) | Op:1 Ws:4 
-Task 10: Dia 1 (306m) -> Dia 1 (406m) | Op:2 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  75.2m) | Op:3 Ws:1 
+Task  3: Dia 1.0 (  75.2m) -> Dia 1.0 ( 171.1m) | Op:3 Ws:6 
+Task  9: Dia 1.0 ( 171.1m) -> Dia 1.0 ( 272.8m) | Op:1 Ws:6 
+Task 10: Dia 1.0 ( 272.8m) -> Dia 1.0 ( 400.1m) | Op:3 Ws:6 
 Veículo 4:
-Task  5: Dia 1 (  0m) -> Dia 1 (116m) | Op:2 Ws:1 
-Task  6: Dia 1 (116m) -> Dia 1 (223m) | Op:2 Ws:5 
-Task  8: Dia 1 (223m) -> Dia 1 (312m) | Op:5 Ws:2 
-Task  9: Dia 1 (312m) -> Dia 1 (439m) | Op:5 Ws:2 
+Task  5: Dia 1.0 (   0.0m) -> Dia 1.0 ( 115.6m) | Op:2 Ws:3 
+Task  6: Dia 1.0 ( 115.6m) -> Dia 1.0 ( 222.8m) | Op:2 Ws:7 
+Task  8: Dia 1.0 ( 231.8m) -> Dia 1.0 ( 326.1m) | Op:4 Ws:7 
+Task  9: Dia 1.0 ( 326.1m) -> Dia 1.0 ( 429.6m) | Op:4 Ws:7 
 Veículo 5:
-Task  3: Dia 1 (111m) -> Dia 1 (209m) | Op:3 Ws:6 
-Task  6: Dia 1 (223m) -> Dia 1 (306m) | Op:2 Ws:6 
-Task  8: Dia 1 (306m) -> Dia 1 (433m) | Op:3 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  92.7m) | Op:5 Ws:2 
+Task  6: Dia 1.0 (  92.7m) -> Dia 1.0 ( 191.5m) | Op:5 Ws:2 
+Task  8: Dia 1.0 ( 191.5m) -> Dia 1.0 ( 283.5m) | Op:5 Ws:2 
 
-Instance: Inst_1D_5_10.txt | Makespan Global: 426
+Instance: Inst_1D_5_10.txt | Makespan Global: 412.50
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (110m) | Op:3 Ws:1 
-Task  4: Dia 1 (110m) -> Dia 1 (202m) | Op:2 Ws:7 
-Task  6: Dia 1 (202m) -> Dia 1 (311m) | Op:2 Ws:7 
-Task  7: Dia 1 (330m) -> Dia 1 (426m) | Op:4 Ws:7 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 109.6m) | Op:3 Ws:1 
+Task  4: Dia 1.0 ( 109.6m) -> Dia 1.0 ( 201.4m) | Op:3 Ws:1 
+Task  6: Dia 1.0 ( 207.4m) -> Dia 1.0 ( 316.2m) | Op:2 Ws:6 
+Task  7: Dia 1.0 ( 316.2m) -> Dia 1.0 ( 412.5m) | Op:4 Ws:6 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 (106m) | Op:5 Ws:2 
-Task  8: Dia 1 (106m) -> Dia 1 (195m) | Op:5 Ws:3 
-Task  9: Dia 1 (195m) -> Dia 1 (324m) | Op:5 Ws:4 
-Task 10: Dia 1 (324m) -> Dia 1 (403m) | Op:2 Ws:1 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 106.2m) | Op:5 Ws:4 
+Task  8: Dia 1.0 ( 106.2m) -> Dia 1.0 ( 195.0m) | Op:5 Ws:4 
+Task  9: Dia 1.0 ( 195.0m) -> Dia 1.0 ( 306.1m) | Op:1 Ws:4 
+Task 10: Dia 1.0 ( 306.1m) -> Dia 1.0 ( 411.1m) | Op:7 Ws:12 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 93m) | Op:1 Ws:6 
-Task  3: Dia 1 ( 93m) -> Dia 1 (228m) | Op:7 Ws:6 
-Task  7: Dia 1 (228m) -> Dia 1 (342m) | Op:3 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  92.6m) | Op:1 Ws:2 
+Task  3: Dia 1.0 (  92.6m) -> Dia 1.0 ( 227.6m) | Op:7 Ws:2 
+Task  7: Dia 1.0 ( 227.6m) -> Dia 1.0 ( 341.5m) | Op:3 Ws:5 
 Veículo 4:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 97m) | Op:2 Ws:3 
-Task  7: Dia 1 (107m) -> Dia 1 (208m) | Op:4 Ws:5 
-Task  8: Dia 1 (208m) -> Dia 1 (330m) | Op:4 Ws:2 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 ( 108.3m) | Op:4 Ws:5 
+Task  7: Dia 1.0 ( 108.3m) -> Dia 1.0 ( 209.1m) | Op:4 Ws:5 
+Task  8: Dia 1.0 ( 209.1m) -> Dia 1.0 ( 323.5m) | Op:5 Ws:3 
 Veículo 5:
-Task  4: Dia 1 (  0m) -> Dia 1 (107m) | Op:4 Ws:5 
-Task  5: Dia 1 (110m) -> Dia 1 (202m) | Op:3 Ws:1 
-Task  9: Dia 1 (202m) -> Dia 1 (303m) | Op:1 Ws:1 
-Task 10: Dia 1 (303m) -> Dia 1 (404m) | Op:7 Ws:3 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  96.0m) | Op:2 Ws:3 
+Task  5: Dia 1.0 (  96.0m) -> Dia 1.0 ( 207.4m) | Op:2 Ws:3 
+Task  9: Dia 1.0 ( 209.1m) -> Dia 1.0 ( 304.5m) | Op:4 Ws:1 
+Task 10: Dia 1.0 ( 316.2m) -> Dia 1.0 ( 391.9m) | Op:2 Ws:1 
 
-Instance: Inst_1D_5_2.txt | Makespan Global: 633
+Instance: Inst_1D_5_2.txt | Makespan Global: 587.45
 ------------------------------------------------------------
 Veículo 1:
-Task  3: Dia 1 (  0m) -> Dia 1 (131m) | Op:5 Ws:2 
-Task  5: Dia 1 (131m) -> Dia 1 (266m) | Op:6 Ws:1 
-Task  8: Dia 1 (337m) -> Dia 1 (478m) | Op:4 Ws:2 
-Task 10: Dia 1 (478m) -> Dia 2 (153m) | Op:4 Ws:1 [Interrompida pelo Fim do Turno]
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 131.4m) | Op:5 Ws:2 
+Task  5: Dia 1.0 ( 138.4m) -> Dia 1.0 ( 249.7m) | Op:3 Ws:1 
+Task  8: Dia 1.0 ( 249.7m) -> Dia 1.0 ( 390.8m) | Op:4 Ws:4 
+Task 10: Dia 1.0 ( 390.8m) -> Dia 2.0 (  39.8m) | Op:2 Ws:3 [Interrompida pelo Fim do Turno]
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 (100m) | Op:3 Ws:1 
-Task  6: Dia 1 (100m) -> Dia 1 (214m) | Op:2 Ws:5 
-Task  8: Dia 1 (214m) -> Dia 1 (337m) | Op:4 Ws:4 
-Task  9: Dia 1 (337m) -> Dia 1 (477m) | Op:1 Ws:4 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 106.2m) | Op:1 Ws:3 
+Task  6: Dia 1.0 ( 106.2m) -> Dia 1.0 ( 234.1m) | Op:1 Ws:6 
+Task  8: Dia 1.0 ( 249.7m) -> Dia 1.0 ( 409.2m) | Op:3 Ws:6 
+Task  9: Dia 1.0 ( 409.2m) -> Dia 2.0 (  68.9m) | Op:1 Ws:6 [Interrompida pelo Fim do Turno]
 Veículo 3:
-Task  3: Dia 1 (100m) -> Dia 1 (240m) | Op:3 Ws:6 
-Task  4: Dia 1 (240m) -> Dia 1 (374m) | Op:3 Ws:6 
-Task  7: Dia 1 (374m) -> Dia 1 (480m) | Op:3 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 147.0m) | Op:7 Ws:4 
+Task  4: Dia 1.0 ( 147.0m) -> Dia 1.0 ( 312.9m) | Op:7 Ws:3 
+Task  7: Dia 1.0 ( 390.8m) -> Dia 2.0 (  23.3m) | Op:4 Ws:5 [Interrompida pelo Fim do Turno]
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 (158m) | Op:7 Ws:4 
-Task  4: Dia 1 (158m) -> Dia 1 (342m) | Op:7 Ws:3 
-Task  8: Dia 1 (342m) -> Dia 1 (455m) | Op:5 Ws:3 
-Task 10: Dia 1 (455m) -> Dia 2 ( 82m) | Op:2 Ws:3 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 176.0m) | Op:2 Ws:5 
+Task  4: Dia 1.0 ( 176.0m) -> Dia 1.0 ( 324.8m) | Op:2 Ws:5 
+Task  8: Dia 1.0 ( 324.8m) -> Dia 1.0 ( 437.6m) | Op:5 Ws:2 
+Task 10: Dia 1.0 ( 437.6m) -> Dia 2.0 ( 100.5m) | Op:7 Ws:1 [Interrompida pelo Fim do Turno]
 Veículo 5:
-Task  1: Dia 1 (  0m) -> Dia 1 (147m) | Op:1 Ws:3 
-Task  3: Dia 1 (147m) -> Dia 1 (305m) | Op:5 Ws:2 
-Task  5: Dia 1 (305m) -> Dia 1 (445m) | Op:2 Ws:1 
-Task  7: Dia 2 (  0m) -> Dia 2 (151m) | Op:3 Ws:5 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 138.4m) | Op:3 Ws:1 
+Task  3: Dia 1.0 ( 138.4m) -> Dia 1.0 ( 295.9m) | Op:5 Ws:2 
+Task  5: Dia 1.0 ( 295.9m) -> Dia 1.0 ( 436.1m) | Op:6 Ws:1 
+Task  7: Dia 1.0 ( 436.1m) -> Dia 2.0 ( 107.4m) | Op:3 Ws:7 [Interrompida pelo Fim do Turno]
 
-Instance: Inst_1D_5_3.txt | Makespan Global: 447
+Instance: Inst_1D_5_3.txt | Makespan Global: 446.30
 ------------------------------------------------------------
 Veículo 1:
-Task  2: Dia 1 (  0m) -> Dia 1 (138m) | Op:6 Ws:6 
-Task  3: Dia 1 (138m) -> Dia 1 (267m) | Op:7 Ws:6 
-Task  7: Dia 1 (322m) -> Dia 1 (405m) | Op:3 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 137.6m) | Op:6 Ws:6 
+Task  3: Dia 1.0 ( 137.6m) -> Dia 1.0 ( 266.6m) | Op:7 Ws:6 
+Task  7: Dia 1.0 ( 321.8m) -> Dia 1.0 ( 405.1m) | Op:3 Ws:5 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 (114m) | Op:3 Ws:1 
-Task  4: Dia 1 (114m) -> Dia 1 (225m) | Op:3 Ws:1 
-Task  6: Dia 1 (225m) -> Dia 1 (335m) | Op:2 Ws:2 
-Task 10: Dia 1 (335m) -> Dia 1 (447m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 113.6m) | Op:3 Ws:1 
+Task  4: Dia 1.0 ( 113.6m) -> Dia 1.0 ( 224.9m) | Op:3 Ws:1 
+Task  6: Dia 1.0 ( 224.9m) -> Dia 1.0 ( 334.6m) | Op:2 Ws:2 
+Task 10: Dia 1.0 ( 334.6m) -> Dia 1.0 ( 446.3m) | Op:2 Ws:1 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 (100m) | Op:1 Ws:2 
-Task  3: Dia 1 (100m) -> Dia 1 (210m) | Op:5 Ws:2 
-Task  9: Dia 1 (210m) -> Dia 1 (313m) | Op:5 Ws:4 
-Task 10: Dia 1 (313m) -> Dia 1 (445m) | Op:4 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 100.3m) | Op:1 Ws:2 
+Task  3: Dia 1.0 ( 100.3m) -> Dia 1.0 ( 210.1m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 210.1m) -> Dia 1.0 ( 313.5m) | Op:5 Ws:4 
+Task 10: Dia 1.0 ( 313.5m) -> Dia 1.0 ( 445.8m) | Op:4 Ws:3 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 98m) | Op:7 Ws:3 
-Task  4: Dia 1 ( 98m) -> Dia 1 (195m) | Op:2 Ws:3 
-Task  8: Dia 1 (195m) -> Dia 1 (297m) | Op:4 Ws:3 
-Task 10: Dia 1 (297m) -> Dia 1 (422m) | Op:7 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  98.1m) | Op:7 Ws:3 
+Task  4: Dia 1.0 (  98.1m) -> Dia 1.0 ( 195.0m) | Op:2 Ws:3 
+Task  8: Dia 1.0 ( 195.0m) -> Dia 1.0 ( 297.0m) | Op:4 Ws:3 
+Task 10: Dia 1.0 ( 297.0m) -> Dia 1.0 ( 422.0m) | Op:7 Ws:6 
 Veículo 5:
-Task  2: Dia 1 (  0m) -> Dia 1 (119m) | Op:4 Ws:5 
-Task  6: Dia 1 (119m) -> Dia 1 (204m) | Op:1 Ws:5 
-Task  7: Dia 1 (225m) -> Dia 1 (322m) | Op:3 Ws:5 
-Task  8: Dia 1 (322m) -> Dia 1 (408m) | Op:5 Ws:4 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 118.8m) | Op:4 Ws:5 
+Task  6: Dia 1.0 ( 118.8m) -> Dia 1.0 ( 203.4m) | Op:1 Ws:5 
+Task  7: Dia 1.0 ( 224.9m) -> Dia 1.0 ( 321.8m) | Op:3 Ws:5 
+Task  8: Dia 1.0 ( 321.8m) -> Dia 1.0 ( 407.4m) | Op:5 Ws:4 
 
-Instance: Inst_1D_5_4.txt | Makespan Global: 462
+Instance: Inst_1D_5_4.txt | Makespan Global: 460.35
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 88m) | Op:3 Ws:3 
-Task  4: Dia 1 ( 88m) -> Dia 1 (215m) | Op:2 Ws:3 
-Task  6: Dia 1 (215m) -> Dia 1 (332m) | Op:1 Ws:6 
-Task 10: Dia 1 (332m) -> Dia 1 (430m) | Op:3 Ws:6 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  93.5m) | Op:1 Ws:4 
+Task  4: Dia 1.0 (  93.5m) -> Dia 1.0 ( 235.0m) | Op:6 Ws:5 
+Task  6: Dia 1.0 ( 235.0m) -> Dia 1.0 ( 352.0m) | Op:1 Ws:5 
+Task 10: Dia 1.0 ( 352.0m) -> Dia 1.0 ( 449.9m) | Op:3 Ws:12 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 (130m) | Op:5 Ws:2 
-Task  6: Dia 1 (130m) -> Dia 1 (247m) | Op:5 Ws:2 
-Task  8: Dia 1 (247m) -> Dia 1 (337m) | Op:5 Ws:2 
-Task  9: Dia 1 (337m) -> Dia 1 (462m) | Op:5 Ws:2 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 129.6m) | Op:5 Ws:2 
+Task  6: Dia 1.0 ( 129.6m) -> Dia 1.0 ( 246.4m) | Op:5 Ws:2 
+Task  8: Dia 1.0 ( 246.4m) -> Dia 1.0 ( 336.9m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 352.0m) -> Dia 1.0 ( 460.3m) | Op:1 Ws:2 
 Veículo 3:
-Task  2: Dia 1 (  0m) -> Dia 1 (104m) | Op:4 Ws:1 
-Task  3: Dia 1 (104m) -> Dia 1 (221m) | Op:3 Ws:4 
-Task  5: Dia 1 (221m) -> Dia 1 (323m) | Op:3 Ws:1 
-Task  9: Dia 1 (323m) -> Dia 1 (456m) | Op:4 Ws:1 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 104.4m) | Op:4 Ws:1 
+Task  3: Dia 1.0 ( 104.4m) -> Dia 1.0 ( 221.2m) | Op:3 Ws:4 
+Task  5: Dia 1.0 ( 221.2m) -> Dia 1.0 ( 322.8m) | Op:3 Ws:1 
+Task  9: Dia 1.0 ( 322.8m) -> Dia 1.0 ( 456.0m) | Op:4 Ws:1 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 94m) | Op:1 Ws:4 
-Task  4: Dia 1 ( 94m) -> Dia 1 (217m) | Op:6 Ws:5 
-Task  6: Dia 1 (217m) -> Dia 1 (313m) | Op:2 Ws:5 
-Task 10: Dia 1 (313m) -> Dia 1 (405m) | Op:2 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  88.8m) | Op:3 Ws:3 
+Task  4: Dia 1.0 (  88.8m) -> Dia 1.0 ( 198.4m) | Op:2 Ws:3 
+Task  6: Dia 1.0 ( 198.4m) -> Dia 1.0 ( 294.4m) | Op:2 Ws:7 
+Task 10: Dia 1.0 ( 294.4m) -> Dia 1.0 ( 385.9m) | Op:2 Ws:3 
 Veículo 5:
-Task  6: Dia 1 (120m) -> Dia 1 (207m) | Op:1 Ws:6 
-Task  7: Dia 1 (207m) -> Dia 1 (304m) | Op:4 Ws:7 
-Task  9: Dia 1 (332m) -> Dia 1 (435m) | Op:1 Ws:7 
+Task  6: Dia 1.0 ( 120.0m) -> Dia 1.0 ( 207.3m) | Op:1 Ws:6 
+Task  7: Dia 1.0 ( 207.3m) -> Dia 1.0 ( 304.5m) | Op:4 Ws:6 
+Task  9: Dia 1.0 ( 336.9m) -> Dia 1.0 ( 455.7m) | Op:5 Ws:6 
 
-Instance: Inst_1D_5_5.txt | Makespan Global: 434
+Instance: Inst_1D_5_5.txt | Makespan Global: 431.95
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (110m) | Op:1 Ws:5 
-Task  4: Dia 1 (110m) -> Dia 1 (186m) | Op:6 Ws:7 
-Task  9: Dia 1 (186m) -> Dia 1 (287m) | Op:1 Ws:7 
-Task 10: Dia 1 (287m) -> Dia 1 (356m) | Op:3 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 129.0m) | Op:2 Ws:3 
+Task  4: Dia 1.0 ( 129.0m) -> Dia 1.0 ( 197.0m) | Op:2 Ws:3 
+Task  9: Dia 1.0 ( 197.0m) -> Dia 1.0 ( 297.7m) | Op:1 Ws:4 
+Task 10: Dia 1.0 ( 297.7m) -> Dia 1.0 ( 367.0m) | Op:3 Ws:3 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 (144m) | Op:7 Ws:4 
-Task  4: Dia 1 (144m) -> Dia 1 (257m) | Op:7 Ws:6 
-Task  8: Dia 1 (257m) -> Dia 1 (328m) | Op:5 Ws:6 
-Task  9: Dia 1 (328m) -> Dia 1 (403m) | Op:2 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 144.0m) | Op:7 Ws:6 
+Task  4: Dia 1.0 ( 144.0m) -> Dia 1.0 ( 257.4m) | Op:7 Ws:6 
+Task  8: Dia 1.0 ( 257.4m) -> Dia 1.0 ( 333.0m) | Op:4 Ws:6 
+Task  9: Dia 1.0 ( 333.0m) -> Dia 1.0 ( 404.1m) | Op:4 Ws:6 
 Veículo 3:
-Task  3: Dia 1 (102m) -> Dia 1 (162m) | Op:5 Ws:2 
-Task  4: Dia 1 (162m) -> Dia 1 (286m) | Op:3 Ws:1 
-Task  8: Dia 1 (286m) -> Dia 1 (428m) | Op:4 Ws:3 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  63.6m) | Op:3 Ws:4 
+Task  4: Dia 1.0 (  63.6m) -> Dia 1.0 ( 187.8m) | Op:3 Ws:5 
+Task  8: Dia 1.0 ( 187.8m) -> Dia 1.0 ( 321.4m) | Op:5 Ws:2 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 (120m) | Op:3 Ws:1 
-Task  2: Dia 1 (120m) -> Dia 1 (214m) | Op:4 Ws:5 
-Task  4: Dia 1 (214m) -> Dia 1 (281m) | Op:4 Ws:5 
-Task  9: Dia 1 (287m) -> Dia 1 (406m) | Op:1 Ws:5 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 127.5m) | Op:1 Ws:1 
+Task  2: Dia 1.0 ( 127.5m) -> Dia 1.0 ( 237.8m) | Op:6 Ws:1 
+Task  4: Dia 1.0 ( 237.8m) -> Dia 1.0 ( 305.2m) | Op:6 Ws:1 
+Task  9: Dia 1.0 ( 305.2m) -> Dia 1.0 ( 423.9m) | Op:1 Ws:1 
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 (102m) | Op:5 Ws:2 
-Task  4: Dia 1 (102m) -> Dia 1 (210m) | Op:2 Ws:3 
-Task  6: Dia 1 (210m) -> Dia 1 (313m) | Op:2 Ws:2 
-Task  8: Dia 1 (328m) -> Dia 1 (434m) | Op:5 Ws:2 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 101.7m) | Op:5 Ws:2 
+Task  4: Dia 1.0 ( 101.7m) -> Dia 1.0 ( 222.3m) | Op:4 Ws:7 
+Task  6: Dia 1.0 ( 222.3m) -> Dia 1.0 ( 325.6m) | Op:2 Ws:7 
+Task  8: Dia 1.0 ( 325.6m) -> Dia 1.0 ( 432.0m) | Op:5 Ws:7 
 
-Instance: Inst_1D_5_6.txt | Makespan Global: 411
+Instance: Inst_1D_5_6.txt | Makespan Global: 391.10
 ------------------------------------------------------------
 Veículo 1:
-Task  4: Dia 1 (  0m) -> Dia 1 ( 53m) | Op:2 Ws:1 
-Task  6: Dia 1 ( 53m) -> Dia 1 (185m) | Op:2 Ws:2 
-Task  7: Dia 1 (185m) -> Dia 1 (320m) | Op:3 Ws:5 
-Task 10: Dia 1 (320m) -> Dia 1 (391m) | Op:3 Ws:12 
+Task  4: Dia 1.0 (   0.0m) -> Dia 1.0 (  52.7m) | Op:2 Ws:1 
+Task  6: Dia 1.0 (  52.7m) -> Dia 1.0 ( 184.7m) | Op:2 Ws:6 
+Task  7: Dia 1.0 ( 184.7m) -> Dia 1.0 ( 319.9m) | Op:3 Ws:6 
+Task 10: Dia 1.0 ( 319.9m) -> Dia 1.0 ( 391.1m) | Op:3 Ws:6 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 87m) | Op:5 Ws:4 
-Task  8: Dia 1 ( 87m) -> Dia 1 (204m) | Op:5 Ws:4 
-Task 10: Dia 1 (204m) -> Dia 1 (334m) | Op:2 Ws:1 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  87.3m) | Op:5 Ws:2 
+Task  8: Dia 1.0 (  87.3m) -> Dia 1.0 ( 204.1m) | Op:5 Ws:2 
+Task 10: Dia 1.0 ( 204.1m) -> Dia 1.0 ( 378.1m) | Op:7 Ws:12 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 50m) | Op:3 Ws:3 
-Task  3: Dia 1 ( 50m) -> Dia 1 (126m) | Op:3 Ws:8 
-Task  7: Dia 1 (182m) -> Dia 1 (279m) | Op:4 Ws:8 
-Task  8: Dia 1 (281m) -> Dia 1 (385m) | Op:5 Ws:8 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  56.7m) | Op:7 Ws:4 
+Task  3: Dia 1.0 (  56.7m) -> Dia 1.0 ( 136.7m) | Op:7 Ws:4 
+Task  7: Dia 1.0 ( 173.4m) -> Dia 1.0 ( 270.6m) | Op:4 Ws:5 
+Task  8: Dia 1.0 ( 270.6m) -> Dia 1.0 ( 381.1m) | Op:4 Ws:2 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 54m) | Op:1 Ws:5 
-Task  4: Dia 1 ( 54m) -> Dia 1 (182m) | Op:4 Ws:5 
-Task  5: Dia 1 (182m) -> Dia 1 (331m) | Op:6 Ws:3 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  51.2m) | Op:3 Ws:3 
+Task  4: Dia 1.0 (  51.2m) -> Dia 1.0 ( 165.9m) | Op:3 Ws:3 
+Task  5: Dia 1.0 ( 165.9m) -> Dia 1.0 ( 314.7m) | Op:6 Ws:3 
 Veículo 5:
-Task  6: Dia 1 (  0m) -> Dia 1 (102m) | Op:7 Ws:6 
-Task  8: Dia 1 (204m) -> Dia 1 (281m) | Op:5 Ws:6 
-Task 10: Dia 1 (281m) -> Dia 1 (411m) | Op:4 Ws:6 
+Task  6: Dia 1.0 (   0.0m) -> Dia 1.0 (  91.8m) | Op:1 Ws:5 
+Task  8: Dia 1.0 (  91.8m) -> Dia 1.0 ( 173.4m) | Op:4 Ws:7 
+Task 10: Dia 1.0 ( 184.7m) -> Dia 1.0 ( 293.4m) | Op:2 Ws:1 
 
-Instance: Inst_1D_5_7.txt | Makespan Global: 515
+Instance: Inst_1D_5_7.txt | Makespan Global: 507.65
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (116m) | Op:1 Ws:4 
-Task  5: Dia 1 (116m) -> Dia 1 (247m) | Op:6 Ws:7 
-Task  7: Dia 1 (247m) -> Dia 1 (384m) | Op:4 Ws:7 
-Task  9: Dia 1 (384m) -> Dia 2 ( 12m) | Op:4 Ws:7 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 122.4m) | Op:7 Ws:5 
+Task  5: Dia 1.0 ( 122.4m) -> Dia 1.0 ( 253.3m) | Op:6 Ws:3 
+Task  7: Dia 1.0 ( 253.3m) -> Dia 1.0 ( 390.1m) | Op:4 Ws:7 
+Task  9: Dia 1.0 ( 390.1m) -> Dia 2.0 (  18.1m) | Op:4 Ws:7 [Interrompida pelo Fim do Turno]
 Veículo 2:
-Task  2: Dia 1 (  0m) -> Dia 1 (110m) | Op:4 Ws:5 
-Task  5: Dia 1 (110m) -> Dia 1 (223m) | Op:4 Ws:3 
-Task  6: Dia 1 (223m) -> Dia 1 (358m) | Op:1 Ws:2 
-Task  9: Dia 1 (358m) -> Dia 1 (479m) | Op:1 Ws:2 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 109.8m) | Op:4 Ws:1 
+Task  5: Dia 1.0 ( 109.8m) -> Dia 1.0 ( 198.0m) | Op:3 Ws:1 
+Task  6: Dia 1.0 ( 198.0m) -> Dia 1.0 ( 333.0m) | Op:1 Ws:5 
+Task  9: Dia 1.0 ( 333.0m) -> Dia 1.0 ( 453.6m) | Op:1 Ws:5 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 ( 94m) | Op:3 Ws:1 
-Task  6: Dia 1 ( 94m) -> Dia 1 (193m) | Op:2 Ws:2 
-Task  7: Dia 1 (193m) -> Dia 1 (285m) | Op:3 Ws:5 
-Task 10: Dia 1 (285m) -> Dia 1 (367m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 (  94.4m) | Op:3 Ws:3 
+Task  6: Dia 1.0 (  94.4m) -> Dia 1.0 ( 212.2m) | Op:5 Ws:6 
+Task  7: Dia 1.0 ( 212.2m) -> Dia 1.0 ( 304.0m) | Op:3 Ws:6 
+Task 10: Dia 1.0 ( 304.0m) -> Dia 1.0 ( 385.8m) | Op:2 Ws:6 
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 (148m) | Op:7 Ws:6 
-Task  3: Dia 1 (148m) -> Dia 1 (314m) | Op:7 Ws:6 
-Task  7: Dia 1 (314m) -> Dia 1 (432m) | Op:3 Ws:6 
-Task 10: Dia 1 (432m) -> Dia 2 ( 35m) | Op:2 Ws:6 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 140.2m) | Op:1 Ws:4 
+Task  3: Dia 1.0 ( 140.2m) -> Dia 1.0 ( 306.2m) | Op:7 Ws:4 
+Task  7: Dia 1.0 ( 306.2m) -> Dia 1.0 ( 424.4m) | Op:3 Ws:8 
+Task 10: Dia 1.0 ( 424.4m) -> Dia 2.0 (  27.6m) | Op:2 Ws:1 [Interrompida pelo Fim do Turno]
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 ( 81m) | Op:5 Ws:2 
-Task  6: Dia 1 ( 81m) -> Dia 1 (240m) | Op:5 Ws:8 
-Task  8: Dia 1 (240m) -> Dia 1 (345m) | Op:5 Ws:8 
-Task  9: Dia 1 (345m) -> Dia 2 ( 35m) | Op:5 Ws:8 [Interrompida pelo Fim do Turno]
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 (  81.0m) | Op:5 Ws:2 
+Task  6: Dia 1.0 (  81.0m) -> Dia 1.0 ( 214.6m) | Op:2 Ws:2 
+Task  8: Dia 1.0 ( 214.6m) -> Dia 1.0 ( 319.4m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 319.4m) -> Dia 2.0 (   9.9m) | Op:5 Ws:2 [Interrompida pelo Fim do Turno]
 
-Instance: Inst_1D_5_8.txt | Makespan Global: 491
+Instance: Inst_1D_5_8.txt | Makespan Global: 490.90
 ------------------------------------------------------------
 Veículo 1:
-Task  1: Dia 1 (  0m) -> Dia 1 (135m) | Op:1 Ws:3 
-Task  3: Dia 1 (136m) -> Dia 1 (246m) | Op:7 Ws:4 
-Task  9: Dia 1 (246m) -> Dia 1 (378m) | Op:2 Ws:4 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 135.2m) | Op:1 Ws:3 
+Task  3: Dia 1.0 ( 136.0m) -> Dia 1.0 ( 246.0m) | Op:7 Ws:4 
+Task  9: Dia 1.0 ( 246.0m) -> Dia 1.0 ( 378.0m) | Op:2 Ws:4 
 Veículo 2:
-Task  3: Dia 1 (  0m) -> Dia 1 (136m) | Op:7 Ws:4 
-Task  4: Dia 1 (136m) -> Dia 1 (218m) | Op:2 Ws:3 
-Task  7: Dia 1 (330m) -> Dia 1 (442m) | Op:4 Ws:6 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 136.0m) | Op:7 Ws:6 
+Task  4: Dia 1.0 ( 136.0m) -> Dia 1.0 ( 217.6m) | Op:2 Ws:6 
+Task  7: Dia 1.0 ( 330.3m) -> Dia 1.0 ( 442.8m) | Op:4 Ws:6 
 Veículo 3:
-Task  2: Dia 1 (  0m) -> Dia 1 ( 88m) | Op:4 Ws:5 
-Task  5: Dia 1 ( 88m) -> Dia 1 (216m) | Op:4 Ws:7 
-Task  7: Dia 1 (216m) -> Dia 1 (330m) | Op:4 Ws:7 
-Task  9: Dia 1 (330m) -> Dia 2 ( 11m) | Op:5 Ws:7 [Interrompida pelo Fim do Turno]
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 (  88.2m) | Op:4 Ws:1 
+Task  5: Dia 1.0 (  88.2m) -> Dia 1.0 ( 216.0m) | Op:4 Ws:1 
+Task  7: Dia 1.0 ( 216.0m) -> Dia 1.0 ( 330.3m) | Op:4 Ws:5 
+Task  9: Dia 1.0 ( 330.3m) -> Dia 2.0 (  10.9m) | Op:5 Ws:5 [Interrompida pelo Fim do Turno]
 Veículo 4:
-Task  1: Dia 1 (  0m) -> Dia 1 (129m) | Op:3 Ws:1 
-Task  8: Dia 1 (129m) -> Dia 1 (245m) | Op:5 Ws:2 
-Task  9: Dia 1 (245m) -> Dia 1 (400m) | Op:1 Ws:2 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 128.8m) | Op:3 Ws:2 
+Task  8: Dia 1.0 ( 128.8m) -> Dia 1.0 ( 244.8m) | Op:5 Ws:2 
+Task  9: Dia 1.0 ( 244.8m) -> Dia 1.0 ( 399.6m) | Op:1 Ws:2 
 Veículo 5:
-Task  3: Dia 1 (  0m) -> Dia 1 (119m) | Op:5 Ws:2 
-Task  5: Dia 1 (129m) -> Dia 1 (245m) | Op:3 Ws:1 
-Task  7: Dia 1 (245m) -> Dia 1 (397m) | Op:3 Ws:5 
-Task 10: Dia 1 (397m) -> Dia 2 ( 10m) | Op:3 Ws:1 [Interrompida pelo Fim do Turno]
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 118.8m) | Op:5 Ws:4 
+Task  5: Dia 1.0 ( 128.8m) -> Dia 1.0 ( 245.0m) | Op:3 Ws:7 
+Task  7: Dia 1.0 ( 245.0m) -> Dia 1.0 ( 397.1m) | Op:3 Ws:7 
+Task 10: Dia 1.0 ( 397.1m) -> Dia 2.0 (  10.2m) | Op:3 Ws:1 [Interrompida pelo Fim do Turno]
 
-Instance: Inst_1D_5_9.txt | Makespan Global: 528
+Instance: Inst_1D_5_9.txt | Makespan Global: 505.75
 ------------------------------------------------------------
 Veículo 1:
-Task  3: Dia 1 (  0m) -> Dia 1 (119m) | Op:5 Ws:4 
-Task  8: Dia 1 (119m) -> Dia 1 (259m) | Op:5 Ws:4 
-Task  9: Dia 1 (259m) -> Dia 1 (425m) | Op:1 Ws:4 
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 132.0m) | Op:7 Ws:6 
+Task  8: Dia 1.0 ( 132.0m) -> Dia 1.0 ( 272.0m) | Op:5 Ws:6 
+Task  9: Dia 1.0 ( 272.0m) -> Dia 1.0 ( 464.5m) | Op:5 Ws:6 
 Veículo 2:
-Task  1: Dia 1 (  0m) -> Dia 1 (122m) | Op:1 Ws:3 
-Task  3: Dia 1 (124m) -> Dia 1 (232m) | Op:7 Ws:8 
-Task  4: Dia 1 (232m) -> Dia 1 (343m) | Op:7 Ws:8 
-Task  9: Dia 1 (343m) -> Dia 2 ( 48m) | Op:5 Ws:8 [Interrompida pelo Fim do Turno]
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 115.2m) | Op:3 Ws:1 
+Task  3: Dia 1.0 ( 115.2m) -> Dia 1.0 ( 217.8m) | Op:3 Ws:4 
+Task  4: Dia 1.0 ( 217.8m) -> Dia 1.0 ( 318.5m) | Op:6 Ws:7 
+Task  9: Dia 1.0 ( 318.5m) -> Dia 1.0 ( 478.1m) | Op:1 Ws:7 
 Veículo 3:
-Task  1: Dia 1 (  0m) -> Dia 1 (142m) | Op:3 Ws:1 
-Task  4: Dia 1 (142m) -> Dia 1 (247m) | Op:3 Ws:1 
-Task  5: Dia 1 (247m) -> Dia 1 (323m) | Op:3 Ws:1 
-Task  9: Dia 1 (323m) -> Dia 1 (471m) | Op:2 Ws:1 
+Task  1: Dia 1.0 (   0.0m) -> Dia 1.0 ( 151.3m) | Op:1 Ws:2 
+Task  4: Dia 1.0 ( 151.3m) -> Dia 1.0 ( 268.1m) | Op:4 Ws:1 
+Task  5: Dia 1.0 ( 268.1m) -> Dia 1.0 ( 365.3m) | Op:4 Ws:1 
+Task  9: Dia 1.0 ( 365.3m) -> Dia 2.0 (  25.8m) | Op:4 Ws:1 [Interrompida pelo Fim do Turno]
 Veículo 4:
-Task  3: Dia 1 (  0m) -> Dia 1 (124m) | Op:7 Ws:6 
-Task  4: Dia 1 (124m) -> Dia 1 (275m) | Op:2 Ws:6 
-Task  5: Dia 1 (275m) -> Dia 1 (360m) | Op:6 Ws:3 
-Task  6: Dia 1 (360m) -> Dia 2 ( 27m) | Op:7 Ws:2 [Interrompida pelo Fim do Turno]
+Task  3: Dia 1.0 (   0.0m) -> Dia 1.0 ( 111.6m) | Op:5 Ws:4 
+Task  4: Dia 1.0 ( 111.6m) -> Dia 1.0 ( 262.9m) | Op:2 Ws:3 
+Task  5: Dia 1.0 ( 262.9m) -> Dia 1.0 ( 347.9m) | Op:2 Ws:3 
+Task  6: Dia 1.0 ( 347.9m) -> Dia 2.0 (  14.9m) | Op:7 Ws:2 [Interrompida pelo Fim do Turno]
 Veículo 5:
-Task  2: Dia 1 (  0m) -> Dia 1 (151m) | Op:4 Ws:2 
-Task  7: Dia 1 (151m) -> Dia 1 (301m) | Op:4 Ws:5 
-Task  9: Dia 1 (301m) -> Dia 1 (405m) | Op:4 Ws:5 
+Task  2: Dia 1.0 (   0.0m) -> Dia 1.0 ( 151.2m) | Op:4 Ws:5 
+Task  7: Dia 1.0 ( 217.8m) -> Dia 1.0 ( 359.8m) | Op:3 Ws:5 
+Task  9: Dia 1.0 ( 359.8m) -> Dia 1.0 ( 469.9m) | Op:2 Ws:5 

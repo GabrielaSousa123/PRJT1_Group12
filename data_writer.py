@@ -46,7 +46,7 @@ def save_file_for_solution(solution,filename):
             f.write("[task\toperator\tworkstation\tstartTime\tcompletionTime]\n")
 
             for t in tasks:
-                line = f"{t['task_type']+1}\t{t['operator']+1}\t{t['workstation']+1}\t{t['start']}\t{t['end']}\n"
+                line = f"{t['task_type']+1}\t{t['operator']+1}\t{t['workstation']+1}\t{t['start']:.1f}\t{t['end']:.1f}\n"
                 f.write(line)
 
 def save_summary_file(results_list):
@@ -75,7 +75,7 @@ def save_summary_file(results_list):
 
             line= (
                 f"{res['instance']:<20}| "
-                f"{res['makespan']:<8}| "
+                f"{res['makespan']:<8.2f}| "
                 f"{res['tardiness']:<6}| "
                 f"{res['rule']:<8}| "
                 
@@ -83,7 +83,7 @@ def save_summary_file(results_list):
 
                 f"{fmt(res.get('OccuW(%)',0)):<8}{fmt(res.get('RefOccuW','N/A')):<8}{fmt(res.get('DiffW','N/A')):<9}| " 
 
-                f"{res['time']:<8.4f}"
+                f"{res['time']:<8.3f}"
                 )
 
             f.write(line + "\n")
@@ -93,7 +93,7 @@ def viewdays (solution, filename):
     day_mins = solution.instance.time_day
 
     with open(path,"a",encoding='utf-8') as f:
-        f.write(f"\nInstance: {filename} | Makespan Global: {solution.makespan}\n")
+        f.write(f"\nInstance: {filename} | Makespan Global: {solution.makespan:.2f}\n")
         f.write("-" * 60 + "\n")
 
         for vehicle_id in sorted(solution.lineup.keys()):
@@ -112,10 +112,14 @@ def viewdays (solution, filename):
                     day_end = (end_temp // day_mins) + 1
                     min_end = end_temp % day_mins
 
+                min_start_ftm = f"{min_start:.1f}"
+                min_end_ftm = f"{min_end:.1f}"
+
                 #Detetar se a tarefa foi interrompida e continuou no dia seguinte
                 aviso_quebra = ""
                 if day_end > day_start:
                     aviso_quebra = "[Interrompida pelo Fim do Turno]"
-                f.write(f"Task {t['task_type']+1:2}: Dia {day_start} ({min_start:3}m) -> Dia {day_end} ({min_end:3}m) | Op:{t['operator']+1} Ws:{t['workstation']+1} {aviso_quebra}\n")
+
+                f.write(f"Task {t['task_type']+1:2}: Dia {day_start} ({min_start_ftm:>6}m) -> Dia {day_end} ({min_end_ftm:>6}m) | Op:{t['operator']+1} Ws:{t['workstation']+1} {aviso_quebra}\n")
 
                 

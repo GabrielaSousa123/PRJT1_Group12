@@ -115,7 +115,7 @@ def main():
 
                     #1. Avaliamos a solução da Fase 1 para ter uma base de comparação
                     mk_f1, tard_f1, ch_f1, esp_f1 = tester.evaluate(best_sol)
-                    print(f"\n[Fase 2] A otimizar com Tabu Search (Base: {best_rule} - MK: {mk_f1}...")
+                    print(f"\n[Fase 2] A otimizar com Tabu Search (Base: {best_rule} - MK: {mk_f1:.2f}...")
 
                     initial_seq = [v-1 for v in best_sol.sequencia_log]
 
@@ -145,11 +145,11 @@ def main():
                     if is_ts_better:
                         best_sol = ts_sol
                         best_rule = f"TS_{best_rule}"
-                        print(f" -> [SUCESSO] TS melhorou a solução: MK {mk_f1} -> {mk_ts}")
+                        print(f" -> [SUCESSO] TS melhorou a solução: MK {mk_f1:.2f} -> {mk_ts:.2f}")
 
                     else:
                         #Se a TS não melhorou nada, mantemos o best_sol que já tínhamos da Fase 1
-                        print(f" -> [MANTER] TS não superou a Fase 1. Mantida regra {best_rule} (MK{mk_f1})")
+                        print(f" -> [MANTER] TS não superou a Fase 1. Mantida regra {best_rule} (MK{mk_f1:.2f})")
 
                 temp_exec = time.time() - start
 
@@ -160,7 +160,7 @@ def main():
                     generate_gantt_chart(best_sol, f"{filename}","graficos")
 
                     print(f" -> Vencedora: {best_rule}")
-                    print(f" -> Makespan: {best_sol.makespan} | Trocas: {best_sol.total_changes} | Espera: {best_sol.total_tempo_espera}")
+                    print(f" -> Makespan: {best_sol.makespan:.2f} | Trocas: {best_sol.total_changes} | Espera: {best_sol.total_tempo_espera:.2f}")
                     print(f" -> A validar a melhor solução ({best_rule})...")
                     #Validar a solução vencedora e comparar com os bechmarks
                     tester.verify_solution(best_sol)

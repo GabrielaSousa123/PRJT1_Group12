@@ -72,8 +72,8 @@ class Instance:
         if isinstance(self.release_dates, str): self.release_dates = [self.release_dates]
         if isinstance(self.due_dates, str): self.due_dates = [self.due_dates]
 
-        self.release_dates = [int(x) for x in self.release_dates]
-        self.due_dates = [int(x) for x in self.due_dates]
+        self.release_dates = [float(x) for x in self.release_dates]
+        self.due_dates = [float(x) for x in self.due_dates]
 
         #Converter valores para float e '----' para None
         clean_efficiency = []

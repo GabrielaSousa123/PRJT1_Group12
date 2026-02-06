@@ -1,78 +1,78 @@
 [OccuO(%)]
-51.33
+89.20
 [OccuW(%)]
-25.67
+44.60
 [vehicle_id]
 1
 [task	operator	workstation	startTime	completionTime]
-1	1	7	0	25
-7	4	7	44	81
-8	4	7	81	110
+1	1	4	0.0	24.6
+7	3	6	122.9	157.8
+8	3	6	157.8	195.2
 [vehicle_id]
 2
 [task	operator	workstation	startTime	completionTime]
-2	4	1	0	44
-3	5	2	44	136
+2	4	1	0.0	44.1
+3	5	2	45.9	137.7
 [vehicle_id]
 3
 [task	operator	workstation	startTime	completionTime]
-4	6	11	0	99
-10	7	6	120	256
+4	6	3	0.0	98.8
+10	7	3	131.0	267.0
 [vehicle_id]
 4
 [task	operator	workstation	startTime	completionTime]
-7	3	5	295	411
-9	4	5	411	474
+7	4	5	44.1	166.5
+9	4	5	166.5	229.5
 [vehicle_id]
 5
 [task	operator	workstation	startTime	completionTime]
-6	1	10	25	55
+6	2	5	0.0	26.4
 [vehicle_id]
 6
 [task	operator	workstation	startTime	completionTime]
-1	1	4	55	129
-8	3	4	227	295
-9	4	4	295	355
+1	1	4	24.6	98.6
+8	3	4	195.2	263.4
+9	1	4	276.3	339.9
 [vehicle_id]
 7
 [task	operator	workstation	startTime	completionTime]
-3	7	6	256	387
-6	7	6	387	483
-9	4	6	483	595
+3	7	8	0.0	131.0
+6	1	8	131.0	217.4
+9	2	8	217.9	336.6
 [vehicle_id]
 8
 [task	operator	workstation	startTime	completionTime]
-7	3	5	0	57
-8	3	3	57	123
+7	3	6	0.0	56.9
+8	3	6	56.9	122.9
 [vehicle_id]
 9
 [task	operator	workstation	startTime	completionTime]
-3	7	4	0	51
-6	7	6	51	120
+3	5	2	0.0	45.9
+6	2	7	45.9	101.1
 [vehicle_id]
 10
 [task	operator	workstation	startTime	completionTime]
-6	2	8	0	77
+6	2	7	101.1	177.9
 [vehicle_id]
 11
 [task	operator	workstation	startTime	completionTime]
-3	5	2	136	256
-8	5	2	256	337
+3	5	2	137.7	257.4
+8	5	2	257.4	338.2
 [vehicle_id]
 12
 [task	operator	workstation	startTime	completionTime]
-9	1	7	240	346
+9	4	5	240.0	340.8
 [vehicle_id]
 13
 [task	operator	workstation	startTime	completionTime]
-6	2	5	120	160
-7	3	5	160	227
+6	2	7	177.9	217.9
+7	3	7	263.4	330.5
 [vehicle_id]
 14
 [task	operator	workstation	startTime	completionTime]
-2	4	1	120	152
-4	4	1	152	253
+2	6	1	120.0	157.8
+4	6	1	157.8	258.5
 [vehicle_id]
 15
 [task	operator	workstation	startTime	completionTime]
-9	1	7	129	188
+9	1	6	217.4	276.3

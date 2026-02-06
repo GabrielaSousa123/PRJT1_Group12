@@ -42,7 +42,7 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
     best_seq, best_cost, best_sol_obj = current_seq[:], current_cost, current_sol
     tabu_list = []
 
-    print(f"    [TS] Início | MK: {best_sol_obj.makespan} | Foco: Caminho Crítico")
+    print(f"    [TS] Início | MK: {best_sol_obj.makespan:.2f} | Foco: Caminho Crítico")
 
     for it in range(iterations):
         if time.time() - start_ts > max_seconds: break
@@ -78,16 +78,16 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
                         if cost < best_neighbor_cost:
                             best_neighbor_cost, best_neighbor_seq, best_move, temp_sol_obj = cost, neighbor, move_key, sol_obj
 
-            if best_neighbor_seq is None: break
+        if best_neighbor_seq is None: break
 
-            current_seq, current_cost = best_neighbor_seq, best_neighbor_cost
-            tabu_list.append(best_move)
-            if len(tabu_list) > tabu_size: tabu_list.pop(0)
+        current_seq, current_cost = best_neighbor_seq, best_neighbor_cost
+        tabu_list.append(best_move)
+        if len(tabu_list) > tabu_size: tabu_list.pop(0)
 
-            if current_cost < best_cost:
-                best_cost, best_seq, best_sol_obj = current_cost, current_seq[:], temp_sol_obj
+        if current_cost < best_cost:
+            best_cost, best_seq, best_sol_obj = current_cost, current_seq[:], temp_sol_obj
 
-    print(f"    [TS] Fim | Melhor MK: {best_sol_obj.makespan}")
+    print(f"    [TS] Fim | Melhor MK: {best_sol_obj.makespan:.2f}")
     return best_seq, best_sol_obj, []
 
 
