@@ -95,6 +95,7 @@ def main():
                         elif changes == min_changes:
                             if espera < min_espera:
                                 is_better=True
+
                     #Atualizar a melhor solução se os critérios forem cumpridos
                     if is_better:
                         min_makespan=mk
@@ -102,6 +103,7 @@ def main():
                         min_espera=espera
                         best_sol=sol
                         best_rule=r
+
                 #Selecionar a solução de recurso se nenhuma regra cumpriu o prazo
                 if best_sol is None:
                     best_sol = fallback_sol
@@ -119,12 +121,12 @@ def main():
 
                     initial_seq = [v-1 for v in best_sol.sequencia_log]
 
-                    #Executar a Tabu Search com limite de 20s 
+                    #Executar a Tabu Search com limite 
                     ts_seq, ts_sol, ts_history = run_tabu_search(
                         instance, tester, lineup, initial_seq,
                         iterations = 100000, #Aumentar para explorar mais
                         tabu_size = 30,
-                        max_seconds = 20 #Para automaticamente após 2 minutos
+                        max_seconds = 30 #Para automaticamente após x minutos
                     )
 
                     #Avaliar o resultado da TS

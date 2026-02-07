@@ -28,6 +28,7 @@ class LineUp:
         vehicles_undone_tasks = list(range(self.instance.num_vehicles))
 
         sequencia_log = []
+        
         #Definir penalidades para critérios de continuidade
         penalidade_mudanca = 20.0
         penalidade_espera = 0.1
@@ -181,6 +182,7 @@ class LineUp:
                     
             #Agendar tarefa
             if best_op != -1:
+
                 #Criar registo de tarefa
                 task_data = {
                     'task_type': task_type,
@@ -209,6 +211,7 @@ class LineUp:
             else:
                 print(f"Erro: Não foi possível agendar a tarefa {task_type} do veículo {vehicle_id}")
                 vehicles_undone_tasks.remove(vehicle_id)
+
         #Lista de veículos únicos
         sequencia_unica = []                        
         for v in sequencia_log:

@@ -12,13 +12,6 @@ def evaluate_sequence(sequence, lineup_obj, tester_obj):
     #Custo hierárquico: Makespan > Trocas > Espera
     cost = (mk * 10**9) + (changes *10**3) + espera
     return cost, sol
-    
-#Identificar os veículos que terminam perto do Makespan (o caminho crítico).
-def get_critical_vehicles(solution):
-    mk = solution.makespan
-    #Veículos que terminam nos últimos 15% do tempo total
-    threshold = mk * 0.85
-    return [v_id for v_id, tasks in solution.lineup.items() if tasks and tasks[-1]['end'] >= threshold]
 
 def swap_operator(route, i, j):
     #Troca dois elementos de posição
@@ -49,9 +42,6 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
     for it in range(iterations):
         if time.time() - start_ts > max_seconds: break #Para se exceder o tempo limite
 
-        #Identificar o caminho crítico para focar a pesquisa
-        critical_v = get_critical_vehicles(best_sol_obj)
-
         best_neighbor_seq = None
         best_neighbor_cost = float('inf')
         best_move = None
@@ -60,10 +50,7 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
         for i in range(n):
             for j in range(n):
                 if i == j: continue
-
-                #Só explora se um dos veículos envolvidos for crítico
-                if current_seq[i] not in critical_v and current_seq[j] not in critical_v:
-                    continue
+                
                 #Definir moves possíveis
                 moves = [
                     ('swap', min(i, j), max(i,j), swap_operator(current_seq, i, j)),
