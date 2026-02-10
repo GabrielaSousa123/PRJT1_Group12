@@ -124,9 +124,10 @@ def main():
                     #Executar a Tabu Search com limite 
                     ts_seq, ts_sol, ts_history = run_tabu_search(
                         instance, tester, lineup, initial_seq,
+                        start_global=start,
                         iterations = 100000, #Aumentar para explorar mais
                         tabu_size = 30,
-                        max_seconds = 30 #Para automaticamente após x minutos
+                        max_seconds = 600 #Para automaticamente após x minutos
                     )
 
                     #Avaliar o resultado da TS
@@ -162,6 +163,7 @@ def main():
                     print(f" -> Vencedora: {best_rule}")
                     print(f" -> Makespan: {best_sol.makespan:.2f} | Trocas: {best_sol.total_changes} | Espera: {best_sol.total_tempo_espera:.2f}")
                     print(f" -> A validar a melhor solução ({best_rule})...")
+
                     #Validar a solução vencedora e comparar com os bechmarks
                     tester.verify_solution(best_sol)
                     bench_data = tester.comparacao_benchmark(best_sol,filename)

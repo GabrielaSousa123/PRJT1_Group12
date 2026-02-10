@@ -27,8 +27,8 @@ def insertion_operator(route, i, j):
     new_route.insert(j, val)
     return new_route
 
-def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500, tabu_size = 30, max_seconds = 60):
-    start_ts = time.time() #Marcar o tempo de início
+def run_tabu_search(instance, tester, lineup, initial_sequence, start_global, iterations = 500, tabu_size = 30, max_seconds = 60):
+    #start_ts = time.time() #Marcar o tempo de início
     n = len(initial_sequence)
     #Avaliar a solução inicial
     current_seq = initial_sequence[:]
@@ -40,17 +40,22 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
     print(f"    [TS] Início | MK: {best_sol_obj.makespan:.2f} | Foco: Caminho Crítico")
 
     for it in range(iterations):
-        if time.time() - start_ts > max_seconds: break #Para se exceder o tempo limite
+        if time.time() - start_global > max_seconds: break #Para se exceder o tempo limite
 
         best_neighbor_seq = None
         best_neighbor_cost = float('inf')
         best_move = None
         temp_sol_obj = None
+
         #Percorrer todos os pares para gerar vizinhança
+        time_limit_hit = False
         for i in range(n):
+            if time_limit_hit: break
             for j in range(n):
                 if i == j: continue
-                
+                if time.time() - start_global > max_seconds: 
+                    time_limit_hit=True
+                    break
                 #Definir moves possíveis
                 moves = [
                     ('swap', min(i, j), max(i,j), swap_operator(current_seq, i, j)),
@@ -59,6 +64,11 @@ def run_tabu_search(instance, tester, lineup, initial_sequence, iterations = 500
 
                 for m_type, m_i, m_j, neighbor in moves:
                     if neighbor is None: continue
+
+                    if time.time()-start_global>max_seconds:
+                        time_limit_hit=True
+                        break
+                    
                     move_key = (m_type, m_i, m_j)
                     cost, sol_obj = evaluate_sequence(neighbor, lineup, tester) #Avaliar vizinho gerado
 

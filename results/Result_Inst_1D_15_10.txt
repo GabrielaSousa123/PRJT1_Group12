@@ -1,12 +1,12 @@
 [OccuO(%)]
-87.23
+87.52
 [OccuW(%)]
-43.62
+43.76
 [vehicle_id]
 1
 [task	operator	workstation	startTime	completionTime]
-2	7	1	0.0	50.3
-7	3	5	89.2	141.9
+2	7	8	0.0	50.3
+7	3	8	119.0	171.7
 [vehicle_id]
 2
 [task	operator	workstation	startTime	completionTime]
@@ -14,23 +14,23 @@
 [vehicle_id]
 3
 [task	operator	workstation	startTime	completionTime]
-1	1	4	60.4	104.5
-9	1	4	173.4	296.9
+1	2	4	41.6	93.6
+9	2	4	121.6	245.1
 [vehicle_id]
 4
 [task	operator	workstation	startTime	completionTime]
-4	6	1	138.7	170.0
-5	6	1	170.0	206.6
+4	2	1	93.6	121.6
+5	1	1	198.5	239.3
 [vehicle_id]
 5
 [task	operator	workstation	startTime	completionTime]
-1	1	4	0.0	60.4
-7	4	7	105.3	216.0
+1	1	1	0.0	60.4
+7	4	6	73.8	184.5
 [vehicle_id]
 6
 [task	operator	workstation	startTime	completionTime]
 6	2	7	0.0	41.6
-7	4	7	73.8	105.3
+7	3	7	89.2	119.0
 [vehicle_id]
 7
 [task	operator	workstation	startTime	completionTime]
@@ -38,34 +38,34 @@
 [vehicle_id]
 8
 [task	operator	workstation	startTime	completionTime]
-6	2	8	41.6	103.2
-7	3	8	141.9	209.9
-9	2	8	209.9	310.6
+6	1	11	60.4	129.7
+7	3	11	171.7	239.7
+9	1	11	239.7	340.4
 [vehicle_id]
 9
 [task	operator	workstation	startTime	completionTime]
-1	1	2	104.5	173.4
-6	7	2	210.9	326.9
+1	1	1	129.7	198.5
+6	2	2	245.1	337.9
 [vehicle_id]
 10
 [task	operator	workstation	startTime	completionTime]
-2	7	5	146.3	210.9
-7	3	5	210.9	298.5
+2	6	5	166.2	237.7
+7	3	5	239.7	327.2
 [vehicle_id]
 11
 [task	operator	workstation	startTime	completionTime]
 4	6	3	0.0	85.5
-5	2	3	103.2	183.9
-8	4	3	216.0	338.4
+5	6	3	85.5	166.2
+8	4	3	184.5	306.9
 [vehicle_id]
 12
 [task	operator	workstation	startTime	completionTime]
-3	7	10	50.3	146.3
+3	7	10	79.3	175.3
 [vehicle_id]
 13
 [task	operator	workstation	startTime	completionTime]
-3	5	2	42.3	68.4
-4	6	1	85.5	138.7
+3	7	8	50.3	79.3
+4	7	8	175.3	234.2
 [vehicle_id]
 14
 [task	operator	workstation	startTime	completionTime]
@@ -74,5 +74,5 @@
 15
 [task	operator	workstation	startTime	completionTime]
 7	4	6	0.0	73.8
-8	5	6	73.8	137.8
-9	5	6	137.8	234.6
+8	5	2	73.8	137.8
+9	5	2	137.8	234.6
