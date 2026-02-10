@@ -42,41 +42,6 @@ class Instance:
         self.vehicle_tasks = [[clean_int(x)-1 for x in row] for row in self.vehicle_tasks]
         self.processing_times =[[float(str(x).replace('O','0').replace(',','.')) for x in row] for row in self.processing_times]
 
-
-        #Ajustar os índices dos operadores de base 1 para base 0    
-        #clean_operators = []
-        #for row in self.task_operators:
-        #    new_row = []
-        #    for x in row:
-        #        new_row.append(int(x)-1)
-        #    clean_operators.append(new_row)
-        #self.task_operators = clean_operators
-
-        #clean_workstations = []
-        #for row in self.task_workstations:
-        #    new_row = []
-        #    for x in row:
-        #        new_row.append(int(x)-1)
-        #    clean_workstations.append(new_row)
-        #self.task_workstations = clean_workstations
-        
-        #clean_tasks = []
-        #for row in self.vehicle_tasks:
-        #    new_row = []
-        #    for x in row:
-        #        new_row.append(int(x)-1)
-        #    clean_tasks.append(new_row)
-        #self.vehicle_tasks = clean_tasks
-
-        #Converter todos os tempos de processamento para inteiros
-        #clean_times = []
-        #for row in self.processing_times:
-        #    new_row = []
-        #    for x in row:
-        #        new_row.append(int(x))
-        #    clean_times.append(new_row)
-        #self.processing_times = clean_times
-
         #Normalizar datas de libertação e entrega para listas de inteiros
         if isinstance(self.release_dates, str): self.release_dates = [self.release_dates]
         if isinstance(self.due_dates, str): self.due_dates = [self.due_dates]
